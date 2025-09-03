@@ -1,0 +1,271 @@
+INFO - 2024-09-18 05:04:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-18 05:27:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-18 05:27:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-18 05:27:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-18 05:27:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-18 05:27:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-18 05:27:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-18 05:27:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-18 05:27:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-18 05:27:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-18 05:27:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-18 05:27:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-18 05:27:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-18 05:27:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-18 05:27:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-18 05:28:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-18 05:28:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-18 05:32:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-18 05:32:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-18 05:32:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-18 05:32:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-18 05:32:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-18 05:32:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-18 05:32:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-18 06:01:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-18 06:01:34 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partials/amrdataview_rejected_cataloguer.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partials/amrdataview_rejected_cataloguer.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/amrdataview_rejected_cataloguer', [], true)
+ 3 APPPATH\Controllers\AMRController.php(180): view('partials/amrdataview_rejected_cataloguer', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AMRController->statuswisedata('3')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AMRController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-09-18 06:01:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-18 06:01:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-18 06:01:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-18 06:01:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-18 06:01:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-18 06:01:49 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partials/amrdataview_rejected_cataloguer.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partials/amrdataview_rejected_cataloguer.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/amrdataview_rejected_cataloguer', [], true)
+ 3 APPPATH\Controllers\AMRController.php(180): view('partials/amrdataview_rejected_cataloguer', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AMRController->statuswisedata('3')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AMRController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-09-18 06:01:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-18 06:01:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-18 06:01:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-18 06:01:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-18 06:02:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-18 06:02:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-18 06:02:02 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partials/amrdataview_rejected_cataloguer.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partials/amrdataview_rejected_cataloguer.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/amrdataview_rejected_cataloguer', [], true)
+ 3 APPPATH\Controllers\AMRController.php(180): view('partials/amrdataview_rejected_cataloguer', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AMRController->statuswisedata('3')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AMRController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-09-18 06:06:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-18 06:06:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-18 06:06:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-18 06:06:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-18 06:06:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-18 06:06:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-18 06:06:20 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partials/amrdataview_rejected_cataloguer.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partials/amrdataview_rejected_cataloguer.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/amrdataview_rejected_cataloguer', [], true)
+ 3 APPPATH\Controllers\AMRController.php(180): view('partials/amrdataview_rejected_cataloguer', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AMRController->statuswisedata('3')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AMRController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-09-18 06:12:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-18 06:12:19 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partials/amrdataview_rejected_cataloguer.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partials/amrdataview_rejected_cataloguer.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/amrdataview_rejected_cataloguer', [], true)
+ 3 APPPATH\Controllers\AMRController.php(180): view('partials/amrdataview_rejected_cataloguer', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AMRController->statuswisedata('3')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AMRController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-09-18 06:12:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-18 06:12:20 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partials/amrdataview_rejected_cataloguer.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partials/amrdataview_rejected_cataloguer.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/amrdataview_rejected_cataloguer', [], true)
+ 3 APPPATH\Controllers\AMRController.php(180): view('partials/amrdataview_rejected_cataloguer', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AMRController->statuswisedata('3')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AMRController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-09-18 06:12:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-18 06:12:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-18 06:12:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-18 06:12:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-18 06:12:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-18 06:12:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-18 06:12:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-18 06:12:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-18 06:12:33 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partials/amrdataview_rejected_cataloguer.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partials/amrdataview_rejected_cataloguer.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/amrdataview_rejected_cataloguer', [], true)
+ 3 APPPATH\Controllers\AMRController.php(180): view('partials/amrdataview_rejected_cataloguer', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AMRController->statuswisedata('3')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AMRController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-09-18 06:12:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-18 06:12:38 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partials/amrdataview_rejected_cataloguer.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partials/amrdataview_rejected_cataloguer.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/amrdataview_rejected_cataloguer', [], true)
+ 3 APPPATH\Controllers\AMRController.php(180): view('partials/amrdataview_rejected_cataloguer', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AMRController->statuswisedata('3')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AMRController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-09-18 06:12:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-18 06:12:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-18 06:12:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-18 06:12:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-18 06:12:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-18 06:12:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-18 06:12:53 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partials/amrdataview_rejected_cataloguer.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partials/amrdataview_rejected_cataloguer.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/amrdataview_rejected_cataloguer', [], true)
+ 3 APPPATH\Controllers\AMRController.php(180): view('partials/amrdataview_rejected_cataloguer', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AMRController->statuswisedata('3')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AMRController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-09-18 06:36:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-18 06:36:01 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partials/amrdataview_rejected_cataloguer.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partials/amrdataview_rejected_cataloguer.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/amrdataview_rejected_cataloguer', [], true)
+ 3 APPPATH\Controllers\AMRController.php(180): view('partials/amrdataview_rejected_cataloguer', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AMRController->statuswisedata('3')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AMRController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-09-18 06:38:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-18 06:38:36 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partials/amrdataview_rejected_cataloguer.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partials/amrdataview_rejected_cataloguer.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/amrdataview_rejected_cataloguer', [], true)
+ 3 APPPATH\Controllers\AMRController.php(180): view('partials/amrdataview_rejected_cataloguer', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AMRController->statuswisedata('3')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AMRController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-09-18 06:38:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-18 06:38:37 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partials/amrdataview_rejected_cataloguer.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partials/amrdataview_rejected_cataloguer.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/amrdataview_rejected_cataloguer', [], true)
+ 3 APPPATH\Controllers\AMRController.php(180): view('partials/amrdataview_rejected_cataloguer', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AMRController->statuswisedata('3')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AMRController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-09-18 06:38:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-18 06:38:37 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partials/amrdataview_rejected_cataloguer.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partials/amrdataview_rejected_cataloguer.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/amrdataview_rejected_cataloguer', [], true)
+ 3 APPPATH\Controllers\AMRController.php(180): view('partials/amrdataview_rejected_cataloguer', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AMRController->statuswisedata('3')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AMRController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-09-18 06:38:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-18 06:38:38 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partials/amrdataview_rejected_cataloguer.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partials/amrdataview_rejected_cataloguer.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/amrdataview_rejected_cataloguer', [], true)
+ 3 APPPATH\Controllers\AMRController.php(180): view('partials/amrdataview_rejected_cataloguer', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AMRController->statuswisedata('3')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AMRController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-09-18 06:38:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-18 06:38:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-18 06:38:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-18 06:38:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-18 06:38:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-18 06:38:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-18 06:38:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-18 06:38:50 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partials/amrdataview_rejected_cataloguer.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partials/amrdataview_rejected_cataloguer.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/amrdataview_rejected_cataloguer', [], true)
+ 3 APPPATH\Controllers\AMRController.php(180): view('partials/amrdataview_rejected_cataloguer', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AMRController->statuswisedata('3')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AMRController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-09-18 06:38:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-18 06:38:55 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partials/amrdataview_rejected_cataloguer.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partials/amrdataview_rejected_cataloguer.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/amrdataview_rejected_cataloguer', [], true)
+ 3 APPPATH\Controllers\AMRController.php(180): view('partials/amrdataview_rejected_cataloguer', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AMRController->statuswisedata('3')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AMRController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-09-18 06:38:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-18 06:38:56 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partials/amrdataview_rejected_cataloguer.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partials/amrdataview_rejected_cataloguer.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/amrdataview_rejected_cataloguer', [], true)
+ 3 APPPATH\Controllers\AMRController.php(180): view('partials/amrdataview_rejected_cataloguer', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AMRController->statuswisedata('3')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AMRController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-09-18 06:38:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-18 06:38:57 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partials/amrdataview_rejected_cataloguer.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partials/amrdataview_rejected_cataloguer.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/amrdataview_rejected_cataloguer', [], true)
+ 3 APPPATH\Controllers\AMRController.php(180): view('partials/amrdataview_rejected_cataloguer', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AMRController->statuswisedata('3')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AMRController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-09-18 06:38:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-18 06:38:57 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partials/amrdataview_rejected_cataloguer.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partials/amrdataview_rejected_cataloguer.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/amrdataview_rejected_cataloguer', [], true)
+ 3 APPPATH\Controllers\AMRController.php(180): view('partials/amrdataview_rejected_cataloguer', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AMRController->statuswisedata('3')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AMRController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-09-18 06:39:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-18 06:39:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-18 06:39:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-18 06:39:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-18 06:39:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-18 06:39:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-18 06:39:24 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partials/amrdataview_rejected_cataloguer.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partials/amrdataview_rejected_cataloguer.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/amrdataview_rejected_cataloguer', [], true)
+ 3 APPPATH\Controllers\AMRController.php(180): view('partials/amrdataview_rejected_cataloguer', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AMRController->statuswisedata('3')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AMRController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-09-18 08:35:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-18 08:35:57 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partials/amrdataview_rejected_cataloguer.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partials/amrdataview_rejected_cataloguer.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/amrdataview_rejected_cataloguer', [], true)
+ 3 APPPATH\Controllers\AMRController.php(180): view('partials/amrdataview_rejected_cataloguer', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AMRController->statuswisedata('3')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AMRController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

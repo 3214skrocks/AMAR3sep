@@ -1,0 +1,892 @@
+CRITICAL - 2024-06-05 06:17:39 --> ParseError: syntax error, unexpected '<'
+in APPPATH\Views\partials\manuscript_view.php on line 105.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/manuscript_view', [], true)
+ 3 APPPATH\Controllers\ManuscriptController.php(120): view('partials/manuscript_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->getAllSystemManuscripts('2')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 06:20:34 --> ParseError: syntax error, unexpected '/'
+in APPPATH\Views\partials\manuscript_view.php on line 105.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/manuscript_view', [], true)
+ 3 APPPATH\Controllers\ManuscriptController.php(120): view('partials/manuscript_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->getAllSystemManuscripts('2')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 06:20:35 --> ParseError: syntax error, unexpected '/'
+in APPPATH\Views\partials\manuscript_view.php on line 105.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/manuscript_view', [], true)
+ 3 APPPATH\Controllers\ManuscriptController.php(120): view('partials/manuscript_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->getAllSystemManuscripts('2')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 07:55:20 --> ParseError: syntax error, unexpected '?'
+in APPPATH\Views\partials\manuscript_view.php on line 105.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/manuscript_view', [], true)
+ 3 APPPATH\Controllers\ManuscriptController.php(120): view('partials/manuscript_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->getAllSystemManuscripts('2')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 07:55:22 --> ParseError: syntax error, unexpected '?'
+in APPPATH\Views\partials\manuscript_view.php on line 105.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/manuscript_view', [], true)
+ 3 APPPATH\Controllers\ManuscriptController.php(120): view('partials/manuscript_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->getAllSystemManuscripts('2')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 07:57:56 --> ParseError: syntax error, unexpected 'myTable' (T_STRING), expecting ')'
+in APPPATH\Views\partials\manuscript_view.php on line 180.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/manuscript_view', [], true)
+ 3 APPPATH\Controllers\ManuscriptController.php(105): view('partials/manuscript_view', [...])
+ 4 APPPATH\Controllers\ManuscriptController.php(29): App\Controllers\ManuscriptController->getAllSystemDetails()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 09:43:44 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partial_view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partial_view.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partial_view', [], true)
+ 3 APPPATH\Controllers\ManuscriptController.php(129): view('partial_view')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->loadPartialView('2')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 09:46:41 --> ParseError: syntax error, unexpected ';'
+in APPPATH\Views\partials\manuscript_view.php on line 123.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/manuscript_view', [], true)
+ 3 APPPATH\Controllers\ManuscriptController.php(105): view('partials/manuscript_view', [...])
+ 4 APPPATH\Controllers\ManuscriptController.php(29): App\Controllers\ManuscriptController->getAllSystemDetails()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 09:46:43 --> ParseError: syntax error, unexpected ';'
+in APPPATH\Views\partials\manuscript_view.php on line 123.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/manuscript_view', [], true)
+ 3 APPPATH\Controllers\ManuscriptController.php(105): view('partials/manuscript_view', [...])
+ 4 APPPATH\Controllers\ManuscriptController.php(29): App\Controllers\ManuscriptController->getAllSystemDetails()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 09:47:20 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partial_view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partial_view.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partial_view', [], true)
+ 3 APPPATH\Controllers\ManuscriptController.php(129): view('partial_view')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->loadPartialView('2')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 09:47:21 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partial_view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partial_view.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partial_view', [], true)
+ 3 APPPATH\Controllers\ManuscriptController.php(129): view('partial_view')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->loadPartialView('2')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 09:47:22 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partial_view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partial_view.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partial_view', [], true)
+ 3 APPPATH\Controllers\ManuscriptController.php(129): view('partial_view')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->loadPartialView('2')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 09:47:22 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partial_view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partial_view.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partial_view', [], true)
+ 3 APPPATH\Controllers\ManuscriptController.php(129): view('partial_view')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->loadPartialView('2')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 09:47:22 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partial_view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partial_view.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partial_view', [], true)
+ 3 APPPATH\Controllers\ManuscriptController.php(129): view('partial_view')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->loadPartialView('2')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 09:47:24 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partial_view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partial_view.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partial_view', [], true)
+ 3 APPPATH\Controllers\ManuscriptController.php(129): view('partial_view')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->loadPartialView('2')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 09:47:25 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partial_view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partial_view.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partial_view', [], true)
+ 3 APPPATH\Controllers\ManuscriptController.php(129): view('partial_view')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->loadPartialView('2')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 09:47:26 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partial_view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partial_view.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partial_view', [], true)
+ 3 APPPATH\Controllers\ManuscriptController.php(129): view('partial_view')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->loadPartialView('2')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 09:47:26 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partial_view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partial_view.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partial_view', [], true)
+ 3 APPPATH\Controllers\ManuscriptController.php(129): view('partial_view')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->loadPartialView('2')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 09:48:08 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partial_view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partial_view.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partial_view', [], true)
+ 3 APPPATH\Controllers\ManuscriptController.php(129): view('partial_view')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->loadPartialView('2')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 09:48:10 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partial_view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partial_view.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partial_view', [], true)
+ 3 APPPATH\Controllers\ManuscriptController.php(129): view('partial_view')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->loadPartialView('2')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 09:48:10 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partial_view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partial_view.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partial_view', [], true)
+ 3 APPPATH\Controllers\ManuscriptController.php(129): view('partial_view')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->loadPartialView('2')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 09:48:10 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partial_view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partial_view.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partial_view', [], true)
+ 3 APPPATH\Controllers\ManuscriptController.php(129): view('partial_view')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->loadPartialView('2')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 09:48:11 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partial_view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partial_view.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partial_view', [], true)
+ 3 APPPATH\Controllers\ManuscriptController.php(129): view('partial_view')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->loadPartialView('2')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 09:48:11 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partial_view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partial_view.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partial_view', [], true)
+ 3 APPPATH\Controllers\ManuscriptController.php(129): view('partial_view')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->loadPartialView('2')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 09:48:12 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partial_view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partial_view.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partial_view', [], true)
+ 3 APPPATH\Controllers\ManuscriptController.php(129): view('partial_view')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->loadPartialView('2')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 09:48:12 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partial_view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partial_view.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partial_view', [], true)
+ 3 APPPATH\Controllers\ManuscriptController.php(129): view('partial_view')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->loadPartialView('2')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 09:48:13 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partial_view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partial_view.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partial_view', [], true)
+ 3 APPPATH\Controllers\ManuscriptController.php(129): view('partial_view')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->loadPartialView('2')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 09:48:13 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partial_view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partial_view.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partial_view', [], true)
+ 3 APPPATH\Controllers\ManuscriptController.php(129): view('partial_view')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->loadPartialView('2')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 09:48:53 --> ParseError: syntax error, unexpected ';'
+in APPPATH\Views\partials\manuscript_view.php on line 123.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/manuscript_view', [], true)
+ 3 APPPATH\Controllers\ManuscriptController.php(105): view('partials/manuscript_view', [...])
+ 4 APPPATH\Controllers\ManuscriptController.php(29): App\Controllers\ManuscriptController->getAllSystemDetails()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 09:51:05 --> ParseError: syntax error, unexpected '.', expecting end of file
+in APPPATH\Views\partials\manuscript_view.php on line 123.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/manuscript_view', [], true)
+ 3 APPPATH\Controllers\ManuscriptController.php(105): view('partials/manuscript_view', [...])
+ 4 APPPATH\Controllers\ManuscriptController.php(29): App\Controllers\ManuscriptController->getAllSystemDetails()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 09:54:04 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partial_view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partial_view.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partial_view', [], true)
+ 3 APPPATH\Controllers\ManuscriptController.php(129): view('partial_view')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->loadPartialView('2')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 09:54:04 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partial_view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partial_view.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partial_view', [], true)
+ 3 APPPATH\Controllers\ManuscriptController.php(129): view('partial_view')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->loadPartialView('2')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 09:54:05 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partial_view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partial_view.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partial_view', [], true)
+ 3 APPPATH\Controllers\ManuscriptController.php(129): view('partial_view')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->loadPartialView('2')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 09:54:05 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partial_view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partial_view.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partial_view', [], true)
+ 3 APPPATH\Controllers\ManuscriptController.php(129): view('partial_view')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->loadPartialView('2')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 09:54:05 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partial_view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partial_view.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partial_view', [], true)
+ 3 APPPATH\Controllers\ManuscriptController.php(129): view('partial_view')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->loadPartialView('2')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 09:54:05 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partial_view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partial_view.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partial_view', [], true)
+ 3 APPPATH\Controllers\ManuscriptController.php(129): view('partial_view')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->loadPartialView('2')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 09:54:06 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partial_view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partial_view.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partial_view', [], true)
+ 3 APPPATH\Controllers\ManuscriptController.php(129): view('partial_view')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->loadPartialView('2')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 09:54:07 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partial_view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partial_view.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partial_view', [], true)
+ 3 APPPATH\Controllers\ManuscriptController.php(129): view('partial_view')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->loadPartialView('2')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 09:54:07 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partial_view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partial_view.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partial_view', [], true)
+ 3 APPPATH\Controllers\ManuscriptController.php(129): view('partial_view')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->loadPartialView('2')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 09:54:07 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partial_view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partial_view.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partial_view', [], true)
+ 3 APPPATH\Controllers\ManuscriptController.php(129): view('partial_view')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->loadPartialView('2')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 10:05:29 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partial_view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partial_view.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partial_view', [], true)
+ 3 APPPATH\Controllers\ManuscriptController.php(129): view('partial_view')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->loadPartialView()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 10:05:30 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partial_view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partial_view.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partial_view', [], true)
+ 3 APPPATH\Controllers\ManuscriptController.php(129): view('partial_view')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->loadPartialView()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 10:05:30 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partial_view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partial_view.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partial_view', [], true)
+ 3 APPPATH\Controllers\ManuscriptController.php(129): view('partial_view')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->loadPartialView()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 10:05:30 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partial_view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partial_view.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partial_view', [], true)
+ 3 APPPATH\Controllers\ManuscriptController.php(129): view('partial_view')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->loadPartialView()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 10:05:30 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partial_view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partial_view.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partial_view', [], true)
+ 3 APPPATH\Controllers\ManuscriptController.php(129): view('partial_view')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->loadPartialView()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 10:05:31 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partial_view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partial_view.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partial_view', [], true)
+ 3 APPPATH\Controllers\ManuscriptController.php(129): view('partial_view')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->loadPartialView()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 10:05:31 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partial_view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partial_view.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partial_view', [], true)
+ 3 APPPATH\Controllers\ManuscriptController.php(129): view('partial_view')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->loadPartialView()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 10:06:15 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partial_view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partial_view.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partial_view', [], true)
+ 3 APPPATH\Controllers\ManuscriptController.php(129): view('partial_view')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->loadPartialView()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 10:06:15 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partial_view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partial_view.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partial_view', [], true)
+ 3 APPPATH\Controllers\ManuscriptController.php(129): view('partial_view')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->loadPartialView()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 10:06:15 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partial_view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partial_view.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partial_view', [], true)
+ 3 APPPATH\Controllers\ManuscriptController.php(129): view('partial_view')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->loadPartialView()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 10:06:16 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partial_view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partial_view.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partial_view', [], true)
+ 3 APPPATH\Controllers\ManuscriptController.php(129): view('partial_view')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->loadPartialView()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 10:06:16 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partial_view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partial_view.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partial_view', [], true)
+ 3 APPPATH\Controllers\ManuscriptController.php(129): view('partial_view')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->loadPartialView()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 10:06:17 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partial_view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partial_view.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partial_view', [], true)
+ 3 APPPATH\Controllers\ManuscriptController.php(129): view('partial_view')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->loadPartialView()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 10:06:37 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partial_view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partial_view.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partial_view', [], true)
+ 3 APPPATH\Controllers\ManuscriptController.php(129): view('partial_view')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->loadPartialView()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 10:06:37 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partial_view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partial_view.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partial_view', [], true)
+ 3 APPPATH\Controllers\ManuscriptController.php(129): view('partial_view')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->loadPartialView()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 10:06:38 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partial_view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partial_view.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partial_view', [], true)
+ 3 APPPATH\Controllers\ManuscriptController.php(129): view('partial_view')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->loadPartialView()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 10:07:44 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partial_view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partial_view.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partial_view', [], true)
+ 3 APPPATH\Controllers\ManuscriptController.php(129): view('partial_view')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->loadPartialView()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 10:07:45 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partial_view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partial_view.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partial_view', [], true)
+ 3 APPPATH\Controllers\ManuscriptController.php(129): view('partial_view')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->loadPartialView()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 10:07:45 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partial_view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partial_view.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partial_view', [], true)
+ 3 APPPATH\Controllers\ManuscriptController.php(129): view('partial_view')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->loadPartialView()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 10:12:19 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partial_view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partial_view.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partial_view', [], true)
+ 3 APPPATH\Controllers\ManuscriptController.php(129): view('partial_view')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->loadPartialView()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 10:12:20 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partial_view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partial_view.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partial_view', [], true)
+ 3 APPPATH\Controllers\ManuscriptController.php(129): view('partial_view')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->loadPartialView()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 10:12:20 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partial_view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partial_view.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partial_view', [], true)
+ 3 APPPATH\Controllers\ManuscriptController.php(129): view('partial_view')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->loadPartialView()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 10:45:46 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partial_view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partial_view.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partial_view', [], true)
+ 3 APPPATH\Controllers\ManuscriptController.php(129): view('partial_view')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->loadPartialView()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 10:45:48 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partial_view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partial_view.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partial_view', [], true)
+ 3 APPPATH\Controllers\ManuscriptController.php(129): view('partial_view')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->loadPartialView()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 10:45:48 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partial_view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partial_view.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partial_view', [], true)
+ 3 APPPATH\Controllers\ManuscriptController.php(129): view('partial_view')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->loadPartialView()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 10:45:48 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partial_view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partial_view.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partial_view', [], true)
+ 3 APPPATH\Controllers\ManuscriptController.php(129): view('partial_view')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->loadPartialView()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 10:45:49 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partial_view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partial_view.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partial_view', [], true)
+ 3 APPPATH\Controllers\ManuscriptController.php(129): view('partial_view')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->loadPartialView()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 10:45:49 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partial_view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partial_view.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partial_view', [], true)
+ 3 APPPATH\Controllers\ManuscriptController.php(129): view('partial_view')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->loadPartialView()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 10:45:49 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partial_view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partial_view.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partial_view', [], true)
+ 3 APPPATH\Controllers\ManuscriptController.php(129): view('partial_view')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->loadPartialView()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 10:45:50 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partial_view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partial_view.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partial_view', [], true)
+ 3 APPPATH\Controllers\ManuscriptController.php(129): view('partial_view')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->loadPartialView()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 10:45:50 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partial_view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partial_view.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partial_view', [], true)
+ 3 APPPATH\Controllers\ManuscriptController.php(129): view('partial_view')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->loadPartialView()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 11:12:19 --> ParseError: syntax error, unexpected '?>'
+in APPPATH\Views\partials\manuscript_view.php on line 104.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/manuscript_view', [], true)
+ 3 APPPATH\Controllers\ManuscriptController.php(105): view('partials/manuscript_view', [...])
+ 4 APPPATH\Controllers\ManuscriptController.php(29): App\Controllers\ManuscriptController->getAllSystemDetails()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 11:12:21 --> ParseError: syntax error, unexpected '?>'
+in APPPATH\Views\partials\manuscript_view.php on line 104.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/manuscript_view', [], true)
+ 3 APPPATH\Controllers\ManuscriptController.php(105): view('partials/manuscript_view', [...])
+ 4 APPPATH\Controllers\ManuscriptController.php(29): App\Controllers\ManuscriptController->getAllSystemDetails()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 11:12:32 --> ParseError: syntax error, unexpected '?>'
+in APPPATH\Views\partials\manuscript_view.php on line 104.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/manuscript_view', [], true)
+ 3 APPPATH\Controllers\ManuscriptController.php(105): view('partials/manuscript_view', [...])
+ 4 APPPATH\Controllers\ManuscriptController.php(29): App\Controllers\ManuscriptController->getAllSystemDetails()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 11:12:33 --> ParseError: syntax error, unexpected '?>'
+in APPPATH\Views\partials\manuscript_view.php on line 104.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/manuscript_view', [], true)
+ 3 APPPATH\Controllers\ManuscriptController.php(105): view('partials/manuscript_view', [...])
+ 4 APPPATH\Controllers\ManuscriptController.php(29): App\Controllers\ManuscriptController->getAllSystemDetails()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 12:17:59 --> ParseError: syntax error, unexpected '2' (T_LNUMBER), expecting variable (T_VARIABLE)
+in APPPATH\Controllers\ManuscriptController.php on line 126.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\Xampp-server-php_7-4-30\\htdocs\\amar\\app\\Controllers\\ManuscriptController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ManuscriptController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ManuscriptController')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\ManuscriptController')
+ 5 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\ManuscriptController', true)
+ 6 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 12:18:01 --> ParseError: syntax error, unexpected '2' (T_LNUMBER), expecting variable (T_VARIABLE)
+in APPPATH\Controllers\ManuscriptController.php on line 126.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\Xampp-server-php_7-4-30\\htdocs\\amar\\app\\Controllers\\ManuscriptController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ManuscriptController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ManuscriptController')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\ManuscriptController')
+ 5 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\ManuscriptController', true)
+ 6 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 12:18:52 --> ParseError: syntax error, unexpected '2' (T_LNUMBER), expecting variable (T_VARIABLE)
+in APPPATH\Controllers\ManuscriptController.php on line 126.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\Xampp-server-php_7-4-30\\htdocs\\amar\\app\\Controllers\\ManuscriptController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ManuscriptController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ManuscriptController')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\ManuscriptController')
+ 5 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\ManuscriptController', true)
+ 6 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 12:18:53 --> ParseError: syntax error, unexpected '2' (T_LNUMBER), expecting variable (T_VARIABLE)
+in APPPATH\Controllers\ManuscriptController.php on line 126.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\Xampp-server-php_7-4-30\\htdocs\\amar\\app\\Controllers\\ManuscriptController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ManuscriptController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ManuscriptController')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\ManuscriptController')
+ 5 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\ManuscriptController', true)
+ 6 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 12:18:53 --> ParseError: syntax error, unexpected '2' (T_LNUMBER), expecting variable (T_VARIABLE)
+in APPPATH\Controllers\ManuscriptController.php on line 126.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\Xampp-server-php_7-4-30\\htdocs\\amar\\app\\Controllers\\ManuscriptController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ManuscriptController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ManuscriptController')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\ManuscriptController')
+ 5 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\ManuscriptController', true)
+ 6 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 12:19:33 --> ParseError: syntax error, unexpected '2' (T_LNUMBER), expecting variable (T_VARIABLE)
+in APPPATH\Controllers\ManuscriptController.php on line 126.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\Xampp-server-php_7-4-30\\htdocs\\amar\\app\\Controllers\\ManuscriptController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ManuscriptController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ManuscriptController')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\ManuscriptController')
+ 5 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\ManuscriptController', true)
+ 6 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 12:19:34 --> ParseError: syntax error, unexpected '2' (T_LNUMBER), expecting variable (T_VARIABLE)
+in APPPATH\Controllers\ManuscriptController.php on line 126.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\Xampp-server-php_7-4-30\\htdocs\\amar\\app\\Controllers\\ManuscriptController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ManuscriptController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ManuscriptController')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\ManuscriptController')
+ 5 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\ManuscriptController', true)
+ 6 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 12:19:47 --> ParseError: syntax error, unexpected '2' (T_LNUMBER), expecting variable (T_VARIABLE)
+in APPPATH\Controllers\ManuscriptController.php on line 126.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\Xampp-server-php_7-4-30\\htdocs\\amar\\app\\Controllers\\ManuscriptController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ManuscriptController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ManuscriptController')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\ManuscriptController')
+ 5 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\ManuscriptController', true)
+ 6 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 12:19:48 --> ParseError: syntax error, unexpected '2' (T_LNUMBER), expecting variable (T_VARIABLE)
+in APPPATH\Controllers\ManuscriptController.php on line 126.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\Xampp-server-php_7-4-30\\htdocs\\amar\\app\\Controllers\\ManuscriptController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ManuscriptController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ManuscriptController')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\ManuscriptController')
+ 5 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\ManuscriptController', true)
+ 6 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 12:19:48 --> ParseError: syntax error, unexpected '2' (T_LNUMBER), expecting variable (T_VARIABLE)
+in APPPATH\Controllers\ManuscriptController.php on line 126.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\Xampp-server-php_7-4-30\\htdocs\\amar\\app\\Controllers\\ManuscriptController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ManuscriptController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ManuscriptController')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\ManuscriptController')
+ 5 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\ManuscriptController', true)
+ 6 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 12:19:48 --> ParseError: syntax error, unexpected '2' (T_LNUMBER), expecting variable (T_VARIABLE)
+in APPPATH\Controllers\ManuscriptController.php on line 126.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\Xampp-server-php_7-4-30\\htdocs\\amar\\app\\Controllers\\ManuscriptController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ManuscriptController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ManuscriptController')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\ManuscriptController')
+ 5 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\ManuscriptController', true)
+ 6 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 12:49:02 --> ParseError: syntax error, unexpected '?>'
+in APPPATH\Views\partials\manuscript_view.php on line 105.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/manuscript_view', [], true)
+ 3 APPPATH\Controllers\ManuscriptController.php(120): view('partials/manuscript_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->getAllSystemManuscripts('2')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 12:49:03 --> ParseError: syntax error, unexpected '?>'
+in APPPATH\Views\partials\manuscript_view.php on line 105.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/manuscript_view', [], true)
+ 3 APPPATH\Controllers\ManuscriptController.php(120): view('partials/manuscript_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->getAllSystemManuscripts('2')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 13:28:08 --> ParseError: syntax error, unexpected '>', expecting end of file
+in APPPATH\Views\partials\manuscript_view.php on line 105.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/manuscript_view', [], true)
+ 3 APPPATH\Controllers\ManuscriptController.php(105): view('partials/manuscript_view', [...])
+ 4 APPPATH\Controllers\ManuscriptController.php(29): App\Controllers\ManuscriptController->getAllSystemDetails()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 13:33:23 --> ParseError: syntax error, unexpected '.'
+in APPPATH\Views\partials\manuscript_view.php on line 105.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/manuscript_view', [], true)
+ 3 APPPATH\Controllers\ManuscriptController.php(105): view('partials/manuscript_view', [...])
+ 4 APPPATH\Controllers\ManuscriptController.php(29): App\Controllers\ManuscriptController->getAllSystemDetails()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 13:33:24 --> ParseError: syntax error, unexpected '.'
+in APPPATH\Views\partials\manuscript_view.php on line 105.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/manuscript_view', [], true)
+ 3 APPPATH\Controllers\ManuscriptController.php(105): view('partials/manuscript_view', [...])
+ 4 APPPATH\Controllers\ManuscriptController.php(29): App\Controllers\ManuscriptController->getAllSystemDetails()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 13:33:24 --> ParseError: syntax error, unexpected '.'
+in APPPATH\Views\partials\manuscript_view.php on line 105.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/manuscript_view', [], true)
+ 3 APPPATH\Controllers\ManuscriptController.php(105): view('partials/manuscript_view', [...])
+ 4 APPPATH\Controllers\ManuscriptController.php(29): App\Controllers\ManuscriptController->getAllSystemDetails()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 13:33:24 --> ParseError: syntax error, unexpected '.'
+in APPPATH\Views\partials\manuscript_view.php on line 105.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/manuscript_view', [], true)
+ 3 APPPATH\Controllers\ManuscriptController.php(105): view('partials/manuscript_view', [...])
+ 4 APPPATH\Controllers\ManuscriptController.php(29): App\Controllers\ManuscriptController->getAllSystemDetails()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 13:33:25 --> ParseError: syntax error, unexpected '.'
+in APPPATH\Views\partials\manuscript_view.php on line 105.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/manuscript_view', [], true)
+ 3 APPPATH\Controllers\ManuscriptController.php(105): view('partials/manuscript_view', [...])
+ 4 APPPATH\Controllers\ManuscriptController.php(29): App\Controllers\ManuscriptController->getAllSystemDetails()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 13:33:25 --> ParseError: syntax error, unexpected '.'
+in APPPATH\Views\partials\manuscript_view.php on line 105.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/manuscript_view', [], true)
+ 3 APPPATH\Controllers\ManuscriptController.php(105): view('partials/manuscript_view', [...])
+ 4 APPPATH\Controllers\ManuscriptController.php(29): App\Controllers\ManuscriptController->getAllSystemDetails()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-05 13:37:15 --> ParseError: syntax error, unexpected '/'
+in APPPATH\Views\partials\manuscript_view.php on line 105.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/manuscript_view', [], true)
+ 3 APPPATH\Controllers\ManuscriptController.php(105): view('partials/manuscript_view', [...])
+ 4 APPPATH\Controllers\ManuscriptController.php(29): App\Controllers\ManuscriptController->getAllSystemDetails()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

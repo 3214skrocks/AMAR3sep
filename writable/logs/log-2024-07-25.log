@@ -1,0 +1,99 @@
+INFO - 2024-07-25 04:42:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-25 04:42:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-25 04:44:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-25 04:44:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-25 04:44:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-25 04:44:10 --> ErrorException: Undefined array key "file_path"
+in APPPATH\Views\partials\SupervisorView.php on line 31.
+ 1 APPPATH\Views\partials\SupervisorView.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "file_path"', 'C:\\xampp\\htdocs\\amar\\app\\Views\\partials\\SupervisorView.php', 31)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\amar\\app\\Views\\partials\\SupervisorView.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('/partials/SupervisorView', [], true)
+ 5 APPPATH\Controllers\SupervisorController.php(24): view('/partials/SupervisorView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SupervisorController->getalldata()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SupervisorController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-25 06:28:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-25 06:28:16 --> ErrorException: Undefined array key "author"
+in APPPATH\Views\partials\SupervisorView.php on line 24.
+ 1 APPPATH\Views\partials\SupervisorView.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "author"', 'C:\\xampp\\htdocs\\amar\\app\\Views\\partials\\SupervisorView.php', 24)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\amar\\app\\Views\\partials\\SupervisorView.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('/partials/SupervisorView', [], true)
+ 5 APPPATH\Controllers\SupervisorController.php(25): view('/partials/SupervisorView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SupervisorController->getalldata()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SupervisorController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-25 06:28:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-25 06:28:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-25 06:28:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-25 06:28:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-25 06:28:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-25 06:28:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-25 06:28:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-25 06:28:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-25 06:28:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-25 06:28:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-25 06:28:33 --> ErrorException: Undefined array key "author"
+in APPPATH\Views\partials\SupervisorView.php on line 24.
+ 1 APPPATH\Views\partials\SupervisorView.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "author"', 'C:\\xampp\\htdocs\\amar\\app\\Views\\partials\\SupervisorView.php', 24)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\amar\\app\\Views\\partials\\SupervisorView.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('/partials/SupervisorView', [], true)
+ 5 APPPATH\Controllers\SupervisorController.php(25): view('/partials/SupervisorView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SupervisorController->getalldata()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SupervisorController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-25 07:18:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-25 07:18:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-25 07:18:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-25 07:18:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-25 07:18:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-25 07:18:14 --> ErrorException: Undefined array key "author"
+in APPPATH\Views\partials\SupervisorView.php on line 24.
+ 1 APPPATH\Views\partials\SupervisorView.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "author"', 'C:\\xampp\\htdocs\\amar\\app\\Views\\partials\\SupervisorView.php', 24)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\amar\\app\\Views\\partials\\SupervisorView.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('/partials/SupervisorView', [], true)
+ 5 APPPATH\Controllers\SupervisorController.php(25): view('/partials/SupervisorView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SupervisorController->getalldata()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SupervisorController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-25 10:09:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-25 10:09:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-25 10:09:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-25 10:09:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-25 10:09:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-25 10:09:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-25 10:09:48 --> ErrorException: Undefined array key "author"
+in APPPATH\Views\partials\SupervisorView.php on line 41.
+ 1 APPPATH\Views\partials\SupervisorView.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "author"', 'C:\\xampp\\htdocs\\amar\\app\\Views\\partials\\SupervisorView.php', 41)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\amar\\app\\Views\\partials\\SupervisorView.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('/partials/SupervisorView', [], true)
+ 5 APPPATH\Controllers\SupervisorController.php(25): view('/partials/SupervisorView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SupervisorController->getalldata()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SupervisorController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-25 12:19:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-25 12:19:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-25 12:19:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-25 12:19:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-25 12:19:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-25 12:19:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-25 12:19:14 --> ErrorException: Undefined array key "file_path"
+in APPPATH\Views\partials\SupervisorView.php on line 48.
+ 1 APPPATH\Views\partials\SupervisorView.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "file_path"', 'C:\\xampp\\htdocs\\amar\\app\\Views\\partials\\SupervisorView.php', 48)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\amar\\app\\Views\\partials\\SupervisorView.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('/partials/SupervisorView', [], true)
+ 5 APPPATH\Controllers\SupervisorController.php(25): view('/partials/SupervisorView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SupervisorController->getalldata()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SupervisorController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

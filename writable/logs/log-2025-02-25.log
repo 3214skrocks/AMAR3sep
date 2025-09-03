@@ -1,0 +1,121 @@
+INFO - 2025-02-25 04:56:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-25 05:31:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-25 05:47:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-25 09:22:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-25 09:23:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-02-25 09:23:21 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\amar\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\htdocs\amar\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'amar', 3306, '', 0)
+#1 C:\xampp\htdocs\amar\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\amar\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\amar\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\amar\app\Controllers\AdminController.php(31): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\amar\system\CodeIgniter.php(941): App\Controllers\AdminController->authenticate()
+#6 C:\xampp\htdocs\amar\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#7 C:\xampp\htdocs\amar\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\amar\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\amar\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\amar\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\amar\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\amar\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\amar\app\Controllers\AdminController.php(31): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\amar\system\CodeIgniter.php(941): App\Controllers\AdminController->authenticate()
+#5 C:\xampp\htdocs\amar\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#6 C:\xampp\htdocs\amar\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\amar\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-02-25 09:23:21 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `Username` = :Username:
+AND `Password` = :Password:
+AND `Department` = :Department:', [...], false)
+ 3 APPPATH\Controllers\AdminController.php(31): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->authenticate()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-02-25 09:23:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-02-25 09:23:37 --> mysqli_sql_exception: MySQL server has gone away in C:\xampp\htdocs\amar\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\amar\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\amar\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\amar\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\amar\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\amar\app\Controllers\AdminController.php(31): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\amar\system\CodeIgniter.php(941): App\Controllers\AdminController->authenticate()
+#6 C:\xampp\htdocs\amar\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#7 C:\xampp\htdocs\amar\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\amar\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-02-25 09:23:37 --> CodeIgniter\Database\Exceptions\DatabaseException: MySQL server has gone away
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `Username` = :Username:
+AND `Password` = :Password:
+AND `Department` = :Department:', [...], false)
+ 2 APPPATH\Controllers\AdminController.php(31): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->authenticate()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-25 09:23:37 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: MySQL server has gone away
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `users`
+WHERE `Username` = \'anitha\'
+AND `Password` = \'30056e1cab7a61d256fc8edd970d14f5\'
+AND `Department` = \'AMR\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `users`
+WHERE `Username` = \'anitha\'
+AND `Password` = \'30056e1cab7a61d256fc8edd970d14f5\'
+AND `Department` = \'AMR\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `Username` = :Username:
+AND `Password` = :Password:
+AND `Department` = :Department:', [...], false)
+ 4 APPPATH\Controllers\AdminController.php(31): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->authenticate()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-25 09:23:37 --> [Caused by] mysqli_sql_exception: MySQL server has gone away
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *
+FROM `users`
+WHERE `Username` = \'anitha\'
+AND `Password` = \'30056e1cab7a61d256fc8edd970d14f5\'
+AND `Department` = \'AMR\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `users`
+WHERE `Username` = \'anitha\'
+AND `Password` = \'30056e1cab7a61d256fc8edd970d14f5\'
+AND `Department` = \'AMR\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `users`
+WHERE `Username` = \'anitha\'
+AND `Password` = \'30056e1cab7a61d256fc8edd970d14f5\'
+AND `Department` = \'AMR\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `Username` = :Username:
+AND `Password` = :Password:
+AND `Department` = :Department:', [...], false)
+ 5 APPPATH\Controllers\AdminController.php(31): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AdminController->authenticate()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2025-02-25 09:23:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-25 09:23:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-25 09:23:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-25 09:23:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

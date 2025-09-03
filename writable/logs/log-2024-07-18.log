@@ -1,0 +1,474 @@
+INFO - 2024-07-18 05:09:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 05:09:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 05:26:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 05:26:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 05:26:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 05:26:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 05:26:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 05:27:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 05:27:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 06:31:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 06:31:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 06:31:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 06:32:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 06:33:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-18 08:36:33 --> ParseError: syntax error, unexpected token "public"
+in APPPATH\Controllers\AMRController.php on line 136.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\amar\\app\\Controllers\\AMRController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AMRController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AMRController')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\AMRController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-18 08:37:23 --> ParseError: syntax error, unexpected token "public"
+in APPPATH\Controllers\AMRController.php on line 136.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\amar\\app\\Controllers\\AMRController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AMRController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AMRController')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\AMRController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-18 08:37:25 --> ParseError: syntax error, unexpected token "public"
+in APPPATH\Controllers\AMRController.php on line 136.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\amar\\app\\Controllers\\AMRController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AMRController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AMRController')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\AMRController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-18 08:37:25 --> ParseError: syntax error, unexpected token "public"
+in APPPATH\Controllers\AMRController.php on line 136.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\amar\\app\\Controllers\\AMRController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AMRController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AMRController')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\AMRController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-18 08:37:31 --> ParseError: syntax error, unexpected token "public"
+in APPPATH\Controllers\AMRController.php on line 136.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\amar\\app\\Controllers\\AMRController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AMRController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AMRController')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\AMRController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-18 08:37:32 --> ParseError: syntax error, unexpected token "public"
+in APPPATH\Controllers\AMRController.php on line 136.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\amar\\app\\Controllers\\AMRController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AMRController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AMRController')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\AMRController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-18 08:37:32 --> ParseError: syntax error, unexpected token "public"
+in APPPATH\Controllers\AMRController.php on line 136.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\amar\\app\\Controllers\\AMRController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AMRController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AMRController')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\AMRController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-18 08:37:32 --> ParseError: syntax error, unexpected token "public"
+in APPPATH\Controllers\AMRController.php on line 136.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\amar\\app\\Controllers\\AMRController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AMRController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AMRController')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\AMRController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-18 08:39:22 --> ParseError: syntax error, unexpected token "public"
+in APPPATH\Controllers\AMRController.php on line 136.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\amar\\app\\Controllers\\AMRController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AMRController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AMRController')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\AMRController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-18 08:39:23 --> ParseError: syntax error, unexpected token "public"
+in APPPATH\Controllers\AMRController.php on line 136.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\amar\\app\\Controllers\\AMRController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AMRController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AMRController')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\AMRController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-18 08:39:23 --> ParseError: syntax error, unexpected token "public"
+in APPPATH\Controllers\AMRController.php on line 136.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\amar\\app\\Controllers\\AMRController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AMRController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AMRController')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\AMRController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-18 08:39:24 --> ParseError: syntax error, unexpected token "public"
+in APPPATH\Controllers\AMRController.php on line 136.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\amar\\app\\Controllers\\AMRController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AMRController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AMRController')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\AMRController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-18 08:39:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 08:39:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 08:39:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 08:39:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 08:39:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 08:39:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 08:39:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 08:39:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 08:39:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-18 08:39:36 --> ParseError: syntax error, unexpected token "public"
+in APPPATH\Controllers\AMRController.php on line 136.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\amar\\app\\Controllers\\AMRController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AMRController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AMRController')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\AMRController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-18 08:40:06 --> ParseError: syntax error, unexpected token "public"
+in APPPATH\Controllers\AMRController.php on line 136.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\amar\\app\\Controllers\\AMRController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AMRController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AMRController')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\AMRController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-18 08:40:06 --> ParseError: syntax error, unexpected token "public"
+in APPPATH\Controllers\AMRController.php on line 136.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\amar\\app\\Controllers\\AMRController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AMRController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AMRController')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\AMRController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-18 08:40:07 --> ParseError: syntax error, unexpected token "public"
+in APPPATH\Controllers\AMRController.php on line 136.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\amar\\app\\Controllers\\AMRController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AMRController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AMRController')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\AMRController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-18 08:41:15 --> ParseError: syntax error, unexpected token "public"
+in APPPATH\Controllers\AMRController.php on line 136.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\amar\\app\\Controllers\\AMRController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AMRController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AMRController')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\AMRController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-18 08:41:16 --> ParseError: syntax error, unexpected token "public"
+in APPPATH\Controllers\AMRController.php on line 136.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\amar\\app\\Controllers\\AMRController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AMRController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AMRController')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\AMRController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-18 08:41:16 --> ParseError: syntax error, unexpected token "public"
+in APPPATH\Controllers\AMRController.php on line 136.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\amar\\app\\Controllers\\AMRController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AMRController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AMRController')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\AMRController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-18 08:41:17 --> ParseError: syntax error, unexpected token "public"
+in APPPATH\Controllers\AMRController.php on line 136.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\amar\\app\\Controllers\\AMRController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AMRController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AMRController')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\AMRController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-18 08:41:17 --> ParseError: syntax error, unexpected token "public"
+in APPPATH\Controllers\AMRController.php on line 136.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\amar\\app\\Controllers\\AMRController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AMRController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AMRController')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\AMRController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-18 08:42:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 08:43:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 08:43:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 08:43:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 08:43:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 08:43:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 08:44:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 08:44:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 08:57:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 08:57:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 08:57:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 08:57:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 08:57:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 08:57:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 09:01:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 09:01:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 09:01:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 09:01:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 09:02:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 09:02:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 09:02:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 09:02:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 09:06:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 09:06:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 09:06:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 09:06:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 09:06:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-18 09:06:28 --> BadMethodCallException: Call to undefined method App\Models\CatalogueModel::data_insert
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\AMRController.php(119): CodeIgniter\Model->__call('data_insert', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AMRController->submitCatalogues()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AMRController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-18 09:08:44 --> BadMethodCallException: Call to undefined method App\Models\CatalogueModel::data_insert
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\AMRController.php(119): CodeIgniter\Model->__call('data_insert', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AMRController->submitCatalogues()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AMRController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-18 09:15:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-18 09:15:16 --> ErrorException: Attempt to read property "insert_id" on bool
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 588.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(588): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "insert_id" on bool', 'C:\\xampp\\htdocs\\amar\\system\\Database\\MySQLi\\Connection.php', 588)
+ 2 SYSTEMPATH\Model.php(868): CodeIgniter\Database\MySQLi\Connection->insertID()
+ 3 APPPATH\Models\CatalogueModel.php(33): CodeIgniter\Model->__call('insertID', [])
+ 4 APPPATH\Controllers\AMRController.php(119): App\Models\CatalogueModel->data_insert(Object(CodeIgniter\HTTP\IncomingRequest))
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AMRController->submitCatalogues()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AMRController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-18 09:15:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-18 09:15:30 --> ErrorException: Attempt to read property "insert_id" on bool
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 588.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(588): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "insert_id" on bool', 'C:\\xampp\\htdocs\\amar\\system\\Database\\MySQLi\\Connection.php', 588)
+ 2 SYSTEMPATH\Model.php(868): CodeIgniter\Database\MySQLi\Connection->insertID()
+ 3 APPPATH\Models\CatalogueModel.php(33): CodeIgniter\Model->__call('insertID', [])
+ 4 APPPATH\Controllers\AMRController.php(119): App\Models\CatalogueModel->data_insert(Object(CodeIgniter\HTTP\IncomingRequest))
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AMRController->submitCatalogues()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AMRController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-18 09:16:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-18 09:16:14 --> ErrorException: Attempt to read property "insert_id" on bool
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 588.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(588): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "insert_id" on bool', 'C:\\xampp\\htdocs\\amar\\system\\Database\\MySQLi\\Connection.php', 588)
+ 2 SYSTEMPATH\Model.php(868): CodeIgniter\Database\MySQLi\Connection->insertID()
+ 3 APPPATH\Models\CatalogueModel.php(33): CodeIgniter\Model->__call('insertID', [])
+ 4 APPPATH\Controllers\AMRController.php(119): App\Models\CatalogueModel->data_insert(Object(CodeIgniter\HTTP\IncomingRequest))
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AMRController->submitCatalogues()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AMRController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-18 09:16:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-18 09:16:20 --> ErrorException: Attempt to read property "insert_id" on bool
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 588.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(588): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "insert_id" on bool', 'C:\\xampp\\htdocs\\amar\\system\\Database\\MySQLi\\Connection.php', 588)
+ 2 SYSTEMPATH\Model.php(868): CodeIgniter\Database\MySQLi\Connection->insertID()
+ 3 APPPATH\Models\CatalogueModel.php(33): CodeIgniter\Model->__call('insertID', [])
+ 4 APPPATH\Controllers\AMRController.php(119): App\Models\CatalogueModel->data_insert(Object(CodeIgniter\HTTP\IncomingRequest))
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AMRController->submitCatalogues()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AMRController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-18 09:16:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 09:16:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 09:16:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 09:16:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 09:16:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 09:17:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 09:17:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 09:23:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 09:23:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 09:42:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 09:49:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 09:50:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 09:51:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 09:51:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 09:51:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 09:53:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 09:53:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 09:53:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 09:53:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 09:53:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 09:53:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 09:53:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 09:53:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 09:54:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 09:54:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 09:59:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 10:04:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 10:04:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-18 10:04:19 --> Error: Class "App\Controllers\Periodicals" not found
+in APPPATH\Controllers\AMRController.php on line 134.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AMRController->submitPeriodicals()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AMRController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-18 10:06:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-07-18 10:06:27 --> mysqli_sql_exception: Unknown column 'amar_id' in 'field list' in C:\xampp\htdocs\amar\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\amar\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE periodic...', 0)
+#1 C:\xampp\htdocs\amar\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE periodic...')
+#2 C:\xampp\htdocs\amar\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE periodic...')
+#3 C:\xampp\htdocs\amar\app\Models\PeriodicalModel.php(33): CodeIgniter\Database\BaseConnection->query('UPDATE periodic...', Array)
+#4 C:\xampp\htdocs\amar\app\Controllers\AMRController.php(139): App\Models\PeriodicalModel->data_insert(Object(CodeIgniter\HTTP\IncomingRequest))
+#5 C:\xampp\htdocs\amar\system\CodeIgniter.php(941): App\Controllers\AMRController->submitPeriodicals()
+#6 C:\xampp\htdocs\amar\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AMRController))
+#7 C:\xampp\htdocs\amar\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\amar\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-07-18 10:06:27 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'amar_id' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\PeriodicalModel.php(33): CodeIgniter\Database\BaseConnection->query('UPDATE periodical1 SET amar_id = \'AMAR/PS/0\' WHERE id = ?', [...])
+ 2 APPPATH\Controllers\AMRController.php(139): App\Models\PeriodicalModel->data_insert(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AMRController->submitPeriodicals()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AMRController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-18 10:06:27 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'amar_id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE periodical1 SET amar_id = \'AMAR/PS/0\' WHERE id = 0')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE periodical1 SET amar_id = \'AMAR/PS/0\' WHERE id = 0')
+ 3 APPPATH\Models\PeriodicalModel.php(33): CodeIgniter\Database\BaseConnection->query('UPDATE periodical1 SET amar_id = \'AMAR/PS/0\' WHERE id = ?', [...])
+ 4 APPPATH\Controllers\AMRController.php(139): App\Models\PeriodicalModel->data_insert(Object(CodeIgniter\HTTP\IncomingRequest))
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AMRController->submitPeriodicals()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AMRController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-18 10:06:27 --> [Caused by] mysqli_sql_exception: Unknown column 'amar_id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE periodical1 SET amar_id = \'AMAR/PS/0\' WHERE id = 0', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE periodical1 SET amar_id = \'AMAR/PS/0\' WHERE id = 0')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE periodical1 SET amar_id = \'AMAR/PS/0\' WHERE id = 0')
+ 4 APPPATH\Models\PeriodicalModel.php(33): CodeIgniter\Database\BaseConnection->query('UPDATE periodical1 SET amar_id = \'AMAR/PS/0\' WHERE id = ?', [...])
+ 5 APPPATH\Controllers\AMRController.php(139): App\Models\PeriodicalModel->data_insert(Object(CodeIgniter\HTTP\IncomingRequest))
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AMRController->submitPeriodicals()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AMRController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-18 10:10:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 10:23:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 10:23:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 10:23:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 10:23:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 10:23:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 10:23:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 10:23:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 10:23:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 10:23:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 10:23:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 10:23:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 10:23:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 10:24:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 10:24:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 10:48:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 10:48:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 10:49:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 10:49:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 10:49:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 10:49:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 10:49:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 10:49:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-07-18 10:49:48 --> mysqli_sql_exception: Unknown column 'status' in 'where clause' in C:\xampp\htdocs\amar\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\amar\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT * FROM m...', 0)
+#1 C:\xampp\htdocs\amar\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM m...')
+#2 C:\xampp\htdocs\amar\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM m...')
+#3 C:\xampp\htdocs\amar\app\Models\ManuscriptModel.php(44): CodeIgniter\Database\BaseConnection->query('SELECT * FROM m...')
+#4 C:\xampp\htdocs\amar\app\Controllers\SupervisorController.php(15): App\Models\ManuscriptModel->fetch_data()
+#5 C:\xampp\htdocs\amar\system\CodeIgniter.php(941): App\Controllers\SupervisorController->get_data()
+#6 C:\xampp\htdocs\amar\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SupervisorController))
+#7 C:\xampp\htdocs\amar\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\amar\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-07-18 10:49:48 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'status' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\ManuscriptModel.php(44): CodeIgniter\Database\BaseConnection->query('SELECT * FROM manuscript1_m WHERE status = \'PENDING\' ')
+ 2 APPPATH\Controllers\SupervisorController.php(15): App\Models\ManuscriptModel->fetch_data()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SupervisorController->get_data()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SupervisorController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-18 10:49:48 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'status' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM manuscript1_m WHERE status = \'PENDING\' ')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM manuscript1_m WHERE status = \'PENDING\' ')
+ 3 APPPATH\Models\ManuscriptModel.php(44): CodeIgniter\Database\BaseConnection->query('SELECT * FROM manuscript1_m WHERE status = \'PENDING\' ')
+ 4 APPPATH\Controllers\SupervisorController.php(15): App\Models\ManuscriptModel->fetch_data()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SupervisorController->get_data()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SupervisorController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-18 10:49:48 --> [Caused by] mysqli_sql_exception: Unknown column 'status' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT * FROM manuscript1_m WHERE status = \'PENDING\' ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM manuscript1_m WHERE status = \'PENDING\' ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM manuscript1_m WHERE status = \'PENDING\' ')
+ 4 APPPATH\Models\ManuscriptModel.php(44): CodeIgniter\Database\BaseConnection->query('SELECT * FROM manuscript1_m WHERE status = \'PENDING\' ')
+ 5 APPPATH\Controllers\SupervisorController.php(15): App\Models\ManuscriptModel->fetch_data()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SupervisorController->get_data()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SupervisorController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-18 10:53:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 10:53:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 10:53:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 10:53:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 10:53:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 10:54:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 10:58:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-18 10:58:05 --> ErrorException: Undefined array key "title"
+in APPPATH\Views\partials\SupervisorView.php on line 20.
+ 1 APPPATH\Views\partials\SupervisorView.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'C:\\xampp\\htdocs\\amar\\app\\Views\\partials\\SupervisorView.php', 20)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\amar\\app\\Views\\partials\\SupervisorView.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('/partials/SupervisorView', [], true)
+ 5 APPPATH\Controllers\SupervisorController.php(24): view('/partials/SupervisorView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SupervisorController->get_data()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SupervisorController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-18 10:58:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-18 10:58:16 --> ErrorException: Undefined array key "Author"
+in APPPATH\Views\partials\SupervisorView.php on line 21.
+ 1 APPPATH\Views\partials\SupervisorView.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Author"', 'C:\\xampp\\htdocs\\amar\\app\\Views\\partials\\SupervisorView.php', 21)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\amar\\app\\Views\\partials\\SupervisorView.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('/partials/SupervisorView', [], true)
+ 5 APPPATH\Controllers\SupervisorController.php(24): view('/partials/SupervisorView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SupervisorController->get_data()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SupervisorController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-18 10:58:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 10:59:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 10:59:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 11:01:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 11:04:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 11:04:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-18 11:06:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -1,0 +1,430 @@
+CRITICAL - 2024-07-03 05:38:05 --> ErrorException: Undefined variable $sys_id_natur
+in APPPATH\Controllers\ManuscriptController.php on line 97.
+ 1 APPPATH\Controllers\ManuscriptController.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sys_id_natur', 'C:\\xampp\\htdocs\\amar\\app\\Controllers\\ManuscriptController.php', 97)
+ 2 APPPATH\Controllers\ManuscriptController.php(30): App\Controllers\ManuscriptController->getAllSystemDetails()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-03 05:56:28 --> ErrorException: Undefined variable $sys_id_natur
+in APPPATH\Controllers\ManuscriptController.php on line 97.
+ 1 APPPATH\Controllers\ManuscriptController.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sys_id_natur', 'C:\\xampp\\htdocs\\amar\\app\\Controllers\\ManuscriptController.php', 97)
+ 2 APPPATH\Controllers\ManuscriptController.php(30): App\Controllers\ManuscriptController->getAllSystemDetails()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-03 05:57:00 --> ErrorException: Undefined variable $sys_id_natur
+in APPPATH\Controllers\ManuscriptController.php on line 97.
+ 1 APPPATH\Controllers\ManuscriptController.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sys_id_natur', 'C:\\xampp\\htdocs\\amar\\app\\Controllers\\ManuscriptController.php', 97)
+ 2 APPPATH\Controllers\ManuscriptController.php(30): App\Controllers\ManuscriptController->getAllSystemDetails()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-03 06:13:31 --> ParseError: syntax error, unexpected token "elseif"
+in APPPATH\Controllers\ManuscriptController.php on line 75.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\amar\\app\\Controllers\\ManuscriptController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ManuscriptController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ManuscriptController')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\ManuscriptController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-03 06:14:01 --> ErrorException: Undefined variable $sys_id_natur
+in APPPATH\Controllers\ManuscriptController.php on line 97.
+ 1 APPPATH\Controllers\ManuscriptController.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sys_id_natur', 'C:\\xampp\\htdocs\\amar\\app\\Controllers\\ManuscriptController.php', 97)
+ 2 APPPATH\Controllers\ManuscriptController.php(30): App\Controllers\ManuscriptController->getAllSystemDetails()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-03 06:14:20 --> ErrorException: Undefined variable $sys_id_natur
+in APPPATH\Controllers\ManuscriptController.php on line 97.
+ 1 APPPATH\Controllers\ManuscriptController.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sys_id_natur', 'C:\\xampp\\htdocs\\amar\\app\\Controllers\\ManuscriptController.php', 97)
+ 2 APPPATH\Controllers\ManuscriptController.php(30): App\Controllers\ManuscriptController->getAllSystemDetails()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-03 06:14:21 --> ErrorException: Undefined variable $sys_id_natur
+in APPPATH\Controllers\ManuscriptController.php on line 97.
+ 1 APPPATH\Controllers\ManuscriptController.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sys_id_natur', 'C:\\xampp\\htdocs\\amar\\app\\Controllers\\ManuscriptController.php', 97)
+ 2 APPPATH\Controllers\ManuscriptController.php(30): App\Controllers\ManuscriptController->getAllSystemDetails()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-03 06:14:22 --> ErrorException: Undefined variable $sys_id_natur
+in APPPATH\Controllers\ManuscriptController.php on line 97.
+ 1 APPPATH\Controllers\ManuscriptController.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sys_id_natur', 'C:\\xampp\\htdocs\\amar\\app\\Controllers\\ManuscriptController.php', 97)
+ 2 APPPATH\Controllers\ManuscriptController.php(30): App\Controllers\ManuscriptController->getAllSystemDetails()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-03 06:19:27 --> ErrorException: Undefined variable $sys_id_natur
+in APPPATH\Controllers\ManuscriptController.php on line 97.
+ 1 APPPATH\Controllers\ManuscriptController.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sys_id_natur', 'C:\\xampp\\htdocs\\amar\\app\\Controllers\\ManuscriptController.php', 97)
+ 2 APPPATH\Controllers\ManuscriptController.php(30): App\Controllers\ManuscriptController->getAllSystemDetails()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-03 06:19:27 --> ErrorException: Undefined variable $sys_id_natur
+in APPPATH\Controllers\ManuscriptController.php on line 97.
+ 1 APPPATH\Controllers\ManuscriptController.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sys_id_natur', 'C:\\xampp\\htdocs\\amar\\app\\Controllers\\ManuscriptController.php', 97)
+ 2 APPPATH\Controllers\ManuscriptController.php(30): App\Controllers\ManuscriptController->getAllSystemDetails()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-03 06:19:28 --> ErrorException: Undefined variable $sys_id_natur
+in APPPATH\Controllers\ManuscriptController.php on line 97.
+ 1 APPPATH\Controllers\ManuscriptController.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sys_id_natur', 'C:\\xampp\\htdocs\\amar\\app\\Controllers\\ManuscriptController.php', 97)
+ 2 APPPATH\Controllers\ManuscriptController.php(30): App\Controllers\ManuscriptController->getAllSystemDetails()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-03 06:19:28 --> ErrorException: Undefined variable $sys_id_natur
+in APPPATH\Controllers\ManuscriptController.php on line 97.
+ 1 APPPATH\Controllers\ManuscriptController.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sys_id_natur', 'C:\\xampp\\htdocs\\amar\\app\\Controllers\\ManuscriptController.php', 97)
+ 2 APPPATH\Controllers\ManuscriptController.php(30): App\Controllers\ManuscriptController->getAllSystemDetails()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-03 06:19:28 --> ErrorException: Undefined variable $sys_id_natur
+in APPPATH\Controllers\ManuscriptController.php on line 97.
+ 1 APPPATH\Controllers\ManuscriptController.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sys_id_natur', 'C:\\xampp\\htdocs\\amar\\app\\Controllers\\ManuscriptController.php', 97)
+ 2 APPPATH\Controllers\ManuscriptController.php(30): App\Controllers\ManuscriptController->getAllSystemDetails()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-03 06:19:28 --> ErrorException: Undefined variable $sys_id_natur
+in APPPATH\Controllers\ManuscriptController.php on line 97.
+ 1 APPPATH\Controllers\ManuscriptController.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sys_id_natur', 'C:\\xampp\\htdocs\\amar\\app\\Controllers\\ManuscriptController.php', 97)
+ 2 APPPATH\Controllers\ManuscriptController.php(30): App\Controllers\ManuscriptController->getAllSystemDetails()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-03 06:19:29 --> ErrorException: Undefined variable $sys_id_natur
+in APPPATH\Controllers\ManuscriptController.php on line 97.
+ 1 APPPATH\Controllers\ManuscriptController.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sys_id_natur', 'C:\\xampp\\htdocs\\amar\\app\\Controllers\\ManuscriptController.php', 97)
+ 2 APPPATH\Controllers\ManuscriptController.php(30): App\Controllers\ManuscriptController->getAllSystemDetails()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-03 06:19:29 --> ErrorException: Undefined variable $sys_id_natur
+in APPPATH\Controllers\ManuscriptController.php on line 97.
+ 1 APPPATH\Controllers\ManuscriptController.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sys_id_natur', 'C:\\xampp\\htdocs\\amar\\app\\Controllers\\ManuscriptController.php', 97)
+ 2 APPPATH\Controllers\ManuscriptController.php(30): App\Controllers\ManuscriptController->getAllSystemDetails()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-03 06:19:29 --> ErrorException: Undefined variable $sys_id_natur
+in APPPATH\Controllers\ManuscriptController.php on line 97.
+ 1 APPPATH\Controllers\ManuscriptController.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sys_id_natur', 'C:\\xampp\\htdocs\\amar\\app\\Controllers\\ManuscriptController.php', 97)
+ 2 APPPATH\Controllers\ManuscriptController.php(30): App\Controllers\ManuscriptController->getAllSystemDetails()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-03 06:19:30 --> ErrorException: Undefined variable $sys_id_natur
+in APPPATH\Controllers\ManuscriptController.php on line 97.
+ 1 APPPATH\Controllers\ManuscriptController.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sys_id_natur', 'C:\\xampp\\htdocs\\amar\\app\\Controllers\\ManuscriptController.php', 97)
+ 2 APPPATH\Controllers\ManuscriptController.php(30): App\Controllers\ManuscriptController->getAllSystemDetails()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-03 06:19:31 --> ErrorException: Undefined variable $sys_id_natur
+in APPPATH\Controllers\ManuscriptController.php on line 97.
+ 1 APPPATH\Controllers\ManuscriptController.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sys_id_natur', 'C:\\xampp\\htdocs\\amar\\app\\Controllers\\ManuscriptController.php', 97)
+ 2 APPPATH\Controllers\ManuscriptController.php(30): App\Controllers\ManuscriptController->getAllSystemDetails()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-03 06:19:31 --> ErrorException: Undefined variable $sys_id_natur
+in APPPATH\Controllers\ManuscriptController.php on line 97.
+ 1 APPPATH\Controllers\ManuscriptController.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sys_id_natur', 'C:\\xampp\\htdocs\\amar\\app\\Controllers\\ManuscriptController.php', 97)
+ 2 APPPATH\Controllers\ManuscriptController.php(30): App\Controllers\ManuscriptController->getAllSystemDetails()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-03 06:19:31 --> ErrorException: Undefined variable $sys_id_natur
+in APPPATH\Controllers\ManuscriptController.php on line 97.
+ 1 APPPATH\Controllers\ManuscriptController.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sys_id_natur', 'C:\\xampp\\htdocs\\amar\\app\\Controllers\\ManuscriptController.php', 97)
+ 2 APPPATH\Controllers\ManuscriptController.php(30): App\Controllers\ManuscriptController->getAllSystemDetails()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-03 06:19:31 --> ErrorException: Undefined variable $sys_id_natur
+in APPPATH\Controllers\ManuscriptController.php on line 97.
+ 1 APPPATH\Controllers\ManuscriptController.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sys_id_natur', 'C:\\xampp\\htdocs\\amar\\app\\Controllers\\ManuscriptController.php', 97)
+ 2 APPPATH\Controllers\ManuscriptController.php(30): App\Controllers\ManuscriptController->getAllSystemDetails()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-03 06:19:32 --> ErrorException: Undefined variable $sys_id_natur
+in APPPATH\Controllers\ManuscriptController.php on line 97.
+ 1 APPPATH\Controllers\ManuscriptController.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sys_id_natur', 'C:\\xampp\\htdocs\\amar\\app\\Controllers\\ManuscriptController.php', 97)
+ 2 APPPATH\Controllers\ManuscriptController.php(30): App\Controllers\ManuscriptController->getAllSystemDetails()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-03 06:19:32 --> ErrorException: Undefined variable $sys_id_natur
+in APPPATH\Controllers\ManuscriptController.php on line 97.
+ 1 APPPATH\Controllers\ManuscriptController.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sys_id_natur', 'C:\\xampp\\htdocs\\amar\\app\\Controllers\\ManuscriptController.php', 97)
+ 2 APPPATH\Controllers\ManuscriptController.php(30): App\Controllers\ManuscriptController->getAllSystemDetails()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-03 06:19:32 --> ErrorException: Undefined variable $sys_id_natur
+in APPPATH\Controllers\ManuscriptController.php on line 97.
+ 1 APPPATH\Controllers\ManuscriptController.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sys_id_natur', 'C:\\xampp\\htdocs\\amar\\app\\Controllers\\ManuscriptController.php', 97)
+ 2 APPPATH\Controllers\ManuscriptController.php(30): App\Controllers\ManuscriptController->getAllSystemDetails()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-03 06:19:33 --> ErrorException: Undefined variable $sys_id_natur
+in APPPATH\Controllers\ManuscriptController.php on line 97.
+ 1 APPPATH\Controllers\ManuscriptController.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sys_id_natur', 'C:\\xampp\\htdocs\\amar\\app\\Controllers\\ManuscriptController.php', 97)
+ 2 APPPATH\Controllers\ManuscriptController.php(30): App\Controllers\ManuscriptController->getAllSystemDetails()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-03 06:19:43 --> ErrorException: Undefined variable $sys_id_natur
+in APPPATH\Controllers\ManuscriptController.php on line 97.
+ 1 APPPATH\Controllers\ManuscriptController.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sys_id_natur', 'C:\\xampp\\htdocs\\amar\\app\\Controllers\\ManuscriptController.php', 97)
+ 2 APPPATH\Controllers\ManuscriptController.php(30): App\Controllers\ManuscriptController->getAllSystemDetails()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-03 06:19:44 --> ErrorException: Undefined variable $sys_id_natur
+in APPPATH\Controllers\ManuscriptController.php on line 97.
+ 1 APPPATH\Controllers\ManuscriptController.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sys_id_natur', 'C:\\xampp\\htdocs\\amar\\app\\Controllers\\ManuscriptController.php', 97)
+ 2 APPPATH\Controllers\ManuscriptController.php(30): App\Controllers\ManuscriptController->getAllSystemDetails()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-03 06:19:44 --> ErrorException: Undefined variable $sys_id_natur
+in APPPATH\Controllers\ManuscriptController.php on line 97.
+ 1 APPPATH\Controllers\ManuscriptController.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sys_id_natur', 'C:\\xampp\\htdocs\\amar\\app\\Controllers\\ManuscriptController.php', 97)
+ 2 APPPATH\Controllers\ManuscriptController.php(30): App\Controllers\ManuscriptController->getAllSystemDetails()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-03 06:33:19 --> ErrorException: Undefined variable $sys_id_natur
+in APPPATH\Controllers\ManuscriptController.php on line 97.
+ 1 APPPATH\Controllers\ManuscriptController.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sys_id_natur', 'C:\\xampp\\htdocs\\amar\\app\\Controllers\\ManuscriptController.php', 97)
+ 2 APPPATH\Controllers\ManuscriptController.php(30): App\Controllers\ManuscriptController->getAllSystemDetails()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-03 06:33:39 --> ErrorException: Undefined variable $sys_id_natur
+in APPPATH\Controllers\ManuscriptController.php on line 97.
+ 1 APPPATH\Controllers\ManuscriptController.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sys_id_natur', 'C:\\xampp\\htdocs\\amar\\app\\Controllers\\ManuscriptController.php', 97)
+ 2 APPPATH\Controllers\ManuscriptController.php(30): App\Controllers\ManuscriptController->getAllSystemDetails()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-03 06:33:39 --> ErrorException: Undefined variable $sys_id_natur
+in APPPATH\Controllers\ManuscriptController.php on line 97.
+ 1 APPPATH\Controllers\ManuscriptController.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sys_id_natur', 'C:\\xampp\\htdocs\\amar\\app\\Controllers\\ManuscriptController.php', 97)
+ 2 APPPATH\Controllers\ManuscriptController.php(30): App\Controllers\ManuscriptController->getAllSystemDetails()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-03 06:33:40 --> ErrorException: Undefined variable $sys_id_natur
+in APPPATH\Controllers\ManuscriptController.php on line 97.
+ 1 APPPATH\Controllers\ManuscriptController.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sys_id_natur', 'C:\\xampp\\htdocs\\amar\\app\\Controllers\\ManuscriptController.php', 97)
+ 2 APPPATH\Controllers\ManuscriptController.php(30): App\Controllers\ManuscriptController->getAllSystemDetails()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-03 06:33:43 --> ErrorException: Undefined variable $sys_id_natur
+in APPPATH\Controllers\ManuscriptController.php on line 97.
+ 1 APPPATH\Controllers\ManuscriptController.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sys_id_natur', 'C:\\xampp\\htdocs\\amar\\app\\Controllers\\ManuscriptController.php', 97)
+ 2 APPPATH\Controllers\ManuscriptController.php(30): App\Controllers\ManuscriptController->getAllSystemDetails()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-03 06:33:43 --> ErrorException: Undefined variable $sys_id_natur
+in APPPATH\Controllers\ManuscriptController.php on line 97.
+ 1 APPPATH\Controllers\ManuscriptController.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sys_id_natur', 'C:\\xampp\\htdocs\\amar\\app\\Controllers\\ManuscriptController.php', 97)
+ 2 APPPATH\Controllers\ManuscriptController.php(30): App\Controllers\ManuscriptController->getAllSystemDetails()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-03 06:33:43 --> ErrorException: Undefined variable $sys_id_natur
+in APPPATH\Controllers\ManuscriptController.php on line 97.
+ 1 APPPATH\Controllers\ManuscriptController.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sys_id_natur', 'C:\\xampp\\htdocs\\amar\\app\\Controllers\\ManuscriptController.php', 97)
+ 2 APPPATH\Controllers\ManuscriptController.php(30): App\Controllers\ManuscriptController->getAllSystemDetails()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-03 06:33:43 --> ErrorException: Undefined variable $sys_id_natur
+in APPPATH\Controllers\ManuscriptController.php on line 97.
+ 1 APPPATH\Controllers\ManuscriptController.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sys_id_natur', 'C:\\xampp\\htdocs\\amar\\app\\Controllers\\ManuscriptController.php', 97)
+ 2 APPPATH\Controllers\ManuscriptController.php(30): App\Controllers\ManuscriptController->getAllSystemDetails()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-03 06:35:22 --> ErrorException: Undefined variable $sys_id_natur
+in APPPATH\Controllers\ManuscriptController.php on line 97.
+ 1 APPPATH\Controllers\ManuscriptController.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sys_id_natur', 'C:\\xampp\\htdocs\\amar\\app\\Controllers\\ManuscriptController.php', 97)
+ 2 APPPATH\Controllers\ManuscriptController.php(30): App\Controllers\ManuscriptController->getAllSystemDetails()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-03 06:35:23 --> ErrorException: Undefined variable $sys_id_natur
+in APPPATH\Controllers\ManuscriptController.php on line 97.
+ 1 APPPATH\Controllers\ManuscriptController.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sys_id_natur', 'C:\\xampp\\htdocs\\amar\\app\\Controllers\\ManuscriptController.php', 97)
+ 2 APPPATH\Controllers\ManuscriptController.php(30): App\Controllers\ManuscriptController->getAllSystemDetails()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-03 06:35:23 --> ErrorException: Undefined variable $sys_id_natur
+in APPPATH\Controllers\ManuscriptController.php on line 97.
+ 1 APPPATH\Controllers\ManuscriptController.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sys_id_natur', 'C:\\xampp\\htdocs\\amar\\app\\Controllers\\ManuscriptController.php', 97)
+ 2 APPPATH\Controllers\ManuscriptController.php(30): App\Controllers\ManuscriptController->getAllSystemDetails()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-03 06:35:49 --> ErrorException: Undefined variable $sys_id_natur
+in APPPATH\Controllers\ManuscriptController.php on line 97.
+ 1 APPPATH\Controllers\ManuscriptController.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sys_id_natur', 'C:\\xampp\\htdocs\\amar\\app\\Controllers\\ManuscriptController.php', 97)
+ 2 APPPATH\Controllers\ManuscriptController.php(30): App\Controllers\ManuscriptController->getAllSystemDetails()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-03 06:36:04 --> ErrorException: Undefined variable $sys_id_natur
+in APPPATH\Controllers\ManuscriptController.php on line 97.
+ 1 APPPATH\Controllers\ManuscriptController.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sys_id_natur', 'C:\\xampp\\htdocs\\amar\\app\\Controllers\\ManuscriptController.php', 97)
+ 2 APPPATH\Controllers\ManuscriptController.php(30): App\Controllers\ManuscriptController->getAllSystemDetails()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-03 06:36:36 --> ErrorException: Undefined variable $sys_id_homeo
+in APPPATH\Controllers\ManuscriptController.php on line 100.
+ 1 APPPATH\Controllers\ManuscriptController.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sys_id_homeo', 'C:\\xampp\\htdocs\\amar\\app\\Controllers\\ManuscriptController.php', 100)
+ 2 APPPATH\Controllers\ManuscriptController.php(30): App\Controllers\ManuscriptController->getAllSystemDetails()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-03 06:41:01 --> ErrorException: Undefined variable $manuscript_data
+in APPPATH\Views\partials\manuscript_view.php on line 4.
+ 1 APPPATH\Views\partials\manuscript_view.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $manuscript_data', 'C:\\xampp\\htdocs\\amar\\app\\Views\\partials\\manuscript_view.php', 4)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\amar\\app\\Views\\partials\\manuscript_view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/manuscript_view', [], true)
+ 5 APPPATH\Controllers\ManuscriptController.php(108): view('partials/manuscript_view', [...])
+ 6 APPPATH\Controllers\ManuscriptController.php(30): App\Controllers\ManuscriptController->getAllSystemDetails()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-03 06:42:35 --> ErrorException: Undefined variable $sys_count_naturopathy
+in APPPATH\Views\partials\manuscript_view.php on line 118.
+ 1 APPPATH\Views\partials\manuscript_view.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sys_count_naturopathy', 'C:\\xampp\\htdocs\\amar\\app\\Views\\partials\\manuscript_view.php', 118)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\amar\\app\\Views\\partials\\manuscript_view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/manuscript_view', [], true)
+ 5 APPPATH\Controllers\ManuscriptController.php(108): view('partials/manuscript_view', [...])
+ 6 APPPATH\Controllers\ManuscriptController.php(30): App\Controllers\ManuscriptController->getAllSystemDetails()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-03 06:43:58 --> ErrorException: Undefined variable $natr_count
+in APPPATH\Controllers\ManuscriptController.php on line 101.
+ 1 APPPATH\Controllers\ManuscriptController.php(101): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $natr_count', 'C:\\xampp\\htdocs\\amar\\app\\Controllers\\ManuscriptController.php', 101)
+ 2 APPPATH\Controllers\ManuscriptController.php(30): App\Controllers\ManuscriptController->getAllSystemDetails()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-03 06:44:26 --> ErrorException: Undefined variable $homeo_count
+in APPPATH\Controllers\ManuscriptController.php on line 105.
+ 1 APPPATH\Controllers\ManuscriptController.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $homeo_count', 'C:\\xampp\\htdocs\\amar\\app\\Controllers\\ManuscriptController.php', 105)
+ 2 APPPATH\Controllers\ManuscriptController.php(30): App\Controllers\ManuscriptController->getAllSystemDetails()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-03 06:44:46 --> ErrorException: Undefined variable $sys_count_naturopathy
+in APPPATH\Views\partials\manuscript_view.php on line 118.
+ 1 APPPATH\Views\partials\manuscript_view.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sys_count_naturopathy', 'C:\\xampp\\htdocs\\amar\\app\\Views\\partials\\manuscript_view.php', 118)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\amar\\app\\Views\\partials\\manuscript_view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/manuscript_view', [], true)
+ 5 APPPATH\Controllers\ManuscriptController.php(111): view('partials/manuscript_view', [...])
+ 6 APPPATH\Controllers\ManuscriptController.php(30): App\Controllers\ManuscriptController->getAllSystemDetails()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-03 06:53:02 --> ErrorException: Undefined property: stdClass::$state
+in APPPATH\Views\partials\rarebook_full_details.php on line 41.
+ 1 APPPATH\Views\partials\rarebook_full_details.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$state', 'C:\\xampp\\htdocs\\amar\\app\\Views\\partials\\rarebook_full_details.php', 41)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\amar\\app\\Views\\partials\\rarebook_full_details.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/rarebook_full_details', [], true)
+ 5 APPPATH\Controllers\RarebookController.php(39): view('partials/rarebook_full_details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\RarebookController->viewFullRarebookDetails('7')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RarebookController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-03 06:56:30 --> ErrorException: Undefined property: stdClass::$state
+in APPPATH\Views\partials\rarebook_full_details.php on line 41.
+ 1 APPPATH\Views\partials\rarebook_full_details.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$state', 'C:\\xampp\\htdocs\\amar\\app\\Views\\partials\\rarebook_full_details.php', 41)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\amar\\app\\Views\\partials\\rarebook_full_details.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/rarebook_full_details', [], true)
+ 5 APPPATH\Controllers\RarebookController.php(39): view('partials/rarebook_full_details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\RarebookController->viewFullRarebookDetails('7')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RarebookController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-03 06:56:32 --> ErrorException: Undefined property: stdClass::$state
+in APPPATH\Views\partials\rarebook_full_details.php on line 41.
+ 1 APPPATH\Views\partials\rarebook_full_details.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$state', 'C:\\xampp\\htdocs\\amar\\app\\Views\\partials\\rarebook_full_details.php', 41)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\amar\\app\\Views\\partials\\rarebook_full_details.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/rarebook_full_details', [], true)
+ 5 APPPATH\Controllers\RarebookController.php(39): view('partials/rarebook_full_details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\RarebookController->viewFullRarebookDetails('7')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RarebookController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

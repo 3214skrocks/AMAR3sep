@@ -1,0 +1,114 @@
+CRITICAL - 2024-04-22 10:29:04 --> TypeError: Argument 2 passed to view() must be of the type array, string given, called in D:\Xampp-server-php_7-4-30\htdocs\lht-ci\app\Controllers\SearchController.php on line 31
+in SYSTEMPATH\Common.php on line 1166.
+ 1 APPPATH\Controllers\SearchController.php(31): view('partials/full_details_view', '1')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SearchController->viewalldata('1')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SearchController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-22 10:29:10 --> TypeError: Argument 2 passed to view() must be of the type array, string given, called in D:\Xampp-server-php_7-4-30\htdocs\lht-ci\app\Controllers\SearchController.php on line 31
+in SYSTEMPATH\Common.php on line 1166.
+ 1 APPPATH\Controllers\SearchController.php(31): view('partials/full_details_view', '1')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SearchController->viewalldata('1')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SearchController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-22 10:33:56 --> ParseError: syntax error, unexpected 'exit' (T_EXIT)
+in APPPATH\Views\partials\full_details_view.php on line 4.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/full_details_view', [], true)
+ 3 APPPATH\Controllers\SearchController.php(32): view('partials/full_details_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SearchController->viewalldata('1')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SearchController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-22 10:33:59 --> ParseError: syntax error, unexpected 'exit' (T_EXIT)
+in APPPATH\Views\partials\full_details_view.php on line 4.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/full_details_view', [], true)
+ 3 APPPATH\Controllers\SearchController.php(32): view('partials/full_details_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SearchController->viewalldata('2')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SearchController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-04-22 10:41:19 --> mysqli_sql_exception: Unknown column '$num' in 'where clause' in D:\Xampp-server-php_7-4-30\htdocs\lht-ci\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Xampp-server-php_7-4-30\htdocs\lht-ci\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT * FROM l...', 0)
+#1 D:\Xampp-server-php_7-4-30\htdocs\lht-ci\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM l...')
+#2 D:\Xampp-server-php_7-4-30\htdocs\lht-ci\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM l...')
+#3 D:\Xampp-server-php_7-4-30\htdocs\lht-ci\app\Models\SearchModel.php(36): CodeIgniter\Database\BaseConnection->query('SELECT * FROM l...')
+#4 D:\Xampp-server-php_7-4-30\htdocs\lht-ci\app\Controllers\SearchController.php(33): App\Models\SearchModel->getFullData('1')
+#5 D:\Xampp-server-php_7-4-30\htdocs\lht-ci\system\CodeIgniter.php(941): App\Controllers\SearchController->viewalldata('1')
+#6 D:\Xampp-server-php_7-4-30\htdocs\lht-ci\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SearchController))
+#7 D:\Xampp-server-php_7-4-30\htdocs\lht-ci\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Xampp-server-php_7-4-30\htdocs\lht-ci\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-04-22 10:41:19 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column '$num' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\SearchModel.php(36): CodeIgniter\Database\BaseConnection->query('SELECT * FROM lht_details  where lht_id=$num;')
+ 2 APPPATH\Controllers\SearchController.php(33): App\Models\SearchModel->getFullData('1')
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SearchController->viewalldata('1')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SearchController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-22 10:41:19 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column '$num' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM lht_details  where lht_id=$num;')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM lht_details  where lht_id=$num;')
+ 3 APPPATH\Models\SearchModel.php(36): CodeIgniter\Database\BaseConnection->query('SELECT * FROM lht_details  where lht_id=$num;')
+ 4 APPPATH\Controllers\SearchController.php(33): App\Models\SearchModel->getFullData('1')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SearchController->viewalldata('1')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SearchController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-22 10:41:19 --> [Caused by] mysqli_sql_exception: Unknown column '$num' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT * FROM lht_details  where lht_id=$num;', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM lht_details  where lht_id=$num;')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM lht_details  where lht_id=$num;')
+ 4 APPPATH\Models\SearchModel.php(36): CodeIgniter\Database\BaseConnection->query('SELECT * FROM lht_details  where lht_id=$num;')
+ 5 APPPATH\Controllers\SearchController.php(33): App\Models\SearchModel->getFullData('1')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SearchController->viewalldata('1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SearchController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-04-22 10:41:44 --> mysqli_sql_exception: Unknown column '$num' in 'where clause' in D:\Xampp-server-php_7-4-30\htdocs\lht-ci\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\Xampp-server-php_7-4-30\htdocs\lht-ci\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT * FROM l...', 0)
+#1 D:\Xampp-server-php_7-4-30\htdocs\lht-ci\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM l...')
+#2 D:\Xampp-server-php_7-4-30\htdocs\lht-ci\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM l...')
+#3 D:\Xampp-server-php_7-4-30\htdocs\lht-ci\app\Models\SearchModel.php(36): CodeIgniter\Database\BaseConnection->query('SELECT * FROM l...')
+#4 D:\Xampp-server-php_7-4-30\htdocs\lht-ci\app\Controllers\SearchController.php(33): App\Models\SearchModel->getFullData('1')
+#5 D:\Xampp-server-php_7-4-30\htdocs\lht-ci\system\CodeIgniter.php(941): App\Controllers\SearchController->viewalldata('1')
+#6 D:\Xampp-server-php_7-4-30\htdocs\lht-ci\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SearchController))
+#7 D:\Xampp-server-php_7-4-30\htdocs\lht-ci\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Xampp-server-php_7-4-30\htdocs\lht-ci\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-04-22 10:41:44 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column '$num' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\SearchModel.php(36): CodeIgniter\Database\BaseConnection->query('SELECT * FROM lht_details  where lht_id=$num;')
+ 2 APPPATH\Controllers\SearchController.php(33): App\Models\SearchModel->getFullData('1')
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SearchController->viewalldata('1')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SearchController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-22 10:41:44 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column '$num' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM lht_details  where lht_id=$num;')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM lht_details  where lht_id=$num;')
+ 3 APPPATH\Models\SearchModel.php(36): CodeIgniter\Database\BaseConnection->query('SELECT * FROM lht_details  where lht_id=$num;')
+ 4 APPPATH\Controllers\SearchController.php(33): App\Models\SearchModel->getFullData('1')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SearchController->viewalldata('1')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SearchController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-22 10:41:44 --> [Caused by] mysqli_sql_exception: Unknown column '$num' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT * FROM lht_details  where lht_id=$num;', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM lht_details  where lht_id=$num;')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM lht_details  where lht_id=$num;')
+ 4 APPPATH\Models\SearchModel.php(36): CodeIgniter\Database\BaseConnection->query('SELECT * FROM lht_details  where lht_id=$num;')
+ 5 APPPATH\Controllers\SearchController.php(33): App\Models\SearchModel->getFullData('1')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SearchController->viewalldata('1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SearchController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

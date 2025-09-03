@@ -1,0 +1,47 @@
+INFO - 2024-12-02 04:18:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-02 04:37:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-02 04:38:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-02 04:38:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-02 04:38:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-02 09:25:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-02 09:25:53 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\partials\cataloguerdashboardview.php on line 60.
+ 1 APPPATH\Views\partials\cataloguerdashboardview.php(60): htmlspecialchars(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\amar\\app\\Views\\partials\\cataloguerdashboardview.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('/partials/cataloguerdashboardview', [], true)
+ 5 APPPATH\Controllers\SupervisorController.php(59): view('/partials/cataloguerdashboardview', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SupervisorController->getCataloguerApprovedData()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SupervisorController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-12-02 09:25:53 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\partials\cataloguerdashboardview.php on line 58.
+ 1 APPPATH\Views\partials\cataloguerdashboardview.php(58): htmlspecialchars(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\amar\\app\\Views\\partials\\cataloguerdashboardview.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('/partials/cataloguerdashboardview', [], true)
+ 5 APPPATH\Controllers\SupervisorController.php(59): view('/partials/cataloguerdashboardview', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SupervisorController->getCataloguerApprovedData()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SupervisorController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-02 09:26:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-02 09:26:16 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\partials\cataloguerdashboardview.php on line 60.
+ 1 APPPATH\Views\partials\cataloguerdashboardview.php(60): htmlspecialchars(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\amar\\app\\Views\\partials\\cataloguerdashboardview.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('/partials/cataloguerdashboardview', [], true)
+ 5 APPPATH\Controllers\SupervisorController.php(59): view('/partials/cataloguerdashboardview', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SupervisorController->getCataloguerApprovedData()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SupervisorController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-12-02 09:26:16 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\partials\cataloguerdashboardview.php on line 58.
+ 1 APPPATH\Views\partials\cataloguerdashboardview.php(58): htmlspecialchars(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\amar\\app\\Views\\partials\\cataloguerdashboardview.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('/partials/cataloguerdashboardview', [], true)
+ 5 APPPATH\Controllers\SupervisorController.php(59): view('/partials/cataloguerdashboardview', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SupervisorController->getCataloguerApprovedData()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SupervisorController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

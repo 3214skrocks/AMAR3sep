@@ -1,0 +1,61 @@
+INFO - 2024-12-06 04:57:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-06 06:56:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-06 06:56:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-06 06:56:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-06 06:56:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-06 06:56:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-06 06:56:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-06 06:56:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-06 06:56:19 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\partials\SupervisorDashboardView.php on line 138.
+ 1 APPPATH\Views\partials\SupervisorDashboardView.php(138): htmlspecialchars(null)
+ 2 APPPATH\Views\partials\SupervisorDashboardView.php(90): renderTableRow([...], 'Manuscript', 'http://localhost/amar/supervisor/approve', 'http://localhost/amar/supervisor/reject', 1)
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\amar\\app\\Views\\partials\\SupervisorDashboardView.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('/partials/SupervisorDashboardView', [], true)
+ 6 APPPATH\Controllers\SupervisorController.php(101): view('/partials/SupervisorDashboardView', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SupervisorController->rejected()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SupervisorController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-12-06 06:56:19 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\partials\SupervisorDashboardView.php on line 136.
+ 1 APPPATH\Views\partials\SupervisorDashboardView.php(136): htmlspecialchars(null)
+ 2 APPPATH\Views\partials\SupervisorDashboardView.php(90): renderTableRow([...], 'Manuscript', 'http://localhost/amar/supervisor/approve', 'http://localhost/amar/supervisor/reject', 6)
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\amar\\app\\Views\\partials\\SupervisorDashboardView.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('/partials/SupervisorDashboardView', [], true)
+ 6 APPPATH\Controllers\SupervisorController.php(101): view('/partials/SupervisorDashboardView', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SupervisorController->rejected()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SupervisorController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-06 06:56:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-06 06:56:21 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\partials\cataloguerdashboardview.php on line 60.
+ 1 APPPATH\Views\partials\cataloguerdashboardview.php(60): htmlspecialchars(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\amar\\app\\Views\\partials\\cataloguerdashboardview.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('/partials/cataloguerdashboardview', [], true)
+ 5 APPPATH\Controllers\SupervisorController.php(59): view('/partials/cataloguerdashboardview', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SupervisorController->getCataloguerApprovedData()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SupervisorController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-12-06 06:56:21 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\partials\cataloguerdashboardview.php on line 58.
+ 1 APPPATH\Views\partials\cataloguerdashboardview.php(58): htmlspecialchars(null)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\amar\\app\\Views\\partials\\cataloguerdashboardview.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('/partials/cataloguerdashboardview', [], true)
+ 5 APPPATH\Controllers\SupervisorController.php(59): view('/partials/cataloguerdashboardview', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SupervisorController->getCataloguerApprovedData()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SupervisorController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-06 11:30:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-06 11:30:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-06 11:30:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-06 11:30:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-06 11:30:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-06 11:30:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-06 11:30:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-06 11:30:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-06 11:30:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-06 11:30:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

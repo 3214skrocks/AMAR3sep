@@ -1,0 +1,36 @@
+CRITICAL - 2024-05-21 06:26:43 --> ParseError: syntax error, unexpected '[', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+in APPPATH\Views\partials\rarebook_full_details.php on line 24.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/rarebook_full_details', [], true)
+ 3 APPPATH\Controllers\RarebookController.php(39): view('partials/rarebook_full_details', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\RarebookController->viewFullRarebookDetails('1')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RarebookController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-21 06:26:49 --> ParseError: syntax error, unexpected '[', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+in APPPATH\Views\partials\rarebook_full_details.php on line 24.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/rarebook_full_details', [], true)
+ 3 APPPATH\Controllers\RarebookController.php(39): view('partials/rarebook_full_details', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\RarebookController->viewFullRarebookDetails('1')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RarebookController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-21 06:26:56 --> ParseError: syntax error, unexpected '[', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+in APPPATH\Views\partials\rarebook_full_details.php on line 24.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/rarebook_full_details', [], true)
+ 3 APPPATH\Controllers\RarebookController.php(39): view('partials/rarebook_full_details', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\RarebookController->viewFullRarebookDetails('1')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RarebookController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-21 06:27:07 --> ParseError: syntax error, unexpected '[', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+in APPPATH\Views\partials\rarebook_full_details.php on line 24.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/rarebook_full_details', [], true)
+ 3 APPPATH\Controllers\RarebookController.php(39): view('partials/rarebook_full_details', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\RarebookController->viewFullRarebookDetails('1')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RarebookController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

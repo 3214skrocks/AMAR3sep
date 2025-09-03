@@ -1,0 +1,250 @@
+CRITICAL - 2024-04-18 06:15:27 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "search_view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('search_view.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('search_view', [], true)
+ 3 APPPATH\Controllers\SearchController.php(24): view('search_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SearchController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SearchController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-18 06:22:15 --> ParseError: syntax error, unexpected 'foreach' (T_FOREACH)
+in APPPATH\Views\partials\search_view.php on line 29.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/search_view', [], true)
+ 3 APPPATH\Controllers\SearchController.php(24): view('partials/search_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SearchController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SearchController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-18 06:23:41 --> ParseError: syntax error, unexpected 'foreach' (T_FOREACH)
+in APPPATH\Views\partials\search_view.php on line 29.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/search_view', [], true)
+ 3 APPPATH\Controllers\SearchController.php(24): view('partials/search_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SearchController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SearchController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-18 06:23:42 --> ParseError: syntax error, unexpected 'foreach' (T_FOREACH)
+in APPPATH\Views\partials\search_view.php on line 29.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/search_view', [], true)
+ 3 APPPATH\Controllers\SearchController.php(24): view('partials/search_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SearchController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SearchController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-18 06:24:57 --> ParseError: syntax error, unexpected 'foreach' (T_FOREACH)
+in APPPATH\Views\partials\search_view.php on line 29.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/search_view', [], true)
+ 3 APPPATH\Controllers\SearchController.php(24): view('partials/search_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SearchController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SearchController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-18 06:26:45 --> ParseError: syntax error, unexpected '?>'
+in APPPATH\Views\partials\search_view.php on line 27.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/search_view', [], true)
+ 3 APPPATH\Controllers\SearchController.php(24): view('partials/search_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SearchController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SearchController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-18 06:27:33 --> ParseError: syntax error, unexpected '?>'
+in APPPATH\Views\partials\search_view.php on line 27.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/search_view', [], true)
+ 3 APPPATH\Controllers\SearchController.php(24): view('partials/search_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SearchController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SearchController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-18 06:28:19 --> ParseError: syntax error, unexpected 'foreach' (T_FOREACH)
+in APPPATH\Views\partials\search_view.php on line 28.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/search_view', [], true)
+ 3 APPPATH\Controllers\SearchController.php(24): view('partials/search_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SearchController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SearchController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-18 06:28:20 --> ParseError: syntax error, unexpected 'foreach' (T_FOREACH)
+in APPPATH\Views\partials\search_view.php on line 28.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/search_view', [], true)
+ 3 APPPATH\Controllers\SearchController.php(24): view('partials/search_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SearchController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SearchController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-18 06:30:44 --> ParseError: syntax error, unexpected '?>'
+in APPPATH\Views\partials\search_view.php on line 27.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/search_view', [], true)
+ 3 APPPATH\Controllers\SearchController.php(24): view('partials/search_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SearchController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SearchController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-18 06:30:45 --> ParseError: syntax error, unexpected '?>'
+in APPPATH\Views\partials\search_view.php on line 27.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/search_view', [], true)
+ 3 APPPATH\Controllers\SearchController.php(24): view('partials/search_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SearchController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SearchController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-18 06:45:37 --> ParseError: syntax error, unexpected '?>'
+in APPPATH\Views\partials\search_view.php on line 4.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/search_view', [], true)
+ 3 APPPATH\Controllers\SearchController.php(24): view('partials/search_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SearchController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SearchController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-18 06:46:35 --> ParseError: syntax error, unexpected '?>'
+in APPPATH\Views\partials\search_view.php on line 6.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/search_view', [], true)
+ 3 APPPATH\Controllers\SearchController.php(24): view('partials/search_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SearchController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SearchController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-18 06:49:48 --> ParseError: syntax error, unexpected '?>'
+in APPPATH\Views\partials\search_view.php on line 6.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/search_view', [], true)
+ 3 APPPATH\Controllers\SearchController.php(24): view('partials/search_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SearchController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SearchController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-18 06:51:24 --> ParseError: syntax error, unexpected '?>'
+in APPPATH\Views\partials\search_view.php on line 6.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/search_view', [], true)
+ 3 APPPATH\Controllers\SearchController.php(24): view('partials/search_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SearchController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SearchController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-18 06:53:46 --> ParseError: syntax error, unexpected 'foreach' (T_FOREACH)
+in APPPATH\Views\partials\search_view.php on line 29.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/search_view', [], true)
+ 3 APPPATH\Controllers\SearchController.php(24): view('partials/search_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SearchController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SearchController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-18 07:46:22 --> ParseError: syntax error, unexpected end of file
+in APPPATH\Views\partials\search_view.php on line 96.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/search_view', [], true)
+ 3 APPPATH\Controllers\SearchController.php(25): view('partials/search_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SearchController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SearchController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-18 07:46:24 --> ParseError: syntax error, unexpected end of file
+in APPPATH\Views\partials\search_view.php on line 96.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/search_view', [], true)
+ 3 APPPATH\Controllers\SearchController.php(25): view('partials/search_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SearchController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SearchController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-18 07:46:39 --> ParseError: syntax error, unexpected end of file
+in APPPATH\Views\partials\search_view.php on line 96.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/search_view', [], true)
+ 3 APPPATH\Controllers\SearchController.php(25): view('partials/search_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SearchController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SearchController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-18 07:46:40 --> ParseError: syntax error, unexpected end of file
+in APPPATH\Views\partials\search_view.php on line 96.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/search_view', [], true)
+ 3 APPPATH\Controllers\SearchController.php(25): view('partials/search_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SearchController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SearchController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-18 07:47:19 --> ParseError: syntax error, unexpected end of file
+in APPPATH\Views\partials\search_view.php on line 96.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/search_view', [], true)
+ 3 APPPATH\Controllers\SearchController.php(25): view('partials/search_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SearchController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SearchController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-18 07:53:32 --> Error: Cannot use object of type stdClass as array
+in APPPATH\Views\partials\search_view.php on line 30.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/search_view', [], true)
+ 4 APPPATH\Controllers\SearchController.php(25): view('partials/search_view', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SearchController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SearchController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-18 08:13:20 --> ParseError: syntax error, unexpected '<', expecting end of file
+in APPPATH\Views\partials\search_view.php on line 60.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/search_view', [], true)
+ 3 APPPATH\Controllers\SearchController.php(25): view('partials/search_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SearchController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SearchController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-18 10:23:29 --> RuntimeException: View themes, no current section.
+in SYSTEMPATH\View\View.php on line 425.
+ 1 APPPATH\Views\partials\table_view.php(111): CodeIgniter\View\View->endSection()
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\Xampp-server-php_7-4-30\\htdocs\\lht-ci\\app\\Views\\partials\\table_view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/table_view', [], true)
+ 5 APPPATH\Controllers\SearchController.php(25): view('partials/table_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SearchController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SearchController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-18 10:23:30 --> RuntimeException: View themes, no current section.
+in SYSTEMPATH\View\View.php on line 425.
+ 1 APPPATH\Views\partials\table_view.php(111): CodeIgniter\View\View->endSection()
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\Xampp-server-php_7-4-30\\htdocs\\lht-ci\\app\\Views\\partials\\table_view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/table_view', [], true)
+ 5 APPPATH\Controllers\SearchController.php(25): view('partials/table_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SearchController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SearchController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-18 10:24:10 --> ParseError: syntax error, unexpected '?>'
+in APPPATH\Views\partials\table_view.php on line 1.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/table_view', [], true)
+ 3 APPPATH\Controllers\SearchController.php(25): view('partials/table_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SearchController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SearchController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-18 10:24:57 --> RuntimeException: View themes, no current section.
+in SYSTEMPATH\View\View.php on line 425.
+ 1 APPPATH\Views\partials\table_view.php(117): CodeIgniter\View\View->endSection()
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\Xampp-server-php_7-4-30\\htdocs\\lht-ci\\app\\Views\\partials\\table_view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/table_view', [], true)
+ 5 APPPATH\Controllers\SearchController.php(25): view('partials/table_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\SearchController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SearchController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

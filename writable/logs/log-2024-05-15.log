@@ -1,0 +1,117 @@
+CRITICAL - 2024-05-15 12:36:08 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 884.
+ 1 SYSTEMPATH\Model.php(662): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(864): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\ManuscriptController.php(22): CodeIgniter\Model->__call('getData', [])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-15 12:36:11 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 884.
+ 1 SYSTEMPATH\Model.php(662): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(864): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\ManuscriptController.php(22): CodeIgniter\Model->__call('getData', [])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-15 12:36:35 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 884.
+ 1 SYSTEMPATH\Model.php(662): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(864): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\ManuscriptController.php(22): CodeIgniter\Model->__call('getData', [])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-15 12:36:53 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 884.
+ 1 SYSTEMPATH\Model.php(662): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(864): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\ManuscriptController.php(22): CodeIgniter\Model->__call('getData', [])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-15 12:36:54 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 884.
+ 1 SYSTEMPATH\Model.php(662): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(864): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\ManuscriptController.php(22): CodeIgniter\Model->__call('getData', [])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-15 12:51:02 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partials/manuscript _view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partials/manuscript _view.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/manuscript _view', [], true)
+ 3 APPPATH\Controllers\ManuscriptController.php(25): view('partials/manuscript _view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-15 12:51:04 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partials/manuscript _view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partials/manuscript _view.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/manuscript _view', [], true)
+ 3 APPPATH\Controllers\ManuscriptController.php(25): view('partials/manuscript _view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-15 12:51:43 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partials/manuscript _view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partials/manuscript _view.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/manuscript _view', [], true)
+ 3 APPPATH\Controllers\ManuscriptController.php(25): view('partials/manuscript _view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-15 12:59:46 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partials/manuscript _view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partials/manuscript _view.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/manuscript _view', [], true)
+ 3 APPPATH\Controllers\ManuscriptController.php(25): view('partials/manuscript _view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-15 12:59:47 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partials/manuscript _view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partials/manuscript _view.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/manuscript _view', [], true)
+ 3 APPPATH\Controllers\ManuscriptController.php(25): view('partials/manuscript _view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-15 12:59:48 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partials/manuscript _view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partials/manuscript _view.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/manuscript _view', [], true)
+ 3 APPPATH\Controllers\ManuscriptController.php(25): view('partials/manuscript _view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-15 12:59:48 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partials/manuscript _view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partials/manuscript _view.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/manuscript _view', [], true)
+ 3 APPPATH\Controllers\ManuscriptController.php(25): view('partials/manuscript _view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-15 12:59:48 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "partials/manuscript _view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partials/manuscript _view.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/manuscript _view', [], true)
+ 3 APPPATH\Controllers\ManuscriptController.php(25): view('partials/manuscript _view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

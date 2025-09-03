@@ -1,0 +1,58 @@
+CRITICAL - 2024-06-04 12:46:14 --> ParseError: syntax error, unexpected '?'
+in APPPATH\Views\partials\manuscript_view.php on line 194.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/manuscript_view', [], true)
+ 3 APPPATH\Controllers\ManuscriptController.php(120): view('partials/manuscript_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->getAllSystemManuscripts('2')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-04 12:49:10 --> ParseError: syntax error, unexpected '<'
+in APPPATH\Views\partials\manuscript_view.php on line 194.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/manuscript_view', [], true)
+ 3 APPPATH\Controllers\ManuscriptController.php(120): view('partials/manuscript_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->getAllSystemManuscripts('2')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-04 12:49:13 --> ParseError: syntax error, unexpected '<'
+in APPPATH\Views\partials\manuscript_view.php on line 194.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/manuscript_view', [], true)
+ 3 APPPATH\Controllers\ManuscriptController.php(105): view('partials/manuscript_view', [...])
+ 4 APPPATH\Controllers\ManuscriptController.php(29): App\Controllers\ManuscriptController->getAllSystemDetails()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-04 12:49:36 --> ParseError: syntax error, unexpected '.'
+in APPPATH\Views\partials\manuscript_view.php on line 195.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/manuscript_view', [], true)
+ 3 APPPATH\Controllers\ManuscriptController.php(105): view('partials/manuscript_view', [...])
+ 4 APPPATH\Controllers\ManuscriptController.php(29): App\Controllers\ManuscriptController->getAllSystemDetails()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-04 12:49:37 --> ParseError: syntax error, unexpected '.'
+in APPPATH\Views\partials\manuscript_view.php on line 195.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/manuscript_view', [], true)
+ 3 APPPATH\Controllers\ManuscriptController.php(105): view('partials/manuscript_view', [...])
+ 4 APPPATH\Controllers\ManuscriptController.php(29): App\Controllers\ManuscriptController->getAllSystemDetails()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-04 12:56:17 --> ParseError: syntax error, unexpected '<'
+in APPPATH\Views\partials\manuscript_view.php on line 194.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/manuscript_view', [], true)
+ 3 APPPATH\Controllers\ManuscriptController.php(105): view('partials/manuscript_view', [...])
+ 4 APPPATH\Controllers\ManuscriptController.php(29): App\Controllers\ManuscriptController->getAllSystemDetails()
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

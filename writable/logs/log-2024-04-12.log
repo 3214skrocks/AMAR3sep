@@ -1,0 +1,6 @@
+CRITICAL - 2024-04-12 12:52:48 --> TypeError: Return value of App\Controllers\WelcomeController::index() must be of the type string, none returned
+in APPPATH\Controllers\WelcomeController.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\WelcomeController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WelcomeController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

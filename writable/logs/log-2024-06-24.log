@@ -1,0 +1,29 @@
+CRITICAL - 2024-06-24 08:34:24 --> CodeIgniter\Exceptions\FrameworkException: The framework needs the following extension(s) installed and loaded: intl, mbstring.
+in SYSTEMPATH\CodeIgniter.php on line 252.
+ 1 SYSTEMPATH\CodeIgniter.php(252): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl, mbstring')
+ 2 SYSTEMPATH\CodeIgniter.php(214): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2024-06-24 06:37:56 --> ErrorException: Undefined variable $sys_id_natur
+in APPPATH\Controllers\ManuscriptController.php on line 96.
+ 1 APPPATH\Controllers\ManuscriptController.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sys_id_natur', 'C:\\xampp\\htdocs\\amar\\app\\Controllers\\ManuscriptController.php', 96)
+ 2 APPPATH\Controllers\ManuscriptController.php(29): App\Controllers\ManuscriptController->getAllSystemDetails()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-24 06:38:30 --> ErrorException: Undefined variable $sys_id_natur
+in APPPATH\Controllers\ManuscriptController.php on line 96.
+ 1 APPPATH\Controllers\ManuscriptController.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sys_id_natur', 'C:\\xampp\\htdocs\\amar\\app\\Controllers\\ManuscriptController.php', 96)
+ 2 APPPATH\Controllers\ManuscriptController.php(29): App\Controllers\ManuscriptController->getAllSystemDetails()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-24 06:49:17 --> ErrorException: Undefined variable $sys_id_natur
+in APPPATH\Controllers\ManuscriptController.php on line 96.
+ 1 APPPATH\Controllers\ManuscriptController.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sys_id_natur', 'C:\\xampp\\htdocs\\amar\\app\\Controllers\\ManuscriptController.php', 96)
+ 2 APPPATH\Controllers\ManuscriptController.php(29): App\Controllers\ManuscriptController->getAllSystemDetails()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

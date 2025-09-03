@@ -1,0 +1,892 @@
+INFO - 2024-08-09 04:35:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-09 05:04:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-09 05:05:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-09 05:05:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-09 05:05:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-09 05:05:14 --> BadMethodCallException: Call to undefined method App\Models\ManuscriptModel::fetchApprovedBySupervisor
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\CataloguerController.php(31): CodeIgniter\Model->__call('fetchApprovedBySupervisor', [])
+ 2 APPPATH\Controllers\CataloguerController.php(20): App\Controllers\CataloguerController->get_manuscript_data()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CataloguerController->getalldata()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CataloguerController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-09 05:21:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-09 05:21:10 --> BadMethodCallException: Call to undefined method App\Models\RareBookModel::fetchApprovedBySupervisor
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\CataloguerController.php(37): CodeIgniter\Model->__call('fetchApprovedBySupervisor', [])
+ 2 APPPATH\Controllers\CataloguerController.php(21): App\Controllers\CataloguerController->get_rarebook_data()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CataloguerController->getalldata()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CataloguerController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-09 05:21:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-09 05:21:11 --> BadMethodCallException: Call to undefined method App\Models\RareBookModel::fetchApprovedBySupervisor
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\CataloguerController.php(37): CodeIgniter\Model->__call('fetchApprovedBySupervisor', [])
+ 2 APPPATH\Controllers\CataloguerController.php(21): App\Controllers\CataloguerController->get_rarebook_data()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CataloguerController->getalldata()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CataloguerController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-09 05:21:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-09 05:21:11 --> BadMethodCallException: Call to undefined method App\Models\RareBookModel::fetchApprovedBySupervisor
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\CataloguerController.php(37): CodeIgniter\Model->__call('fetchApprovedBySupervisor', [])
+ 2 APPPATH\Controllers\CataloguerController.php(21): App\Controllers\CataloguerController->get_rarebook_data()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CataloguerController->getalldata()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CataloguerController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-09 05:21:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-09 05:21:12 --> BadMethodCallException: Call to undefined method App\Models\RareBookModel::fetchApprovedBySupervisor
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\CataloguerController.php(37): CodeIgniter\Model->__call('fetchApprovedBySupervisor', [])
+ 2 APPPATH\Controllers\CataloguerController.php(21): App\Controllers\CataloguerController->get_rarebook_data()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CataloguerController->getalldata()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CataloguerController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-09 05:21:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-09 05:21:12 --> BadMethodCallException: Call to undefined method App\Models\RareBookModel::fetchApprovedBySupervisor
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\CataloguerController.php(37): CodeIgniter\Model->__call('fetchApprovedBySupervisor', [])
+ 2 APPPATH\Controllers\CataloguerController.php(21): App\Controllers\CataloguerController->get_rarebook_data()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CataloguerController->getalldata()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CataloguerController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-09 05:21:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-09 05:21:13 --> BadMethodCallException: Call to undefined method App\Models\RareBookModel::fetchApprovedBySupervisor
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\CataloguerController.php(37): CodeIgniter\Model->__call('fetchApprovedBySupervisor', [])
+ 2 APPPATH\Controllers\CataloguerController.php(21): App\Controllers\CataloguerController->get_rarebook_data()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CataloguerController->getalldata()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CataloguerController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-09 05:21:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-09 05:21:13 --> BadMethodCallException: Call to undefined method App\Models\RareBookModel::fetchApprovedBySupervisor
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\CataloguerController.php(37): CodeIgniter\Model->__call('fetchApprovedBySupervisor', [])
+ 2 APPPATH\Controllers\CataloguerController.php(21): App\Controllers\CataloguerController->get_rarebook_data()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CataloguerController->getalldata()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CataloguerController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-09 05:21:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-09 05:21:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-09 05:21:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-09 05:21:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-09 05:21:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-09 05:21:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-09 05:21:29 --> BadMethodCallException: Call to undefined method App\Models\RareBookModel::fetchApprovedBySupervisor
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\CataloguerController.php(37): CodeIgniter\Model->__call('fetchApprovedBySupervisor', [])
+ 2 APPPATH\Controllers\CataloguerController.php(21): App\Controllers\CataloguerController->get_rarebook_data()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CataloguerController->getalldata()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CataloguerController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-09 05:36:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-09 05:36:52 --> BadMethodCallException: Call to undefined method App\Models\CatalogueModel::fetchApprovedBySupervisor
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\CataloguerController.php(49): CodeIgniter\Model->__call('fetchApprovedBySupervisor', [])
+ 2 APPPATH\Controllers\CataloguerController.php(22): App\Controllers\CataloguerController->get_Catalogue_data()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CataloguerController->getalldata()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CataloguerController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-09 05:36:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-09 05:36:56 --> BadMethodCallException: Call to undefined method App\Models\CatalogueModel::fetchApprovedBySupervisor
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\CataloguerController.php(49): CodeIgniter\Model->__call('fetchApprovedBySupervisor', [])
+ 2 APPPATH\Controllers\CataloguerController.php(22): App\Controllers\CataloguerController->get_Catalogue_data()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CataloguerController->getalldata()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CataloguerController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-09 05:40:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-09 05:40:41 --> ArgumentCountError: Too few arguments to function App\Models\CatalogueModel::fetchApprovedBySupervisor(), 0 passed in C:\xampp\htdocs\amar\app\Controllers\CataloguerController.php on line 49 and exactly 1 expected
+in APPPATH\Models\CatalogueModel.php on line 68.
+ 1 APPPATH\Controllers\CataloguerController.php(49): App\Models\CatalogueModel->fetchApprovedBySupervisor()
+ 2 APPPATH\Controllers\CataloguerController.php(22): App\Controllers\CataloguerController->get_Catalogue_data()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CataloguerController->getalldata()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CataloguerController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-09 05:47:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-09 05:47:40 --> ArgumentCountError: Too few arguments to function App\Models\CatalogueModel::fetchApprovedBySupervisor(), 0 passed in C:\xampp\htdocs\amar\app\Controllers\CataloguerController.php on line 49 and exactly 1 expected
+in APPPATH\Models\CatalogueModel.php on line 68.
+ 1 APPPATH\Controllers\CataloguerController.php(49): App\Models\CatalogueModel->fetchApprovedBySupervisor()
+ 2 APPPATH\Controllers\CataloguerController.php(22): App\Controllers\CataloguerController->get_Catalogue_data()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CataloguerController->getalldata()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CataloguerController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-09 05:47:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-09 05:47:41 --> ArgumentCountError: Too few arguments to function App\Models\CatalogueModel::fetchApprovedBySupervisor(), 0 passed in C:\xampp\htdocs\amar\app\Controllers\CataloguerController.php on line 49 and exactly 1 expected
+in APPPATH\Models\CatalogueModel.php on line 68.
+ 1 APPPATH\Controllers\CataloguerController.php(49): App\Models\CatalogueModel->fetchApprovedBySupervisor()
+ 2 APPPATH\Controllers\CataloguerController.php(22): App\Controllers\CataloguerController->get_Catalogue_data()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CataloguerController->getalldata()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CataloguerController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-09 05:47:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-09 05:47:42 --> ArgumentCountError: Too few arguments to function App\Models\CatalogueModel::fetchApprovedBySupervisor(), 0 passed in C:\xampp\htdocs\amar\app\Controllers\CataloguerController.php on line 49 and exactly 1 expected
+in APPPATH\Models\CatalogueModel.php on line 68.
+ 1 APPPATH\Controllers\CataloguerController.php(49): App\Models\CatalogueModel->fetchApprovedBySupervisor()
+ 2 APPPATH\Controllers\CataloguerController.php(22): App\Controllers\CataloguerController->get_Catalogue_data()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CataloguerController->getalldata()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CataloguerController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-09 05:47:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-09 05:47:42 --> ArgumentCountError: Too few arguments to function App\Models\CatalogueModel::fetchApprovedBySupervisor(), 0 passed in C:\xampp\htdocs\amar\app\Controllers\CataloguerController.php on line 49 and exactly 1 expected
+in APPPATH\Models\CatalogueModel.php on line 68.
+ 1 APPPATH\Controllers\CataloguerController.php(49): App\Models\CatalogueModel->fetchApprovedBySupervisor()
+ 2 APPPATH\Controllers\CataloguerController.php(22): App\Controllers\CataloguerController->get_Catalogue_data()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CataloguerController->getalldata()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CataloguerController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-09 05:47:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-09 05:47:43 --> ArgumentCountError: Too few arguments to function App\Models\CatalogueModel::fetchApprovedBySupervisor(), 0 passed in C:\xampp\htdocs\amar\app\Controllers\CataloguerController.php on line 49 and exactly 1 expected
+in APPPATH\Models\CatalogueModel.php on line 68.
+ 1 APPPATH\Controllers\CataloguerController.php(49): App\Models\CatalogueModel->fetchApprovedBySupervisor()
+ 2 APPPATH\Controllers\CataloguerController.php(22): App\Controllers\CataloguerController->get_Catalogue_data()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CataloguerController->getalldata()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CataloguerController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-09 05:47:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-09 05:47:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-09 05:47:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-09 05:47:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-09 05:47:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-09 05:47:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-09 05:47:59 --> ArgumentCountError: Too few arguments to function App\Models\CatalogueModel::fetchApprovedBySupervisor(), 0 passed in C:\xampp\htdocs\amar\app\Controllers\CataloguerController.php on line 49 and exactly 1 expected
+in APPPATH\Models\CatalogueModel.php on line 68.
+ 1 APPPATH\Controllers\CataloguerController.php(49): App\Models\CatalogueModel->fetchApprovedBySupervisor()
+ 2 APPPATH\Controllers\CataloguerController.php(22): App\Controllers\CataloguerController->get_Catalogue_data()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CataloguerController->getalldata()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CataloguerController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-09 05:49:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-08-09 05:49:59 --> mysqli_sql_exception: Unknown column 'approved_by' in 'where clause' in C:\xampp\htdocs\amar\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\amar\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\amar\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\amar\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\amar\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\amar\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\amar\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\amar\app\Models\CatalogueModel.php(72): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\amar\app\Controllers\CataloguerController.php(52): App\Models\CatalogueModel->fetchApprovedBySupervisor(NULL)
+#8 C:\xampp\htdocs\amar\app\Controllers\CataloguerController.php(25): App\Controllers\CataloguerController->get_Catalogue_data(NULL)
+#9 C:\xampp\htdocs\amar\system\CodeIgniter.php(941): App\Controllers\CataloguerController->getalldata()
+#10 C:\xampp\htdocs\amar\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CataloguerController))
+#11 C:\xampp\htdocs\amar\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\amar\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-08-09 05:49:59 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'approved_by' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `Catalogue1`
+WHERE `status` = :status:
+AND `approved_by` IS NULL', [...], false)
+ 2 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\CatalogueModel.php(72): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\CataloguerController.php(52): App\Models\CatalogueModel->fetchApprovedBySupervisor(null)
+ 6 APPPATH\Controllers\CataloguerController.php(25): App\Controllers\CataloguerController->get_Catalogue_data(null)
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CataloguerController->getalldata()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CataloguerController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-09 05:49:59 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'approved_by' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `Catalogue1`
+WHERE `status` = \'Approved\'
+AND `approved_by` IS NULL')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `Catalogue1`
+WHERE `status` = \'Approved\'
+AND `approved_by` IS NULL')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `Catalogue1`
+WHERE `status` = :status:
+AND `approved_by` IS NULL', [...], false)
+ 4 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\CatalogueModel.php(72): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\CataloguerController.php(52): App\Models\CatalogueModel->fetchApprovedBySupervisor(null)
+ 8 APPPATH\Controllers\CataloguerController.php(25): App\Controllers\CataloguerController->get_Catalogue_data(null)
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CataloguerController->getalldata()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CataloguerController))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-09 05:49:59 --> [Caused by] mysqli_sql_exception: Unknown column 'approved_by' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *
+FROM `Catalogue1`
+WHERE `status` = \'Approved\'
+AND `approved_by` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `Catalogue1`
+WHERE `status` = \'Approved\'
+AND `approved_by` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `Catalogue1`
+WHERE `status` = \'Approved\'
+AND `approved_by` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `Catalogue1`
+WHERE `status` = :status:
+AND `approved_by` IS NULL', [...], false)
+ 5 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\CatalogueModel.php(72): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\CataloguerController.php(52): App\Models\CatalogueModel->fetchApprovedBySupervisor(null)
+ 9 APPPATH\Controllers\CataloguerController.php(25): App\Controllers\CataloguerController->get_Catalogue_data(null)
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CataloguerController->getalldata()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CataloguerController))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-09 06:48:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-09 06:48:33 --> BadMethodCallException: Call to undefined method App\Models\PeriodicalModel::fetchApprovedBySupervisor
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\CataloguerController.php(46): CodeIgniter\Model->__call('fetchApprovedBySupervisor', [...])
+ 2 APPPATH\Controllers\CataloguerController.php(26): App\Controllers\CataloguerController->get_Periodical_data(null)
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CataloguerController->getalldata()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CataloguerController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-09 06:48:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-09 06:48:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-09 06:48:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-09 06:48:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-09 06:48:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-09 06:48:52 --> BadMethodCallException: Call to undefined method App\Models\PeriodicalModel::fetchApprovedBySupervisor
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\CataloguerController.php(46): CodeIgniter\Model->__call('fetchApprovedBySupervisor', [...])
+ 2 APPPATH\Controllers\CataloguerController.php(26): App\Controllers\CataloguerController->get_Periodical_data(null)
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CataloguerController->getalldata()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CataloguerController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-09 06:49:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-09 06:51:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-09 06:51:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-09 06:51:44 --> BadMethodCallException: Call to undefined method App\Models\CatalogueModel::approveByCataloguer
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\CataloguerController.php(58): CodeIgniter\Model->__call('approveByCataloguer', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CataloguerController->approve('5', 'catalogue')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CataloguerController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-09 06:51:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-09 06:55:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-09 06:55:55 --> BadMethodCallException: Call to undefined method App\Models\CatalogueModel::rejectByCataloguer
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\CataloguerController.php(68): CodeIgniter\Model->__call('rejectByCataloguer', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CataloguerController->reject('6', 'catalogue')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CataloguerController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-09 06:56:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-09 06:56:05 --> BadMethodCallException: Call to undefined method App\Models\CatalogueModel::approveByCataloguer
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\CataloguerController.php(58): CodeIgniter\Model->__call('approveByCataloguer', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CataloguerController->approve('6', 'catalogue')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CataloguerController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-09 06:56:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-09 07:08:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-09 07:08:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-09 07:15:01 --> BadMethodCallException: Call to undefined method App\Models\ManuscriptModel::approveByCataloguer
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\CataloguerController.php(58): CodeIgniter\Model->__call('approveByCataloguer', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CataloguerController->approve('1', 'manuscript')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CataloguerController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-09 07:15:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-09 07:15:09 --> BadMethodCallException: Call to undefined method App\Models\ManuscriptModel::rejectByCataloguer
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\CataloguerController.php(68): CodeIgniter\Model->__call('rejectByCataloguer', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CataloguerController->reject('1', 'manuscript')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CataloguerController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-09 07:15:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-09 07:15:14 --> BadMethodCallException: Call to undefined method App\Models\RareBookModel::approveByCataloguer
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\CataloguerController.php(58): CodeIgniter\Model->__call('approveByCataloguer', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CataloguerController->approve('1', 'rarebook')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CataloguerController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-09 07:22:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-08-09 07:22:02 --> mysqli_sql_exception: Unknown column 'approved_by' in 'where clause' in C:\xampp\htdocs\amar\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\amar\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\amar\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\amar\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\amar\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\amar\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\amar\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\amar\app\Models\ManuscriptModel.php(82): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\amar\app\Controllers\CataloguerController.php(34): App\Models\ManuscriptModel->fetchApprovedBySupervisor(NULL)
+#8 C:\xampp\htdocs\amar\app\Controllers\CataloguerController.php(23): App\Controllers\CataloguerController->get_manuscript_data(NULL)
+#9 C:\xampp\htdocs\amar\system\CodeIgniter.php(941): App\Controllers\CataloguerController->getalldata()
+#10 C:\xampp\htdocs\amar\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CataloguerController))
+#11 C:\xampp\htdocs\amar\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\amar\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-08-09 07:22:02 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'approved_by' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `manuscript1_m`
+WHERE `status` = :status:
+AND `approved_by` IS NULL', [...], false)
+ 2 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\ManuscriptModel.php(82): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\CataloguerController.php(34): App\Models\ManuscriptModel->fetchApprovedBySupervisor(null)
+ 6 APPPATH\Controllers\CataloguerController.php(23): App\Controllers\CataloguerController->get_manuscript_data(null)
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CataloguerController->getalldata()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CataloguerController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-09 07:22:02 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'approved_by' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `manuscript1_m`
+WHERE `status` = \'Approved\'
+AND `approved_by` IS NULL')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `manuscript1_m`
+WHERE `status` = \'Approved\'
+AND `approved_by` IS NULL')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `manuscript1_m`
+WHERE `status` = :status:
+AND `approved_by` IS NULL', [...], false)
+ 4 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\ManuscriptModel.php(82): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\CataloguerController.php(34): App\Models\ManuscriptModel->fetchApprovedBySupervisor(null)
+ 8 APPPATH\Controllers\CataloguerController.php(23): App\Controllers\CataloguerController->get_manuscript_data(null)
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CataloguerController->getalldata()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CataloguerController))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-09 07:22:02 --> [Caused by] mysqli_sql_exception: Unknown column 'approved_by' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *
+FROM `manuscript1_m`
+WHERE `status` = \'Approved\'
+AND `approved_by` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `manuscript1_m`
+WHERE `status` = \'Approved\'
+AND `approved_by` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `manuscript1_m`
+WHERE `status` = \'Approved\'
+AND `approved_by` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `manuscript1_m`
+WHERE `status` = :status:
+AND `approved_by` IS NULL', [...], false)
+ 5 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\ManuscriptModel.php(82): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\CataloguerController.php(34): App\Models\ManuscriptModel->fetchApprovedBySupervisor(null)
+ 9 APPPATH\Controllers\CataloguerController.php(23): App\Controllers\CataloguerController->get_manuscript_data(null)
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CataloguerController->getalldata()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CataloguerController))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-09 07:22:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-09 07:22:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-09 07:22:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-09 07:22:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-09 07:22:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-09 07:22:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-08-09 07:22:14 --> mysqli_sql_exception: Unknown column 'approved_by' in 'where clause' in C:\xampp\htdocs\amar\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\amar\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\amar\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\amar\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\amar\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\amar\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\amar\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\amar\app\Models\ManuscriptModel.php(82): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\amar\app\Controllers\CataloguerController.php(34): App\Models\ManuscriptModel->fetchApprovedBySupervisor(NULL)
+#8 C:\xampp\htdocs\amar\app\Controllers\CataloguerController.php(23): App\Controllers\CataloguerController->get_manuscript_data(NULL)
+#9 C:\xampp\htdocs\amar\system\CodeIgniter.php(941): App\Controllers\CataloguerController->getalldata()
+#10 C:\xampp\htdocs\amar\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CataloguerController))
+#11 C:\xampp\htdocs\amar\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\amar\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-08-09 07:22:14 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'approved_by' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `manuscript1_m`
+WHERE `status` = :status:
+AND `approved_by` IS NULL', [...], false)
+ 2 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\ManuscriptModel.php(82): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\CataloguerController.php(34): App\Models\ManuscriptModel->fetchApprovedBySupervisor(null)
+ 6 APPPATH\Controllers\CataloguerController.php(23): App\Controllers\CataloguerController->get_manuscript_data(null)
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CataloguerController->getalldata()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CataloguerController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-09 07:22:14 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'approved_by' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `manuscript1_m`
+WHERE `status` = \'Approved\'
+AND `approved_by` IS NULL')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `manuscript1_m`
+WHERE `status` = \'Approved\'
+AND `approved_by` IS NULL')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `manuscript1_m`
+WHERE `status` = :status:
+AND `approved_by` IS NULL', [...], false)
+ 4 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\ManuscriptModel.php(82): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\CataloguerController.php(34): App\Models\ManuscriptModel->fetchApprovedBySupervisor(null)
+ 8 APPPATH\Controllers\CataloguerController.php(23): App\Controllers\CataloguerController->get_manuscript_data(null)
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CataloguerController->getalldata()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CataloguerController))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-09 07:22:14 --> [Caused by] mysqli_sql_exception: Unknown column 'approved_by' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *
+FROM `manuscript1_m`
+WHERE `status` = \'Approved\'
+AND `approved_by` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `manuscript1_m`
+WHERE `status` = \'Approved\'
+AND `approved_by` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `manuscript1_m`
+WHERE `status` = \'Approved\'
+AND `approved_by` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `manuscript1_m`
+WHERE `status` = :status:
+AND `approved_by` IS NULL', [...], false)
+ 5 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\ManuscriptModel.php(82): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\CataloguerController.php(34): App\Models\ManuscriptModel->fetchApprovedBySupervisor(null)
+ 9 APPPATH\Controllers\CataloguerController.php(23): App\Controllers\CataloguerController->get_manuscript_data(null)
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CataloguerController->getalldata()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CataloguerController))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-09 07:22:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-08-09 07:22:35 --> mysqli_sql_exception: Unknown column 'approved_by' in 'where clause' in C:\xampp\htdocs\amar\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\amar\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\amar\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\amar\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\amar\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\amar\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\amar\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\amar\app\Models\ManuscriptModel.php(82): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\amar\app\Controllers\CataloguerController.php(34): App\Models\ManuscriptModel->fetchApprovedBySupervisor(NULL)
+#8 C:\xampp\htdocs\amar\app\Controllers\CataloguerController.php(23): App\Controllers\CataloguerController->get_manuscript_data(NULL)
+#9 C:\xampp\htdocs\amar\system\CodeIgniter.php(941): App\Controllers\CataloguerController->getalldata()
+#10 C:\xampp\htdocs\amar\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CataloguerController))
+#11 C:\xampp\htdocs\amar\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\amar\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-08-09 07:22:35 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'approved_by' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `manuscript1_m`
+WHERE `status` = :status:
+AND `approved_by` IS NULL', [...], false)
+ 2 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\ManuscriptModel.php(82): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\CataloguerController.php(34): App\Models\ManuscriptModel->fetchApprovedBySupervisor(null)
+ 6 APPPATH\Controllers\CataloguerController.php(23): App\Controllers\CataloguerController->get_manuscript_data(null)
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CataloguerController->getalldata()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CataloguerController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-09 07:22:35 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'approved_by' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `manuscript1_m`
+WHERE `status` = \'Approved\'
+AND `approved_by` IS NULL')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `manuscript1_m`
+WHERE `status` = \'Approved\'
+AND `approved_by` IS NULL')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `manuscript1_m`
+WHERE `status` = :status:
+AND `approved_by` IS NULL', [...], false)
+ 4 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\ManuscriptModel.php(82): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\CataloguerController.php(34): App\Models\ManuscriptModel->fetchApprovedBySupervisor(null)
+ 8 APPPATH\Controllers\CataloguerController.php(23): App\Controllers\CataloguerController->get_manuscript_data(null)
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CataloguerController->getalldata()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CataloguerController))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-09 07:22:35 --> [Caused by] mysqli_sql_exception: Unknown column 'approved_by' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *
+FROM `manuscript1_m`
+WHERE `status` = \'Approved\'
+AND `approved_by` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `manuscript1_m`
+WHERE `status` = \'Approved\'
+AND `approved_by` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `manuscript1_m`
+WHERE `status` = \'Approved\'
+AND `approved_by` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `manuscript1_m`
+WHERE `status` = :status:
+AND `approved_by` IS NULL', [...], false)
+ 5 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\ManuscriptModel.php(82): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\CataloguerController.php(34): App\Models\ManuscriptModel->fetchApprovedBySupervisor(null)
+ 9 APPPATH\Controllers\CataloguerController.php(23): App\Controllers\CataloguerController->get_manuscript_data(null)
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CataloguerController->getalldata()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CataloguerController))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-09 07:22:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-08-09 07:22:36 --> mysqli_sql_exception: Unknown column 'approved_by' in 'where clause' in C:\xampp\htdocs\amar\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\amar\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\amar\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\amar\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\amar\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\amar\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\amar\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\amar\app\Models\ManuscriptModel.php(82): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\amar\app\Controllers\CataloguerController.php(34): App\Models\ManuscriptModel->fetchApprovedBySupervisor(NULL)
+#8 C:\xampp\htdocs\amar\app\Controllers\CataloguerController.php(23): App\Controllers\CataloguerController->get_manuscript_data(NULL)
+#9 C:\xampp\htdocs\amar\system\CodeIgniter.php(941): App\Controllers\CataloguerController->getalldata()
+#10 C:\xampp\htdocs\amar\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CataloguerController))
+#11 C:\xampp\htdocs\amar\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\amar\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-08-09 07:22:36 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'approved_by' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `manuscript1_m`
+WHERE `status` = :status:
+AND `approved_by` IS NULL', [...], false)
+ 2 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\ManuscriptModel.php(82): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\CataloguerController.php(34): App\Models\ManuscriptModel->fetchApprovedBySupervisor(null)
+ 6 APPPATH\Controllers\CataloguerController.php(23): App\Controllers\CataloguerController->get_manuscript_data(null)
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CataloguerController->getalldata()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CataloguerController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-09 07:22:36 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'approved_by' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `manuscript1_m`
+WHERE `status` = \'Approved\'
+AND `approved_by` IS NULL')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `manuscript1_m`
+WHERE `status` = \'Approved\'
+AND `approved_by` IS NULL')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `manuscript1_m`
+WHERE `status` = :status:
+AND `approved_by` IS NULL', [...], false)
+ 4 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\ManuscriptModel.php(82): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\CataloguerController.php(34): App\Models\ManuscriptModel->fetchApprovedBySupervisor(null)
+ 8 APPPATH\Controllers\CataloguerController.php(23): App\Controllers\CataloguerController->get_manuscript_data(null)
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CataloguerController->getalldata()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CataloguerController))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-09 07:22:36 --> [Caused by] mysqli_sql_exception: Unknown column 'approved_by' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *
+FROM `manuscript1_m`
+WHERE `status` = \'Approved\'
+AND `approved_by` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `manuscript1_m`
+WHERE `status` = \'Approved\'
+AND `approved_by` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `manuscript1_m`
+WHERE `status` = \'Approved\'
+AND `approved_by` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `manuscript1_m`
+WHERE `status` = :status:
+AND `approved_by` IS NULL', [...], false)
+ 5 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\ManuscriptModel.php(82): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\CataloguerController.php(34): App\Models\ManuscriptModel->fetchApprovedBySupervisor(null)
+ 9 APPPATH\Controllers\CataloguerController.php(23): App\Controllers\CataloguerController->get_manuscript_data(null)
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CataloguerController->getalldata()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CataloguerController))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-09 07:22:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-09 07:22:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-09 07:22:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-09 07:22:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-09 07:22:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-09 07:22:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-08-09 07:22:49 --> mysqli_sql_exception: Unknown column 'approved_by' in 'where clause' in C:\xampp\htdocs\amar\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\amar\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\amar\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\amar\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\amar\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\amar\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\amar\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\amar\app\Models\ManuscriptModel.php(82): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\amar\app\Controllers\CataloguerController.php(34): App\Models\ManuscriptModel->fetchApprovedBySupervisor(NULL)
+#8 C:\xampp\htdocs\amar\app\Controllers\CataloguerController.php(23): App\Controllers\CataloguerController->get_manuscript_data(NULL)
+#9 C:\xampp\htdocs\amar\system\CodeIgniter.php(941): App\Controllers\CataloguerController->getalldata()
+#10 C:\xampp\htdocs\amar\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CataloguerController))
+#11 C:\xampp\htdocs\amar\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\amar\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-08-09 07:22:49 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'approved_by' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `manuscript1_m`
+WHERE `status` = :status:
+AND `approved_by` IS NULL', [...], false)
+ 2 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\ManuscriptModel.php(82): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\CataloguerController.php(34): App\Models\ManuscriptModel->fetchApprovedBySupervisor(null)
+ 6 APPPATH\Controllers\CataloguerController.php(23): App\Controllers\CataloguerController->get_manuscript_data(null)
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CataloguerController->getalldata()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CataloguerController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-09 07:22:49 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'approved_by' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `manuscript1_m`
+WHERE `status` = \'Approved\'
+AND `approved_by` IS NULL')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `manuscript1_m`
+WHERE `status` = \'Approved\'
+AND `approved_by` IS NULL')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `manuscript1_m`
+WHERE `status` = :status:
+AND `approved_by` IS NULL', [...], false)
+ 4 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\ManuscriptModel.php(82): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\CataloguerController.php(34): App\Models\ManuscriptModel->fetchApprovedBySupervisor(null)
+ 8 APPPATH\Controllers\CataloguerController.php(23): App\Controllers\CataloguerController->get_manuscript_data(null)
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CataloguerController->getalldata()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CataloguerController))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-09 07:22:49 --> [Caused by] mysqli_sql_exception: Unknown column 'approved_by' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *
+FROM `manuscript1_m`
+WHERE `status` = \'Approved\'
+AND `approved_by` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `manuscript1_m`
+WHERE `status` = \'Approved\'
+AND `approved_by` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `manuscript1_m`
+WHERE `status` = \'Approved\'
+AND `approved_by` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `manuscript1_m`
+WHERE `status` = :status:
+AND `approved_by` IS NULL', [...], false)
+ 5 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\ManuscriptModel.php(82): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\CataloguerController.php(34): App\Models\ManuscriptModel->fetchApprovedBySupervisor(null)
+ 9 APPPATH\Controllers\CataloguerController.php(23): App\Controllers\CataloguerController->get_manuscript_data(null)
+10 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CataloguerController->getalldata()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CataloguerController))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-09 07:25:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-09 07:25:49 --> BadMethodCallException: Call to undefined method App\Models\ManuscriptModel::approveByCataloguer
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\CataloguerController.php(58): CodeIgniter\Model->__call('approveByCataloguer', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CataloguerController->approve('1', 'manuscript')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CataloguerController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-09 07:25:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-09 07:25:57 --> BadMethodCallException: Call to undefined method App\Models\ManuscriptModel::rejectByCataloguer
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\CataloguerController.php(68): CodeIgniter\Model->__call('rejectByCataloguer', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CataloguerController->reject('1', 'manuscript')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CataloguerController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-09 07:25:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-09 08:45:43 --> BadMethodCallException: Call to undefined method App\Models\ManuscriptModel::approveByCataloguer
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\CataloguerController.php(58): CodeIgniter\Model->__call('approveByCataloguer', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CataloguerController->approve('1', 'manuscript')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CataloguerController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-09 09:00:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-09 09:03:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-09 09:03:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-09 09:15:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-09 09:15:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-09 09:15:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-09 09:15:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-09 09:15:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-09 09:15:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-09 09:30:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-09 09:30:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-09 09:30:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-09 09:30:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-09 09:30:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-09 09:30:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-09 09:30:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-09 09:30:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-09 09:30:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-09 09:30:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-09 09:30:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-09 09:45:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-09 09:45:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-09 09:45:07 --> BadMethodCallException: Call to undefined method App\Models\PeriodicalModel::approveByCataloguer
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\CataloguerController.php(58): CodeIgniter\Model->__call('approveByCataloguer', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CataloguerController->approve('1', 'periodical')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CataloguerController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-09 09:45:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-09 09:45:13 --> BadMethodCallException: Call to undefined method App\Models\PeriodicalModel::approveByCataloguer
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\CataloguerController.php(58): CodeIgniter\Model->__call('approveByCataloguer', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CataloguerController->approve('1', 'periodical')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CataloguerController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-09 09:45:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-09 09:45:17 --> BadMethodCallException: Call to undefined method App\Models\CatalogueModel::approveByCataloguer
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\CataloguerController.php(58): CodeIgniter\Model->__call('approveByCataloguer', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CataloguerController->approve('6', 'catalogue')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CataloguerController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-09 09:45:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-09 09:45:26 --> BadMethodCallException: Call to undefined method App\Models\RareBookModel::approveByCataloguer
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\CataloguerController.php(58): CodeIgniter\Model->__call('approveByCataloguer', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CataloguerController->approve('3', 'rarebook')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CataloguerController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-09 09:45:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-09 09:45:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-09 09:45:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-09 09:45:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-09 09:45:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-09 09:45:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-09 09:45:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-09 09:45:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-09 09:45:59 --> BadMethodCallException: Call to undefined method App\Models\RareBookModel::rejectByCataloguer
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\CataloguerController.php(68): CodeIgniter\Model->__call('rejectByCataloguer', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CataloguerController->reject('1', 'rarebook')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CataloguerController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-09 09:46:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-09 10:54:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-09 10:54:46 --> ArgumentCountError: Too few arguments to function App\Models\ManuscriptModel::fetchApprovedBySupervisor(), 0 passed in C:\xampp\htdocs\amar\app\Controllers\CataloguerController.php on line 31 and exactly 1 expected
+in APPPATH\Models\ManuscriptModel.php on line 75.
+ 1 APPPATH\Controllers\CataloguerController.php(31): App\Models\ManuscriptModel->fetchApprovedBySupervisor()
+ 2 APPPATH\Controllers\CataloguerController.php(20): App\Controllers\CataloguerController->get_manuscript_data()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CataloguerController->getalldata()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CataloguerController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-09 10:54:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-09 10:54:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-09 10:55:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-09 10:55:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-09 10:55:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-09 10:55:08 --> ArgumentCountError: Too few arguments to function App\Models\ManuscriptModel::fetchApprovedBySupervisor(), 0 passed in C:\xampp\htdocs\amar\app\Controllers\CataloguerController.php on line 31 and exactly 1 expected
+in APPPATH\Models\ManuscriptModel.php on line 75.
+ 1 APPPATH\Controllers\CataloguerController.php(31): App\Models\ManuscriptModel->fetchApprovedBySupervisor()
+ 2 APPPATH\Controllers\CataloguerController.php(20): App\Controllers\CataloguerController->get_manuscript_data()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CataloguerController->getalldata()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CataloguerController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-09 10:57:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-09 10:57:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-09 10:57:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-09 10:57:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-09 10:57:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-09 11:00:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-09 11:00:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-09 11:00:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-09 11:00:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-09 11:00:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-09 11:00:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-09 11:00:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-09 11:00:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-09 11:00:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-09 11:02:46 --> BadMethodCallException: Call to undefined method App\Models\RareBookModel::approveByCataloguer
+in SYSTEMPATH\Model.php on line 874.
+ 1 APPPATH\Controllers\CataloguerController.php(57): CodeIgniter\Model->__call('approveByCataloguer', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\CataloguerController->approve('1', 'rarebook')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CataloguerController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-09 11:02:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-09 11:03:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-09 11:03:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -1,0 +1,434 @@
+CRITICAL - 2024-07-12 06:26:28 --> Error: Class "App\Controllers\BaseController" not found
+in APPPATH\Controllers\BaseController.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(311): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\amar\\app\\Controllers\\BaseController.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\BaseController')
+ 4 APPPATH\Controllers\Home.php(5): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\BaseController')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(311): include_once('C:\\xampp\\htdocs\\amar\\app\\Controllers\\Home.php')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\amar\\app\\Controllers\\Home.php')
+ 7 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 8 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 9 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\Home', true)
+10 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-12 06:26:59 --> ErrorException: Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Controllers\BaseController.php on line 3.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-07-12 06:27:00 --> ErrorException: Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Controllers\BaseController.php on line 3.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-07-12 06:27:01 --> ErrorException: Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Controllers\BaseController.php on line 3.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-07-12 06:27:12 --> ErrorException: Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Controllers\BaseController.php on line 3.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-07-12 06:27:30 --> ErrorException: Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Controllers\BaseController.php on line 3.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-07-12 06:27:31 --> ErrorException: Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Controllers\BaseController.php on line 3.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-07-12 06:27:31 --> ErrorException: Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Controllers\BaseController.php on line 3.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-07-12 06:28:02 --> ErrorException: Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Controllers\BaseController.php on line 3.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-07-12 06:28:03 --> ErrorException: Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Controllers\BaseController.php on line 3.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-07-12 06:28:03 --> ErrorException: Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Controllers\BaseController.php on line 3.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-07-12 06:28:48 --> ErrorException: Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Controllers\BaseController.php on line 3.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-07-12 06:28:49 --> ErrorException: Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Controllers\BaseController.php on line 3.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-07-12 06:28:49 --> ErrorException: Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Controllers\BaseController.php on line 3.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-07-12 06:28:49 --> ErrorException: Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Controllers\BaseController.php on line 3.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-07-12 06:28:50 --> ErrorException: Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Controllers\BaseController.php on line 3.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-07-12 06:28:50 --> ErrorException: Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Controllers\BaseController.php on line 3.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-07-12 06:29:29 --> ErrorException: Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Controllers\BaseController.php on line 3.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-07-12 06:31:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 06:31:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 09:19:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 09:19:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 09:19:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 09:26:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 09:26:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 09:28:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 09:28:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 09:28:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 09:29:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 09:34:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 09:34:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 09:34:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 09:35:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 09:35:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 09:35:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 09:35:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 09:35:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 09:50:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 09:50:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-12 09:50:17 --> ErrorException: Undefined variable $demo
+in APPPATH\Views\partials\manuscript_view.php on line 50.
+ 1 APPPATH\Views\partials\manuscript_view.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $demo', 'C:\\xampp\\htdocs\\amar\\app\\Views\\partials\\manuscript_view.php', 50)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\amar\\app\\Views\\partials\\manuscript_view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/manuscript_view', [], true)
+ 5 APPPATH\Controllers\ManuscriptController.php(112): view('partials/manuscript_view', [...])
+ 6 APPPATH\Controllers\ManuscriptController.php(31): App\Controllers\ManuscriptController->getAllSystemDetails()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-12 09:51:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-12 09:51:18 --> ErrorException: Undefined variable $demo
+in APPPATH\Views\partials\manuscript_view.php on line 50.
+ 1 APPPATH\Views\partials\manuscript_view.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $demo', 'C:\\xampp\\htdocs\\amar\\app\\Views\\partials\\manuscript_view.php', 50)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\amar\\app\\Views\\partials\\manuscript_view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/manuscript_view', [], true)
+ 5 APPPATH\Controllers\ManuscriptController.php(110): view('partials/manuscript_view', [...])
+ 6 APPPATH\Controllers\ManuscriptController.php(31): App\Controllers\ManuscriptController->getAllSystemDetails()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-12 09:51:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-12 09:51:21 --> ErrorException: Undefined variable $demo
+in APPPATH\Views\partials\manuscript_view.php on line 50.
+ 1 APPPATH\Views\partials\manuscript_view.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $demo', 'C:\\xampp\\htdocs\\amar\\app\\Views\\partials\\manuscript_view.php', 50)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\amar\\app\\Views\\partials\\manuscript_view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/manuscript_view', [], true)
+ 5 APPPATH\Controllers\ManuscriptController.php(110): view('partials/manuscript_view', [...])
+ 6 APPPATH\Controllers\ManuscriptController.php(31): App\Controllers\ManuscriptController->getAllSystemDetails()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-12 09:51:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-12 09:51:21 --> ErrorException: Undefined variable $demo
+in APPPATH\Views\partials\manuscript_view.php on line 50.
+ 1 APPPATH\Views\partials\manuscript_view.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $demo', 'C:\\xampp\\htdocs\\amar\\app\\Views\\partials\\manuscript_view.php', 50)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\amar\\app\\Views\\partials\\manuscript_view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/manuscript_view', [], true)
+ 5 APPPATH\Controllers\ManuscriptController.php(110): view('partials/manuscript_view', [...])
+ 6 APPPATH\Controllers\ManuscriptController.php(31): App\Controllers\ManuscriptController->getAllSystemDetails()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-12 09:51:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-12 09:51:21 --> ErrorException: Undefined variable $demo
+in APPPATH\Views\partials\manuscript_view.php on line 50.
+ 1 APPPATH\Views\partials\manuscript_view.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $demo', 'C:\\xampp\\htdocs\\amar\\app\\Views\\partials\\manuscript_view.php', 50)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\amar\\app\\Views\\partials\\manuscript_view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/manuscript_view', [], true)
+ 5 APPPATH\Controllers\ManuscriptController.php(110): view('partials/manuscript_view', [...])
+ 6 APPPATH\Controllers\ManuscriptController.php(31): App\Controllers\ManuscriptController->getAllSystemDetails()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-12 09:51:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-12 09:51:21 --> ErrorException: Undefined variable $demo
+in APPPATH\Views\partials\manuscript_view.php on line 50.
+ 1 APPPATH\Views\partials\manuscript_view.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $demo', 'C:\\xampp\\htdocs\\amar\\app\\Views\\partials\\manuscript_view.php', 50)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\amar\\app\\Views\\partials\\manuscript_view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/manuscript_view', [], true)
+ 5 APPPATH\Controllers\ManuscriptController.php(110): view('partials/manuscript_view', [...])
+ 6 APPPATH\Controllers\ManuscriptController.php(31): App\Controllers\ManuscriptController->getAllSystemDetails()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-12 09:51:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-12 09:51:21 --> ErrorException: Undefined variable $demo
+in APPPATH\Views\partials\manuscript_view.php on line 50.
+ 1 APPPATH\Views\partials\manuscript_view.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $demo', 'C:\\xampp\\htdocs\\amar\\app\\Views\\partials\\manuscript_view.php', 50)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\amar\\app\\Views\\partials\\manuscript_view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/manuscript_view', [], true)
+ 5 APPPATH\Controllers\ManuscriptController.php(110): view('partials/manuscript_view', [...])
+ 6 APPPATH\Controllers\ManuscriptController.php(31): App\Controllers\ManuscriptController->getAllSystemDetails()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-12 09:51:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-12 09:51:21 --> ErrorException: Undefined variable $demo
+in APPPATH\Views\partials\manuscript_view.php on line 50.
+ 1 APPPATH\Views\partials\manuscript_view.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $demo', 'C:\\xampp\\htdocs\\amar\\app\\Views\\partials\\manuscript_view.php', 50)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\amar\\app\\Views\\partials\\manuscript_view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/manuscript_view', [], true)
+ 5 APPPATH\Controllers\ManuscriptController.php(110): view('partials/manuscript_view', [...])
+ 6 APPPATH\Controllers\ManuscriptController.php(31): App\Controllers\ManuscriptController->getAllSystemDetails()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-12 09:51:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-12 09:51:21 --> ErrorException: Undefined variable $demo
+in APPPATH\Views\partials\manuscript_view.php on line 50.
+ 1 APPPATH\Views\partials\manuscript_view.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $demo', 'C:\\xampp\\htdocs\\amar\\app\\Views\\partials\\manuscript_view.php', 50)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\amar\\app\\Views\\partials\\manuscript_view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/manuscript_view', [], true)
+ 5 APPPATH\Controllers\ManuscriptController.php(110): view('partials/manuscript_view', [...])
+ 6 APPPATH\Controllers\ManuscriptController.php(31): App\Controllers\ManuscriptController->getAllSystemDetails()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-12 09:51:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-12 09:51:21 --> ErrorException: Undefined variable $demo
+in APPPATH\Views\partials\manuscript_view.php on line 50.
+ 1 APPPATH\Views\partials\manuscript_view.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $demo', 'C:\\xampp\\htdocs\\amar\\app\\Views\\partials\\manuscript_view.php', 50)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\amar\\app\\Views\\partials\\manuscript_view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/manuscript_view', [], true)
+ 5 APPPATH\Controllers\ManuscriptController.php(110): view('partials/manuscript_view', [...])
+ 6 APPPATH\Controllers\ManuscriptController.php(31): App\Controllers\ManuscriptController->getAllSystemDetails()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-12 09:51:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-12 09:51:21 --> ErrorException: Undefined variable $demo
+in APPPATH\Views\partials\manuscript_view.php on line 50.
+ 1 APPPATH\Views\partials\manuscript_view.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $demo', 'C:\\xampp\\htdocs\\amar\\app\\Views\\partials\\manuscript_view.php', 50)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\amar\\app\\Views\\partials\\manuscript_view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/manuscript_view', [], true)
+ 5 APPPATH\Controllers\ManuscriptController.php(110): view('partials/manuscript_view', [...])
+ 6 APPPATH\Controllers\ManuscriptController.php(31): App\Controllers\ManuscriptController->getAllSystemDetails()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-12 09:51:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-12 09:51:21 --> ErrorException: Undefined variable $demo
+in APPPATH\Views\partials\manuscript_view.php on line 50.
+ 1 APPPATH\Views\partials\manuscript_view.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $demo', 'C:\\xampp\\htdocs\\amar\\app\\Views\\partials\\manuscript_view.php', 50)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\amar\\app\\Views\\partials\\manuscript_view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/manuscript_view', [], true)
+ 5 APPPATH\Controllers\ManuscriptController.php(110): view('partials/manuscript_view', [...])
+ 6 APPPATH\Controllers\ManuscriptController.php(31): App\Controllers\ManuscriptController->getAllSystemDetails()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-12 09:51:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-12 09:51:22 --> ErrorException: Undefined variable $demo
+in APPPATH\Views\partials\manuscript_view.php on line 50.
+ 1 APPPATH\Views\partials\manuscript_view.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $demo', 'C:\\xampp\\htdocs\\amar\\app\\Views\\partials\\manuscript_view.php', 50)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\amar\\app\\Views\\partials\\manuscript_view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/manuscript_view', [], true)
+ 5 APPPATH\Controllers\ManuscriptController.php(110): view('partials/manuscript_view', [...])
+ 6 APPPATH\Controllers\ManuscriptController.php(31): App\Controllers\ManuscriptController->getAllSystemDetails()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-12 09:52:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-12 09:52:04 --> ErrorException: Undefined variable $demo
+in APPPATH\Views\partials\manuscript_view.php on line 50.
+ 1 APPPATH\Views\partials\manuscript_view.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $demo', 'C:\\xampp\\htdocs\\amar\\app\\Views\\partials\\manuscript_view.php', 50)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\amar\\app\\Views\\partials\\manuscript_view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/manuscript_view', [], true)
+ 5 APPPATH\Controllers\ManuscriptController.php(110): view('partials/manuscript_view', [...])
+ 6 APPPATH\Controllers\ManuscriptController.php(31): App\Controllers\ManuscriptController->getAllSystemDetails()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-12 09:52:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 09:53:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 09:53:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-12 09:53:04 --> ErrorException: Undefined variable $demo
+in APPPATH\Views\partials\manuscript_view.php on line 50.
+ 1 APPPATH\Views\partials\manuscript_view.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $demo', 'C:\\xampp\\htdocs\\amar\\app\\Views\\partials\\manuscript_view.php', 50)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\amar\\app\\Views\\partials\\manuscript_view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/manuscript_view', [], true)
+ 5 APPPATH\Controllers\ManuscriptController.php(110): view('partials/manuscript_view', [...])
+ 6 APPPATH\Controllers\ManuscriptController.php(31): App\Controllers\ManuscriptController->getAllSystemDetails()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-12 09:53:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-12 09:53:35 --> ErrorException: Undefined variable $demo
+in APPPATH\Views\partials\manuscript_view.php on line 50.
+ 1 APPPATH\Views\partials\manuscript_view.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $demo', 'C:\\xampp\\htdocs\\amar\\app\\Views\\partials\\manuscript_view.php', 50)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\amar\\app\\Views\\partials\\manuscript_view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/manuscript_view', [], true)
+ 5 APPPATH\Controllers\ManuscriptController.php(110): view('partials/manuscript_view', [...])
+ 6 APPPATH\Controllers\ManuscriptController.php(31): App\Controllers\ManuscriptController->getAllSystemDetails()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-12 09:53:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-12 09:53:38 --> ErrorException: Undefined variable $demo
+in APPPATH\Views\partials\manuscript_view.php on line 50.
+ 1 APPPATH\Views\partials\manuscript_view.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $demo', 'C:\\xampp\\htdocs\\amar\\app\\Views\\partials\\manuscript_view.php', 50)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\amar\\app\\Views\\partials\\manuscript_view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/manuscript_view', [], true)
+ 5 APPPATH\Controllers\ManuscriptController.php(110): view('partials/manuscript_view', [...])
+ 6 APPPATH\Controllers\ManuscriptController.php(31): App\Controllers\ManuscriptController->getAllSystemDetails()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-12 09:53:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-12 09:53:38 --> ErrorException: Undefined variable $demo
+in APPPATH\Views\partials\manuscript_view.php on line 50.
+ 1 APPPATH\Views\partials\manuscript_view.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $demo', 'C:\\xampp\\htdocs\\amar\\app\\Views\\partials\\manuscript_view.php', 50)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\amar\\app\\Views\\partials\\manuscript_view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/manuscript_view', [], true)
+ 5 APPPATH\Controllers\ManuscriptController.php(110): view('partials/manuscript_view', [...])
+ 6 APPPATH\Controllers\ManuscriptController.php(31): App\Controllers\ManuscriptController->getAllSystemDetails()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-12 09:53:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-12 09:53:38 --> ErrorException: Undefined variable $demo
+in APPPATH\Views\partials\manuscript_view.php on line 50.
+ 1 APPPATH\Views\partials\manuscript_view.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $demo', 'C:\\xampp\\htdocs\\amar\\app\\Views\\partials\\manuscript_view.php', 50)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\amar\\app\\Views\\partials\\manuscript_view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/manuscript_view', [], true)
+ 5 APPPATH\Controllers\ManuscriptController.php(110): view('partials/manuscript_view', [...])
+ 6 APPPATH\Controllers\ManuscriptController.php(31): App\Controllers\ManuscriptController->getAllSystemDetails()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-12 09:53:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-12 09:53:38 --> ErrorException: Undefined variable $demo
+in APPPATH\Views\partials\manuscript_view.php on line 50.
+ 1 APPPATH\Views\partials\manuscript_view.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $demo', 'C:\\xampp\\htdocs\\amar\\app\\Views\\partials\\manuscript_view.php', 50)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\amar\\app\\Views\\partials\\manuscript_view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/manuscript_view', [], true)
+ 5 APPPATH\Controllers\ManuscriptController.php(110): view('partials/manuscript_view', [...])
+ 6 APPPATH\Controllers\ManuscriptController.php(31): App\Controllers\ManuscriptController->getAllSystemDetails()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-12 09:53:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-12 09:53:38 --> ErrorException: Undefined variable $demo
+in APPPATH\Views\partials\manuscript_view.php on line 50.
+ 1 APPPATH\Views\partials\manuscript_view.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $demo', 'C:\\xampp\\htdocs\\amar\\app\\Views\\partials\\manuscript_view.php', 50)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\amar\\app\\Views\\partials\\manuscript_view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/manuscript_view', [], true)
+ 5 APPPATH\Controllers\ManuscriptController.php(110): view('partials/manuscript_view', [...])
+ 6 APPPATH\Controllers\ManuscriptController.php(31): App\Controllers\ManuscriptController->getAllSystemDetails()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-12 09:53:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-12 09:53:53 --> ErrorException: Undefined variable $demo
+in APPPATH\Views\partials\manuscript_view.php on line 50.
+ 1 APPPATH\Views\partials\manuscript_view.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $demo', 'C:\\xampp\\htdocs\\amar\\app\\Views\\partials\\manuscript_view.php', 50)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\amar\\app\\Views\\partials\\manuscript_view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/manuscript_view', [], true)
+ 5 APPPATH\Controllers\ManuscriptController.php(109): view('partials/manuscript_view', [...])
+ 6 APPPATH\Controllers\ManuscriptController.php(30): App\Controllers\ManuscriptController->getAllSystemDetails()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-12 09:53:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-12 09:53:55 --> ErrorException: Undefined variable $demo
+in APPPATH\Views\partials\manuscript_view.php on line 50.
+ 1 APPPATH\Views\partials\manuscript_view.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $demo', 'C:\\xampp\\htdocs\\amar\\app\\Views\\partials\\manuscript_view.php', 50)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\amar\\app\\Views\\partials\\manuscript_view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/manuscript_view', [], true)
+ 5 APPPATH\Controllers\ManuscriptController.php(109): view('partials/manuscript_view', [...])
+ 6 APPPATH\Controllers\ManuscriptController.php(30): App\Controllers\ManuscriptController->getAllSystemDetails()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-12 09:53:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-12 09:53:58 --> ErrorException: Undefined variable $demo
+in APPPATH\Views\partials\manuscript_view.php on line 50.
+ 1 APPPATH\Views\partials\manuscript_view.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $demo', 'C:\\xampp\\htdocs\\amar\\app\\Views\\partials\\manuscript_view.php', 50)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\amar\\app\\Views\\partials\\manuscript_view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/manuscript_view', [], true)
+ 5 APPPATH\Controllers\ManuscriptController.php(109): view('partials/manuscript_view', [...])
+ 6 APPPATH\Controllers\ManuscriptController.php(30): App\Controllers\ManuscriptController->getAllSystemDetails()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-12 09:54:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-12 09:54:01 --> ErrorException: Undefined variable $demo
+in APPPATH\Views\partials\manuscript_view.php on line 50.
+ 1 APPPATH\Views\partials\manuscript_view.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $demo', 'C:\\xampp\\htdocs\\amar\\app\\Views\\partials\\manuscript_view.php', 50)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\amar\\app\\Views\\partials\\manuscript_view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/manuscript_view', [], true)
+ 5 APPPATH\Controllers\ManuscriptController.php(109): view('partials/manuscript_view', [...])
+ 6 APPPATH\Controllers\ManuscriptController.php(30): App\Controllers\ManuscriptController->getAllSystemDetails()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-12 09:54:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-12 09:54:22 --> ErrorException: Undefined variable $demo
+in APPPATH\Views\partials\manuscript_view.php on line 50.
+ 1 APPPATH\Views\partials\manuscript_view.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $demo', 'C:\\xampp\\htdocs\\amar\\app\\Views\\partials\\manuscript_view.php', 50)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\amar\\app\\Views\\partials\\manuscript_view.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/manuscript_view', [], true)
+ 5 APPPATH\Controllers\ManuscriptController.php(109): view('partials/manuscript_view', [...])
+ 6 APPPATH\Controllers\ManuscriptController.php(30): App\Controllers\ManuscriptController->getAllSystemDetails()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ManuscriptController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManuscriptController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-12 09:55:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:05:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:06:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:06:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:07:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:07:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:07:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:07:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-12 10:10:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

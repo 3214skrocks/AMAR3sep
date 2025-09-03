@@ -1,0 +1,9 @@
+CRITICAL - 2024-05-22 06:44:43 --> ParseError: syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+in APPPATH\Views\partials\periodical_full_details.php on line 22.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('partials/periodical_full_details', [], true)
+ 3 APPPATH\Controllers\PeriodicalController.php(38): view('partials/periodical_full_details', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\PeriodicalController->viewFullPeriodicalDetails('1')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PeriodicalController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

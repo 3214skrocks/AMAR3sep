@@ -1,0 +1,481 @@
+INFO - 2024-07-15 05:38:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 05:38:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 05:38:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 05:38:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 05:38:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 06:00:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 06:00:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 06:00:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 06:00:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 06:00:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 06:00:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 06:00:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 06:00:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 06:05:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 06:05:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 06:05:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 06:05:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 06:05:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 06:05:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 06:05:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 06:05:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 06:05:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 06:05:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 06:16:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 06:16:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 06:16:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 06:16:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 06:16:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 06:16:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 06:16:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-07-15 06:16:17 --> mysqli_sql_exception: Unknown column 'title' in 'field list' in C:\xampp\htdocs\amar\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\amar\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ma...', 0)
+#1 C:\xampp\htdocs\amar\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ma...')
+#2 C:\xampp\htdocs\amar\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ma...')
+#3 C:\xampp\htdocs\amar\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ma...', Array, false)
+#4 C:\xampp\htdocs\amar\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\amar\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\amar\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\amar\app\Controllers\AMRController.php(59): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\amar\system\CodeIgniter.php(941): App\Controllers\AMRController->submitManuscript()
+#9 C:\xampp\htdocs\amar\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AMRController))
+#10 C:\xampp\htdocs\amar\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\amar\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-07-15 06:16:17 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'title' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `manuscripts_m` (`title`) VALUES (:title:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\AMRController.php(59): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AMRController->submitManuscript()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AMRController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-15 06:16:17 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'title' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `manuscripts_m` (`title`) VALUES (\'456\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `manuscripts_m` (`title`) VALUES (\'456\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `manuscripts_m` (`title`) VALUES (:title:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\AMRController.php(59): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AMRController->submitManuscript()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AMRController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-15 06:16:17 --> [Caused by] mysqli_sql_exception: Unknown column 'title' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `manuscripts_m` (`title`) VALUES (\'456\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `manuscripts_m` (`title`) VALUES (\'456\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `manuscripts_m` (`title`) VALUES (\'456\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `manuscripts_m` (`title`) VALUES (:title:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\AMRController.php(59): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AMRController->submitManuscript()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AMRController))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-15 06:27:46 --> ErrorException: ini_set(): Session ini settings cannot be changed when a session is active
+in SYSTEMPATH\Session\Handlers\FileHandler.php on line 72.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ini_set(): Session ini settings cannot be changed when a session is active', 'C:\\xampp\\htdocs\\amar\\system\\Session\\Handlers\\FileHandler.php', 72)
+ 2 SYSTEMPATH\Session\Handlers\FileHandler.php(72): ini_set('session.save_path', 'C:\\xampp\\htdocs\\amar\\writable\\session')
+ 3 SYSTEMPATH\Config\Services.php(686): CodeIgniter\Session\Handlers\FileHandler->__construct(Object(Config\Session), '127.0.0.1')
+ 4 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+ 5 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 6 SYSTEMPATH\Config\Services.php(664): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 7 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session()
+ 8 SYSTEMPATH\Common.php(982): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 9 SYSTEMPATH\CodeIgniter.php(1068): session()
+10 SYSTEMPATH\CodeIgniter.php(549): CodeIgniter\CodeIgniter->storePreviousURL(Object(CodeIgniter\HTTP\SiteURI))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-15 06:28:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 06:28:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 06:28:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 06:28:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 06:28:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 06:28:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-15 08:59:32 --> ErrorException: Undefined property: App\Controllers\AMRController::$session
+in APPPATH\Controllers\AMRController.php on line 55.
+ 1 APPPATH\Controllers\AMRController.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\AMRController::$session', 'C:\\xampp\\htdocs\\amar\\app\\Controllers\\AMRController.php', 55)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AMRController->submitManuscript()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AMRController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-15 09:12:35 --> ErrorException: Declaration of App\Models\ManuscriptModel::insert() must be compatible with CodeIgniter\Model::insert($row = null, bool $returnID = true)
+in APPPATH\Models\ManuscriptModel.php on line 13.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-07-15 09:13:45 --> ErrorException: Undefined variable $table
+in APPPATH\Models\ManuscriptModel.php on line 15.
+ 1 APPPATH\Models\ManuscriptModel.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $table', 'C:\\xampp\\htdocs\\amar\\app\\Models\\ManuscriptModel.php', 15)
+ 2 APPPATH\Controllers\AMRController.php(45): App\Models\ManuscriptModel->data_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AMRController->submitManuscript()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AMRController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-15 09:14:36 --> ErrorException: Undefined variable $table
+in APPPATH\Models\ManuscriptModel.php on line 15.
+ 1 APPPATH\Models\ManuscriptModel.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $table', 'C:\\xampp\\htdocs\\amar\\app\\Models\\ManuscriptModel.php', 15)
+ 2 APPPATH\Controllers\AMRController.php(45): App\Models\ManuscriptModel->data_insert()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AMRController->submitManuscript()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AMRController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-15 09:14:53 --> Error: Call to a member function getPost() on null
+in APPPATH\Models\ManuscriptModel.php on line 17.
+ 1 APPPATH\Controllers\AMRController.php(45): App\Models\ManuscriptModel->data_insert()
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AMRController->submitManuscript()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AMRController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-15 09:19:06 --> Error: Call to a member function getPost() on null
+in APPPATH\Models\ManuscriptModel.php on line 13.
+ 1 APPPATH\Controllers\AMRController.php(45): App\Models\ManuscriptModel->data_insert()
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AMRController->submitManuscript()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AMRController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-15 09:22:00 --> Error: Call to a member function getPost() on null
+in APPPATH\Models\ManuscriptModel.php on line 13.
+ 1 APPPATH\Controllers\AMRController.php(47): App\Models\ManuscriptModel->data_insert(Object(CodeIgniter\HTTP\IncomingRequest))
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AMRController->submitManuscript()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AMRController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-15 09:22:17 --> Error: Call to a member function getPost() on null
+in APPPATH\Models\ManuscriptModel.php on line 13.
+ 1 APPPATH\Controllers\AMRController.php(47): App\Models\ManuscriptModel->data_insert(Object(CodeIgniter\HTTP\IncomingRequest))
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AMRController->submitManuscript()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AMRController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-15 09:30:08 --> CodeIgniter\Database\Exceptions\DataException: Allowed fields must be specified for model: "App\Models\ManuscriptModel"
+in SYSTEMPATH\Model.php on line 766.
+ 1 SYSTEMPATH\Model.php(766): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\ManuscriptModel')
+ 2 SYSTEMPATH\BaseModel.php(783): CodeIgniter\Model->doProtectFieldsForInsert([...])
+ 3 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 4 APPPATH\Models\ManuscriptModel.php(23): CodeIgniter\Model->insert([...])
+ 5 APPPATH\Controllers\AMRController.php(47): App\Models\ManuscriptModel->data_insert(Object(CodeIgniter\HTTP\IncomingRequest))
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AMRController->submitManuscript()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AMRController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-15 09:31:27 --> CodeIgniter\Database\Exceptions\DataException: Allowed fields must be specified for model: "App\Models\ManuscriptModel"
+in SYSTEMPATH\Model.php on line 766.
+ 1 SYSTEMPATH\Model.php(766): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\ManuscriptModel')
+ 2 SYSTEMPATH\BaseModel.php(783): CodeIgniter\Model->doProtectFieldsForInsert([...])
+ 3 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 4 APPPATH\Models\ManuscriptModel.php(24): CodeIgniter\Model->insert([...])
+ 5 APPPATH\Controllers\AMRController.php(47): App\Models\ManuscriptModel->data_insert(Object(CodeIgniter\HTTP\IncomingRequest))
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AMRController->submitManuscript()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AMRController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-15 09:31:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 09:32:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 09:33:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 09:37:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 09:38:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-15 09:39:38 --> ErrorException: ini_set(): Session ini settings cannot be changed when a session is active
+in SYSTEMPATH\Session\Handlers\FileHandler.php on line 72.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ini_set(): Session ini settings cannot be changed when a session is active', 'C:\\xampp\\htdocs\\amar\\system\\Session\\Handlers\\FileHandler.php', 72)
+ 2 SYSTEMPATH\Session\Handlers\FileHandler.php(72): ini_set('session.save_path', 'C:\\xampp\\htdocs\\amar\\writable\\session')
+ 3 SYSTEMPATH\Config\Services.php(686): CodeIgniter\Session\Handlers\FileHandler->__construct(Object(Config\Session), '127.0.0.1')
+ 4 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+ 5 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 6 SYSTEMPATH\Config\Services.php(664): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 7 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session()
+ 8 SYSTEMPATH\Common.php(982): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 9 SYSTEMPATH\CodeIgniter.php(1068): session()
+10 SYSTEMPATH\CodeIgniter.php(549): CodeIgniter\CodeIgniter->storePreviousURL(Object(CodeIgniter\HTTP\SiteURI))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-15 09:46:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 09:46:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 09:46:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 09:47:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 09:55:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-15 09:55:54 --> Error: Call to undefined function App\Models\data_update()
+in APPPATH\Models\ManuscriptModel.php on line 28.
+ 1 APPPATH\Controllers\AMRController.php(47): App\Models\ManuscriptModel->data_insert(Object(CodeIgniter\HTTP\IncomingRequest))
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AMRController->submitManuscript()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AMRController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-15 09:57:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-15 09:57:04 --> Error: Call to undefined function App\Models\data_update()
+in APPPATH\Models\ManuscriptModel.php on line 37.
+ 1 APPPATH\Controllers\AMRController.php(47): App\Models\ManuscriptModel->data_insert(Object(CodeIgniter\HTTP\IncomingRequest))
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AMRController->submitManuscript()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AMRController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-15 09:57:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-15 09:57:54 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1778.
+ 1 SYSTEMPATH\BaseModel.php(1778): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(956): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(807): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Models\ManuscriptModel.php(41): CodeIgniter\Model->update([...])
+ 5 APPPATH\Models\ManuscriptModel.php(29): App\Models\ManuscriptModel->data_update(9)
+ 6 APPPATH\Controllers\AMRController.php(47): App\Models\ManuscriptModel->data_insert(Object(CodeIgniter\HTTP\IncomingRequest))
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AMRController->submitManuscript()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AMRController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-15 10:01:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-15 10:01:02 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1778.
+ 1 SYSTEMPATH\BaseModel.php(1778): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(956): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(807): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Models\ManuscriptModel.php(41): CodeIgniter\Model->update([...])
+ 5 APPPATH\Models\ManuscriptModel.php(29): App\Models\ManuscriptModel->data_update(10)
+ 6 APPPATH\Controllers\AMRController.php(47): App\Models\ManuscriptModel->data_insert(Object(CodeIgniter\HTTP\IncomingRequest))
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AMRController->submitManuscript()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AMRController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-15 10:04:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 10:04:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 10:05:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 10:05:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-15 10:05:59 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1778.
+ 1 SYSTEMPATH\BaseModel.php(1778): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(956): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(807): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Models\ManuscriptModel.php(41): CodeIgniter\Model->update([...])
+ 5 APPPATH\Models\ManuscriptModel.php(29): App\Models\ManuscriptModel->data_update(3)
+ 6 APPPATH\Controllers\AMRController.php(47): App\Models\ManuscriptModel->data_insert(Object(CodeIgniter\HTTP\IncomingRequest))
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AMRController->submitManuscript()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AMRController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-15 10:09:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-15 10:09:52 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1778.
+ 1 SYSTEMPATH\BaseModel.php(1778): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(956): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(807): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Models\ManuscriptModel.php(29): CodeIgniter\Model->update([...])
+ 5 APPPATH\Controllers\AMRController.php(47): App\Models\ManuscriptModel->data_insert(Object(CodeIgniter\HTTP\IncomingRequest))
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AMRController->submitManuscript()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AMRController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-15 10:12:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-15 10:12:53 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1778.
+ 1 SYSTEMPATH\BaseModel.php(1778): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(956): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(807): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Models\ManuscriptModel.php(30): CodeIgniter\Model->update([...])
+ 5 APPPATH\Controllers\AMRController.php(47): App\Models\ManuscriptModel->data_insert(Object(CodeIgniter\HTTP\IncomingRequest))
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AMRController->submitManuscript()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AMRController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-15 10:15:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-15 10:15:17 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1778.
+ 1 SYSTEMPATH\BaseModel.php(1778): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(956): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(807): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Models\ManuscriptModel.php(32): CodeIgniter\Model->update([...])
+ 5 APPPATH\Controllers\AMRController.php(47): App\Models\ManuscriptModel->data_insert(Object(CodeIgniter\HTTP\IncomingRequest))
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AMRController->submitManuscript()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AMRController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-15 10:15:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 10:17:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-15 10:17:55 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1778.
+ 1 SYSTEMPATH\BaseModel.php(1778): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(956): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(807): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Models\ManuscriptModel.php(32): CodeIgniter\Model->update([...])
+ 5 APPPATH\Controllers\AMRController.php(47): App\Models\ManuscriptModel->data_insert(Object(CodeIgniter\HTTP\IncomingRequest))
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AMRController->submitManuscript()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AMRController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-15 10:27:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-15 10:27:58 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1778.
+ 1 SYSTEMPATH\BaseModel.php(1778): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(956): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(807): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Models\ManuscriptModel.php(32): CodeIgniter\Model->update([...])
+ 5 APPPATH\Controllers\AMRController.php(47): App\Models\ManuscriptModel->data_insert(Object(CodeIgniter\HTTP\IncomingRequest))
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AMRController->submitManuscript()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AMRController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-15 10:32:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-15 10:32:36 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1778.
+ 1 SYSTEMPATH\BaseModel.php(1778): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(956): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(807): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Models\ManuscriptModel.php(35): CodeIgniter\Model->update([...])
+ 5 APPPATH\Controllers\AMRController.php(47): App\Models\ManuscriptModel->data_insert(Object(CodeIgniter\HTTP\IncomingRequest))
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AMRController->submitManuscript()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AMRController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-15 10:34:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-15 10:34:21 --> TypeError: CodeIgniter\Database\BaseConnection::prepare(): Argument #1 ($func) must be of type Closure, string given, called in C:\xampp\htdocs\amar\app\Models\ManuscriptModel.php on line 33
+in SYSTEMPATH\Database\BaseConnection.php on line 921.
+ 1 APPPATH\Models\ManuscriptModel.php(33): CodeIgniter\Database\BaseConnection->prepare('UPDATE your_table_name SET amar_id = :amar_id WHERE id = :id')
+ 2 APPPATH\Controllers\AMRController.php(47): App\Models\ManuscriptModel->data_insert(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AMRController->submitManuscript()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AMRController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-15 10:35:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-15 10:35:39 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Builder::query()
+in APPPATH\Models\ManuscriptModel.php on line 33.
+ 1 APPPATH\Controllers\AMRController.php(47): App\Models\ManuscriptModel->data_insert(Object(CodeIgniter\HTTP\IncomingRequest))
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AMRController->submitManuscript()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AMRController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-15 10:36:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-07-15 10:36:38 --> mysqli_sql_exception: Table 'amar.your_table_name' doesn't exist in C:\xampp\htdocs\amar\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\amar\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE your_tab...', 0)
+#1 C:\xampp\htdocs\amar\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE your_tab...')
+#2 C:\xampp\htdocs\amar\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE your_tab...')
+#3 C:\xampp\htdocs\amar\app\Models\ManuscriptModel.php(33): CodeIgniter\Database\BaseConnection->query('UPDATE your_tab...', Array)
+#4 C:\xampp\htdocs\amar\app\Controllers\AMRController.php(47): App\Models\ManuscriptModel->data_insert(Object(CodeIgniter\HTTP\IncomingRequest))
+#5 C:\xampp\htdocs\amar\system\CodeIgniter.php(941): App\Controllers\AMRController->submitManuscript()
+#6 C:\xampp\htdocs\amar\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AMRController))
+#7 C:\xampp\htdocs\amar\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\amar\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-07-15 10:36:38 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'amar.your_table_name' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\ManuscriptModel.php(33): CodeIgniter\Database\BaseConnection->query('UPDATE your_table_name SET amar_id = \'AMAR/MS/13\' WHERE id = ?', [...])
+ 2 APPPATH\Controllers\AMRController.php(47): App\Models\ManuscriptModel->data_insert(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AMRController->submitManuscript()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AMRController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-15 10:36:38 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'amar.your_table_name' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE your_table_name SET amar_id = \'AMAR/MS/13\' WHERE id = 13')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE your_table_name SET amar_id = \'AMAR/MS/13\' WHERE id = 13')
+ 3 APPPATH\Models\ManuscriptModel.php(33): CodeIgniter\Database\BaseConnection->query('UPDATE your_table_name SET amar_id = \'AMAR/MS/13\' WHERE id = ?', [...])
+ 4 APPPATH\Controllers\AMRController.php(47): App\Models\ManuscriptModel->data_insert(Object(CodeIgniter\HTTP\IncomingRequest))
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AMRController->submitManuscript()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AMRController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-15 10:36:38 --> [Caused by] mysqli_sql_exception: Table 'amar.your_table_name' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE your_table_name SET amar_id = \'AMAR/MS/13\' WHERE id = 13', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE your_table_name SET amar_id = \'AMAR/MS/13\' WHERE id = 13')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE your_table_name SET amar_id = \'AMAR/MS/13\' WHERE id = 13')
+ 4 APPPATH\Models\ManuscriptModel.php(33): CodeIgniter\Database\BaseConnection->query('UPDATE your_table_name SET amar_id = \'AMAR/MS/13\' WHERE id = ?', [...])
+ 5 APPPATH\Controllers\AMRController.php(47): App\Models\ManuscriptModel->data_insert(Object(CodeIgniter\HTTP\IncomingRequest))
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AMRController->submitManuscript()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AMRController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-15 10:37:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-07-15 10:37:19 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''manuscript1_m' SET amar_id = 'AMAR/MS/14' WHERE id = 14' at line 1 in C:\xampp\htdocs\amar\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\amar\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE 'manuscr...', 0)
+#1 C:\xampp\htdocs\amar\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE 'manuscr...')
+#2 C:\xampp\htdocs\amar\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE 'manuscr...')
+#3 C:\xampp\htdocs\amar\app\Models\ManuscriptModel.php(33): CodeIgniter\Database\BaseConnection->query('UPDATE 'manuscr...', Array)
+#4 C:\xampp\htdocs\amar\app\Controllers\AMRController.php(47): App\Models\ManuscriptModel->data_insert(Object(CodeIgniter\HTTP\IncomingRequest))
+#5 C:\xampp\htdocs\amar\system\CodeIgniter.php(941): App\Controllers\AMRController->submitManuscript()
+#6 C:\xampp\htdocs\amar\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AMRController))
+#7 C:\xampp\htdocs\amar\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\amar\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-07-15 10:37:19 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''manuscript1_m' SET amar_id = 'AMAR/MS/14' WHERE id = 14' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\ManuscriptModel.php(33): CodeIgniter\Database\BaseConnection->query('UPDATE \'manuscript1_m\' SET amar_id = \'AMAR/MS/14\' WHERE id = ?', [...])
+ 2 APPPATH\Controllers\AMRController.php(47): App\Models\ManuscriptModel->data_insert(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AMRController->submitManuscript()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AMRController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-15 10:37:19 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''manuscript1_m' SET amar_id = 'AMAR/MS/14' WHERE id = 14' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE \'manuscript1_m\' SET amar_id = \'AMAR/MS/14\' WHERE id = 14')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE \'manuscript1_m\' SET amar_id = \'AMAR/MS/14\' WHERE id = 14')
+ 3 APPPATH\Models\ManuscriptModel.php(33): CodeIgniter\Database\BaseConnection->query('UPDATE \'manuscript1_m\' SET amar_id = \'AMAR/MS/14\' WHERE id = ?', [...])
+ 4 APPPATH\Controllers\AMRController.php(47): App\Models\ManuscriptModel->data_insert(Object(CodeIgniter\HTTP\IncomingRequest))
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AMRController->submitManuscript()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AMRController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-15 10:37:19 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''manuscript1_m' SET amar_id = 'AMAR/MS/14' WHERE id = 14' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE \'manuscript1_m\' SET amar_id = \'AMAR/MS/14\' WHERE id = 14', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE \'manuscript1_m\' SET amar_id = \'AMAR/MS/14\' WHERE id = 14')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE \'manuscript1_m\' SET amar_id = \'AMAR/MS/14\' WHERE id = 14')
+ 4 APPPATH\Models\ManuscriptModel.php(33): CodeIgniter\Database\BaseConnection->query('UPDATE \'manuscript1_m\' SET amar_id = \'AMAR/MS/14\' WHERE id = ?', [...])
+ 5 APPPATH\Controllers\AMRController.php(47): App\Models\ManuscriptModel->data_insert(Object(CodeIgniter\HTTP\IncomingRequest))
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AMRController->submitManuscript()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AMRController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-15 10:38:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 10:39:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 10:39:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 10:39:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 10:44:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 10:44:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 10:44:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 12:07:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 12:09:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 12:09:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 12:09:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 12:09:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 12:09:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 12:09:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-15 12:14:38 --> ParseError: syntax error, unexpected token "("
+in APPPATH\Controllers\AMRController.php on line 80.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\amar\\app\\Controllers\\AMRController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\AMRController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\AMRController')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\AMRController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-15 12:15:07 --> Error: Call to undefined function App\Controllers\isloggedin()
+in APPPATH\Controllers\AMRController.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AMRController->menu()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AMRController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-15 12:15:09 --> Error: Call to undefined function App\Controllers\isloggedin()
+in APPPATH\Controllers\AMRController.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\AMRController->menu()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AMRController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-15 12:15:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 12:16:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 12:16:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 12:17:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 12:17:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 12:17:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 12:17:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 12:17:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 12:17:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 12:17:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 12:17:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-15 12:17:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
