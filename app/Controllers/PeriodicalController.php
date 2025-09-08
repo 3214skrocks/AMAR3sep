@@ -1,45 +1,39 @@
 <?php
 
 namespace App\Controllers;
-// include models
+
 use App\Models\ViewPeriodicalModel;
 
+/**
+ * Class PeriodicalController
+ *
+ * This controller is responsible for handling the display of periodical data.
+ * It retrieves periodical information from the model and passes it to the views.
+ */
 class PeriodicalController extends BaseController
 {
+    /**
+     * Displays a list of all periodicals.
+     *
+     * @return string The view that displays all periodicals.
+     */
     public function index()
     {
-		/*
-		// Database Connection
-		$db = \Config\Database::connect();
-		//print_r($db);
-		
-		$query = $db->query('SELECT * FROM `manuscripts_m` limit 10');
-		$result = $query->getResult();
-		//echo "<pre>";
-		print_r($result);
-		*/
-		
-		$viewperiodicals = new ViewPeriodicalModel();
-		$data['periodicals_data']= $viewperiodicals->getAllPeriodicalsData();
-		//print_r($data['catalogue_data']);
-		return view('partials/periodical_view',$data);
-		// echo view('partials/periodical_view');
-		
+        $viewperiodicals = new ViewPeriodicalModel();
+        $data['periodicals_data'] = $viewperiodicals->getAllPeriodicalsData();
+        return view('partials/periodical_view', $data);
     }
-	
-	public function viewFullPeriodicalDetails($per_id)
+
+    /**
+     * Displays the full details of a specific periodical.
+     *
+     * @param int $per_id The ID of the periodical to display.
+     * @return string The view that displays the full details of a periodical.
+     */
+    public function viewFullPeriodicalDetails($per_id)
     {
-		
-		//$data['lht_id']= $rb_id;
-		//exit();
-		$periodicaldetails = new ViewPeriodicalModel();
-		$data['per_data']= $periodicaldetails->getPeriodicalDetails($per_id);
-		//print_r($data['per_data']);
-		//exit();
-		return view('partials/periodical_full_details',$data);
-		// echo view('partials/manuscript_view');
-		
+        $periodicaldetails = new ViewPeriodicalModel();
+        $data['per_data'] = $periodicaldetails->getPeriodicalDetails($per_id);
+        return view('partials/periodical_full_details', $data);
     }
-	
-	
 }

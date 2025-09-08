@@ -1,45 +1,39 @@
 <?php
 
 namespace App\Controllers;
-// include models
+
 use App\Models\ViewCatalogueModel;
 
+/**
+ * Class CatalogueController
+ *
+ * This controller is responsible for handling the display of catalogue data.
+ * It retrieves catalogue information from the model and passes it to the views.
+ */
 class CatalogueController extends BaseController
 {
+    /**
+     * Displays a list of all catalogues.
+     *
+     * @return string The view that displays all catalogues.
+     */
     public function index()
     {
-		/*
-		// Database Connection
-		$db = \Config\Database::connect();
-		//print_r($db);
-		
-		$query = $db->query('SELECT * FROM `manuscripts_m` limit 10');
-		$result = $query->getResult();
-		//echo "<pre>";
-		print_r($result);
-		*/
-		
-		$viewcatalogue = new ViewCatalogueModel();
-		$data['catalogue_data']= $viewcatalogue->getAllCataloguesData();
-		//print_r($data['catalogue_data']);
-		return view('partials/catalogue_view',$data);
-		
-		// echo view('partials/manuscript_view');
-		
+        $viewcatalogue = new ViewCatalogueModel();
+        $data['catalogue_data'] = $viewcatalogue->getAllCataloguesData();
+        return view('partials/catalogue_view', $data);
     }
-	
-	public function viewFullCatalogueDetails($cat_id)
+
+    /**
+     * Displays the full details of a specific catalogue.
+     *
+     * @param int $cat_id The ID of the catalogue to display.
+     * @return string The view that displays the full details of a catalogue.
+     */
+    public function viewFullCatalogueDetails($cat_id)
     {
-		
-		//$data['lht_id']= $rb_id;
-		//exit();
-		$cataloguedetails = new ViewCatalogueModel();
-		$data['cat_data']= $cataloguedetails->getCatalogueDetails($cat_id);
-		//print_r($data['mss_data']);
-		return view('partials/catalogue_full_details',$data);
-		// echo view('partials/manuscript_view');
-		
+        $cataloguedetails = new ViewCatalogueModel();
+        $data['cat_data'] = $cataloguedetails->getCatalogueDetails($cat_id);
+        return view('partials/catalogue_full_details', $data);
     }
-	
-	
 }

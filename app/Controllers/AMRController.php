@@ -8,14 +8,32 @@ use App\Models\RareBookModel;
 use App\Models\CatalogueModel;
 use App\Models\PeriodicalModel;
 
+/**
+ * Class AMRController
+ *
+ * This controller handles functionalities related to Accessioning and Metadata Recording (AMR).
+ * It manages the submission and viewing of manuscripts, rare books, catalogues, and periodicals.
+ * All methods in this controller require the user to be logged in.
+ */
 class AMRController extends Controller
 {
+    /**
+     * Checks if the user is logged in.
+     *
+     * @return bool True if the user is logged in, false otherwise.
+     */
     public function isloggedin()
     {
         $session = session();
-        return $session->get('isLoggedIn');
+        return (bool) $session->get('isLoggedIn');
     }
 
+    /**
+     * Displays the AMR menu view if the user is logged in.
+     * Otherwise, redirects to the login page.
+     *
+     * @return \CodeIgniter\HTTP\RedirectResponse|string The AMR menu view or a redirect response.
+     */
     public function menu()
     {
         if (!$this->isloggedin()) {
@@ -25,6 +43,11 @@ class AMRController extends Controller
         }
     }
 
+    /**
+     * Displays the manuscript submission form.
+     *
+     * @return \CodeIgniter\HTTP\RedirectResponse|string The manuscript form view or a redirect response.
+     */
     public function manuscript()
     {
         if (!$this->isloggedin()) {
@@ -34,6 +57,11 @@ class AMRController extends Controller
         }
     }
 
+    /**
+     * Displays the rare books submission form.
+     *
+     * @return \CodeIgniter\HTTP\RedirectResponse|string The rare books form view or a redirect response.
+     */
     public function rareBooks()
     {
         if (!$this->isloggedin()) {
@@ -43,6 +71,11 @@ class AMRController extends Controller
         }
     }
 
+    /**
+     * Displays the catalogues submission form.
+     *
+     * @return \CodeIgniter\HTTP\RedirectResponse|string The catalogues form view or a redirect response.
+     */
     public function catalogues()
     {
         helper('upload_url');
@@ -53,6 +86,11 @@ class AMRController extends Controller
         }
     }
 
+    /**
+     * Displays the periodicals submission form.
+     *
+     * @return \CodeIgniter\HTTP\RedirectResponse|string The periodicals form view or a redirect response.
+     */
     public function periodicals()
     {
         if (!$this->isloggedin()) {
@@ -62,6 +100,11 @@ class AMRController extends Controller
         }
     }
 
+    /**
+     * Handles the submission of the manuscript form.
+     *
+     * @return \CodeIgniter\HTTP\RedirectResponse Redirects back to the manuscript form with a success or error message.
+     */
     public function submitManuscript()
     {
         $model = new ManuscriptModel();
@@ -80,6 +123,11 @@ class AMRController extends Controller
         }
     }
 
+    /**
+     * Handles the submission of the rare books form.
+     *
+     * @return \CodeIgniter\HTTP\RedirectResponse Redirects back to the rare books form with a success or error message.
+     */
     public function submitRareBooks()
     {
         $model = new RareBookModel();
@@ -98,6 +146,11 @@ class AMRController extends Controller
         }
     }
 
+    /**
+     * Handles the submission of the catalogues form.
+     *
+     * @return \CodeIgniter\HTTP\RedirectResponse Redirects back to the catalogues form with a success or error message.
+     */
     public function submitCatalogues()
     { 
         $model = new CatalogueModel();
@@ -116,6 +169,11 @@ class AMRController extends Controller
         }
     }
 
+    /**
+     * Handles the submission of the periodicals form.
+     *
+     * @return \CodeIgniter\HTTP\RedirectResponse Redirects back to the periodicals form with a success or error message.
+     */
     public function submitPeriodicals()
     {
         $model = new PeriodicalModel();
@@ -134,6 +192,12 @@ class AMRController extends Controller
         }
     }
 
+    /**
+     * Redirects to a PDF file in the uploads directory.
+     *
+     * @param string $filename The name of the PDF file.
+     * @return \CodeIgniter\HTTP\RedirectResponse Redirects to the PDF file URL.
+     */
     public function viewpdf($filename)
     {
         if (!$this->isloggedin()) {
@@ -143,6 +207,12 @@ class AMRController extends Controller
         }
     }
 
+    /**
+     * Fetches and displays data based on its status (approved, rejected, etc.).
+     *
+     * @param int $status The status of the data to fetch (1: approved, 2: rejected, 3: rejected by cataloguer).
+     * @return \CodeIgniter\HTTP\RedirectResponse|string The view with the fetched data or a redirect response.
+     */
     public function statuswisedata($status)
     {
         if (!$this->isloggedin()) {

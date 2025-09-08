@@ -1,86 +1,82 @@
 <?php
+
 namespace App\Models;
 
 use CodeIgniter\Model;
 
+/**
+ * Class ViewManuscriptModel
+ *
+ * This model is used to fetch data for the public-facing manuscript views.
+ */
 class ViewManuscriptModel extends Model
 {
-
-	protected $table = 'manuscripts_m';
-    protected $primaryKey = 'id';
+    protected $table = 'manuscripts_m';
+    protected $primaryKey = 'mssid'; // Assuming 'mssid' is the primary key for views
     protected $allowedFields = [
         'title_phonetic', 'author_phonetic'
     ];
 
+    /**
+     * Fetches a limited number of manuscript records for display.
+     *
+     * @return array|false An array of results, or false if no results are found.
+     */
     public function getManuscriptFullData()
-	{
-		/*
-			$subjects = [
-				['subject' => 'HTML', 'abbr' => 'Hyper Text Markup Language'],
-				['subject' => 'CSS', 'abbr' => 'ascading Style Sheet'],
-				['subject' => 'PHP', 'abbr' => 'Preprocessor Hyper Text'],
-			];
-			return $subjects;
-		*/
-		
-		$db = \Config\Database::connect();
-		$query = $db->query('SELECT * FROM `manuscripts_m` limit 30;');
-		$result = $query->getResult();
-		if(count($result)>0)
-		{
-			return $result;
-		}
-		else{
-			return false;
-		}
-	}
-	
-	
-	
-	public function getManuscriptDetails($mssid)
-	{
-		
-		$db = \Config\Database::connect();
-		$query = $db->query("SELECT * FROM manuscripts_m where mssid='$mssid';");
-		$result = $query->getResult();
-		if(count($result)>0)
-		{
-			return $result;
-		}
-		else{
-			return false;
-		}
-	}
+    {
+        $builder = $this->db->table($this->table);
+        $builder->limit(30);
+        $query = $builder->get();
+        $result = $query->getResult();
 
-	public function getallManuscriptSystemData()
-	{
-		$db = \Config\Database::connect();
-		$query = $db->query('SELECT topic_id,topic_name,count(topic_name) as count FROM `manuscripts_m` GROUP by topic_name');
-		$result = $query->getResult();
-		if(count($result)>0)
-		{
-			return $result;
-		}
-		else{
-			return false;
-		}
-	}
+        return count($result) > 0 ? $result : false;
+    }
 
-	// Search by System/Topic //=========================
-	public function getManuscriptSystemDetails($msstopicid)
-	{
-		
-		$db = \Config\Database::connect();
-		$query = $db->query("SELECT * FROM manuscripts_m where topic_id='$msstopicid';");
-		$result = $query->getResult();
-		if(count($result)>0)
-		{
-			return $result;
-		}
-		else{
-			return false;
-		}
-	}
-	
-	
+    /**
+     * Fetches the details for a single manuscript by its ID.
+     *
+     * @param int $mssid The ID of the manuscript.
+     * @return array|false An array containing the single result, or false if not found.
+     */
+    public function getManuscriptDetails($mssid)
+    {
+        $builder = $this->db->table($this->table);
+        $builder->where('mssid', $mssid);
+        $query = $builder->get();
+        $result = $query->getResult();
+
+        return count($result) > 0 ? $result : false;
+    }
+
+    /**
+     * Fetches statistics about manuscripts, grouped by system/topic.
+     *
+     * @return array|false An array of topic statistics, or false if no results are found.
+     */
+    public function getallManuscriptSystemData()
+    {
+        $builder = $this->db->table($this->table);
+        $builder->select('topic_id, topic_name, count(topic_name) as count');
+        $builder->groupBy('topic_name');
+        $query = $builder->get();
+        $result = $query->getResult();
+
+        return count($result) > 0 ? $result : false;
+    }
+
+    /**
+     * Fetches all manuscripts belonging to a specific system/topic.
+     *
+     * @param int $msstopicid The ID of the topic.
+     * @return array|false An array of manuscript results, or false if not found.
+     */
+    public function getManuscriptSystemDetails($msstopicid)
+    {
+        $builder = $this->db->table($this->table);
+        $builder->where('topic_id', $msstopicid);
+        $query = $builder->get();
+        $result = $query->getResult();
+
+        return count($result) > 0 ? $result : false;
+    }
 }
