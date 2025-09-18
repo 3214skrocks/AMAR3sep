@@ -25,14 +25,14 @@
                         <tr>
                             <td><?= $serial++; ?></td>
                             <td>Manuscript</td>
-                            <td><?= $manuscript_single_data['Title']; ?></td>
-                            <td><?= isset($manuscript_single_data['Author']) ? $manuscript_single_data['Author'] : 'N/A'; ?>
+                            <td><?= $manuscript_single_data['title_phonetic']; ?></td>
+                            <td><?= isset($manuscript_single_data['author_phonetic']) ? $manuscript_single_data['author_phonetic'] : 'N/A'; ?>
                             </td>
                             <td><?= $manuscript_single_data['amar_id']; ?></td>
                             <td>
-                                <a href="<?= site_url('registrar/view_pdf/'.$manuscript_single_data['id'].'/manuscript1_m'); ?>"
+                                <a href="<?= site_url('registrar/view_pdf/'.$manuscript_single_data['id'].'/manuscript'); ?>"
                                     class="btn btn-info btn-sm">View PDF</a>
-                                <a href="<?= site_url('registrar/download/'.$manuscript_single_data['id'].'/manuscript1_m'); ?>"
+                                <a href="<?= site_url('registrar/download/'.$manuscript_single_data['id'].'/manuscript'); ?>"
                                     class="btn btn-primary btn-sm">Download</a>
                             </td>
                         </tr>
@@ -45,14 +45,14 @@
                         <tr>
                             <td><?= $serial++; ?></td>
                             <td>Rarebook</td>
-                            <td><?= $rarebooks_single_data['Title']; ?></td>
-                            <td><?= isset($rarebooks_single_data['Author']) ? $rarebooks_single_data['Author'] : 'N/A'; ?>
+                            <td><?= $rarebooks_single_data['title_phonetic']; ?></td>
+                            <td><?= isset($rarebooks_single_data['author_phonetic']) ? $rarebooks_single_data['author_phonetic'] : 'N/A'; ?>
                             </td>
                             <td><?= $rarebooks_single_data['amar_id']; ?></td>
                             <td>
-                                <a href="<?= site_url('registrar/view_pdf/'.$rarebooks_single_data['id'].'/rare_books1'); ?>"
+                                <a href="<?= site_url('registrar/view_pdf/'.$rarebooks_single_data['id'].'/rarebook'); ?>"
                                     class="btn btn-info btn-sm">View PDF</a>
-                                <a href="<?= site_url('registrar/download/'.$rarebooks_single_data['id'].'/rare_books1'); ?>"
+                                <a href="<?= site_url('registrar/download/'.$rarebooks_single_data['id'].'/rarebook'); ?>"
                                     class="btn btn-primary btn-sm">Download</a>
                             </td>
                         </tr>
@@ -65,13 +65,13 @@
                         <tr>
                             <td><?= $serial++; ?></td>
                             <td>Catalogue</td>
-                            <td><?= $single_data['Title']; ?></td>
-                            <td><?= isset($single_data['Author']) ? $single_data['Author'] : 'N/A'; ?></td>
+                            <td><?= $single_data['title_phonetic']; ?></td>
+                            <td><?= isset($single_data['author_phonetic']) ? $single_data['author_phonetic'] : 'N/A'; ?></td>
                             <td><?= $single_data['amar_id']; ?></td>
                             <td>
-                                <a href="<?= site_url('registrar/view_pdf/'.$single_data['id'].'/catalogue1'); ?>"
+                                <a href="<?= site_url('registrar/view_pdf/'.$single_data['id'].'/catalogue'); ?>"
                                     class="btn btn-info btn-sm">View PDF</a>
-                                <a href="<?= site_url('registrar/download/'.$single_data['id'].'/catalogue1'); ?>"
+                                <a href="<?= site_url('registrar/download/'.$single_data['id'].'/catalogue'); ?>"
                                     class="btn btn-primary btn-sm">Download</a>
                             </td>
                         </tr>
@@ -84,13 +84,13 @@
                         <tr>
                             <td><?= $serial++; ?></td>
                             <td>Periodical</td>
-                            <td><?= $single_data['Title']; ?></td>
-                            <td><?= isset($single_data['Author']) ? $single_data['Author'] : 'N/A'; ?></td>
+                            <td><?= $single_data['per_title']; ?></td>
+                            <td><?= isset($single_data['publisher']) ? $single_data['publisher'] : 'N/A'; ?></td>
                             <td><?= $single_data['amar_id']; ?></td>
                             <td>
-                                <a href="<?= site_url('registrar/view_pdf/'.$single_data['id'].'/periodical1'); ?>"
+                                <a href="<?= site_url('registrar/view_pdf/'.$single_data['id'].'/periodical'); ?>"
                                     class="btn btn-info btn-sm">View PDF</a>
-                                <a href="<?= site_url('registrar/download/'.$single_data['id'].'/periodical1'); ?>"
+                                <a href="<?= site_url('registrar/download/'.$single_data['id'].'/periodical'); ?>"
                                     class="btn btn-primary btn-sm">Download</a>
                             </td>
                         </tr>

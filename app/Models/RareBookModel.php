@@ -26,6 +26,7 @@ class RareBookModel extends Model
         $session = session();
         $title = $request->getPost('title_phonetic');
         $author = $request->getPost('author_phonetic');
+        $cataloguer_id = $request->getPost('cataloguer_id');
         $file = $request->getFile('file');
 
         // Validate the input fields
@@ -46,7 +47,8 @@ class RareBookModel extends Model
             'title_phonetic' => $title,
             'author_phonetic' => $author,
             'file_path' => $newFileName,
-            'status' => 'Pending'
+            'cataloguer_id' => $cataloguer_id,
+            'status' => 'Assigned to Cataloguer'
         ];
 
         // Perform the insertion
@@ -130,5 +132,22 @@ class RareBookModel extends Model
     }
     public function publishedData($id){
         return $this->where(['status' => 'published', 'id' => $id])->first();
+    }
+
+    public function getAssignedRareBooks($cataloguerId)
+    {
+        return $this->where('cataloguer_id', $cataloguerId)
+                    ->where('status', 'Assigned to Cataloguer')
+                    ->findAll();
+    }
+
+    public function getRareBooksForRegistrar()
+    {
+        return $this->whereIn('status', ['Approved', 'published'])->findAll();
+    }
+
+    public function getPublishedRareBooks()
+    {
+        return $this->where('status', 'published')->findAll();
     }
 }
