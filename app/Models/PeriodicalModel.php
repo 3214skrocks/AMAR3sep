@@ -25,7 +25,6 @@ class PeriodicalModel extends Model
         $session = session();
         $title = $request->getPost('per_title');
         $author = $request->getPost('publisher');
-        $cataloguer_id = $request->getPost('cataloguer_id');
         $file = $request->getFile('file'); // Retrieve the uploaded file
 
         // Basic validation
@@ -48,8 +47,7 @@ class PeriodicalModel extends Model
             'per_title' => $title,
             'publisher' => $author,
             'file_path' => $newFileName, // Save the new file name
-            'cataloguer_id' => $cataloguer_id,
-            'status' => 'Assigned to Cataloguer'
+            'status' => 'Pending'
         ];
 
         // Perform the insertion
@@ -133,22 +131,5 @@ class PeriodicalModel extends Model
     }
     public function publishedData($id){
         return $this->where(['status' => 'published', 'id' => $id])->first();
-    }
-
-    public function getAssignedPeriodicals($cataloguerId)
-    {
-        return $this->where('cataloguer_id', $cataloguerId)
-                    ->where('status', 'Assigned to Cataloguer')
-                    ->findAll();
-    }
-
-    public function getPeriodicalsForRegistrar()
-    {
-        return $this->whereIn('status', ['Approved', 'published'])->findAll();
-    }
-
-    public function getPublishedPeriodicals()
-    {
-        return $this->where('status', 'published')->findAll();
     }
 }
