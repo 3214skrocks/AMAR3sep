@@ -1,53 +1,80 @@
 <?php
-defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Login extends CI_Controller {
+namespace App\Controllers;
 
-    public function index() {
-        $this->load->view('login_view');
-        $this->load->helper('visitor');
-    
+use App\Models\User_model;
+use CodeIgniter\Controller;
+
+/**
+ * Class Login
+ *
+ * This controller appears to be a legacy file from a previous version of CodeIgniter.
+ * It is likely not in use and should be considered for removal.
+ * The login logic is handled by AdminController.
+ *
+ * @deprecated This controller is not compatible with CodeIgniter 4 and is likely unused.
+ */
+class Login extends Controller
+{
+    /**
+     * Displays the login view.
+     *
+     * @return string The login view.
+     */
+    public function index()
+    {
+        helper('visitor');
+        return view('login_view');
     }
-    public function submit() {
-        $this->load->model('User_model');
 
-        $username = $this->input->post('username');
-        $password = $this->input->post('password');
-        $department = $this->input->post('department');
+    /**
+     * Handles the login form submission.
+     *
+     * @return \CodeIgniter\HTTP\RedirectResponse|string A redirect to the dashboard or the login view with an error.
+     */
+    public function submit()
+    {
+        $model = new User_model();
 
-        $user = $this->User_model->get_user($username, $password, $department);
+        $username = $this->request->getPost('username');
+        $password = $this->request->getPost('password');
+        $department = $this->request->getPost('department');
+
+        $user = $model->get_user($username, $password, $department);
 
         if ($user) {
-            $this->session->set_userdata('username', $username);
-            $this->session->set_userdata('password', $password);
-            $this->session->set_userdata('department', $user->Department);
-            $this->_redirect_to_dashboard($department);
+            $session = session();
+            $session->set('username', $username);
+            $session->set('password', $password);
+            $session->set('department', $user->Department);
+            return $this->redirect_to_dashboard($department);
         } else {
             $data['error'] = "Invalid username, password, or department";
-            $this->load->view('login_view', $data);
+            return view('login_view', $data);
         }
     }
 
-    private function _redirect_to_dashboard($department) {
+    /**
+     * Redirects the user to the appropriate dashboard based on their department.
+     *
+     * @param string $department The user's department.
+     * @return \CodeIgniter\HTTP\RedirectResponse A redirect response.
+     */
+    private function redirect_to_dashboard($department)
+    {
         switch ($department) {
             case 'Admin':
-                redirect('dashboard/admin');
-                break;
+                return redirect()->to('dashboard/admin');
             case 'Supervisor':
-                redirect('dashboard/supervisor');
-                break;
+                return redirect()->to('dashboard/supervisor');
             case 'AMR':
-                redirect('dashboard/amr');
-                break;
+                return redirect()->to('dashboard/amr');
             case 'Cataloguer':
-                redirect('dashboard/cataloguer');
-                break;
-                case 'Registerar':
-                    redirect('dashboard/registerar');
-                    break;
+                return redirect()->to('dashboard/cataloguer');
+            case 'Registerar':
+                return redirect()->to('dashboard/registerar');
             default:
-                redirect('dashboard/search');
-                break;
+                return redirect()->to('dashboard/search');
         }
     }
 }

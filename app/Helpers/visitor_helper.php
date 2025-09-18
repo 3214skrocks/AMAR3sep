@@ -1,31 +1,34 @@
 <?php
-defined('BASEPATH') OR exit('No direct script access allowed');
+
+/**
+ * Visitor Helper
+ *
+ * This helper file contains functions related to tracking website visitors.
+ */
 
 if (!function_exists('incrementVisitorCount')) {
-    function incrementVisitorCount() {
-        $countFile = 'visitor_count.txt';
+    /**
+     * Increments and returns the website visitor count.
+     *
+     * The count is stored in a text file in the writable directory.
+     * If the file doesn't exist, it's created with an initial value.
+     *
+     * @return int The updated visitor count.
+     */
+    function incrementVisitorCount()
+    {
+        $countFile = WRITEPATH . 'visitor_count.txt';
+
         if (!file_exists($countFile)) {
-            if (!file_put_contents($countFile, 1000)) {
-                echo "Failed to create count file.";
-                exit();
-            }
+            // Initialize the count file if it doesn't exist.
+            file_put_contents($countFile, '1');
+            return 1;
         }
-        $count = (int)file_get_contents($countFile);
-        if ($count === false) {
-            echo "Failed to read count file.";
-            exit();
-        }
+
+        $count = (int) file_get_contents($countFile);
         $count++;
-        if (!file_put_contents($countFile, $count)) {
-            echo "Failed to update count file.";
-            exit();
-        }
+        file_put_contents($countFile, (string) $count);
+
         return $count;
     }
 }
-
-// if(!function_exists('upload_url')){
-//     function upload_url(){
-//         return WRITEPATH.'uploads';
-//     }
-// }

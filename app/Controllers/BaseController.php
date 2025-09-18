@@ -44,7 +44,18 @@ abstract class BaseController extends Controller
     protected $session;
 
     /**
+     * Constructor.
+     *
+     * @param RequestInterface  $request
+     * @param ResponseInterface $response
+     * @param LoggerInterface   $logger
+     *
      * @return void
+     *
+     * @deprecated This method contains flawed logic that will cause an infinite redirect loop.
+     * The authentication check `if (!$this->session->get('isLoggedIn'))` will always redirect to the login page,
+     * regardless of the user's authentication status. The individual controllers in this application
+     * handle their own authentication checks, which is the correct approach. This method should not be relied upon.
      */
     public function initController(RequestInterface $request, ResponseInterface $response, LoggerInterface $logger)
     {
@@ -56,13 +67,14 @@ abstract class BaseController extends Controller
         // Load the session service
         $this->session = \Config\Services::session();
 
+        // NOTE: The following logic is flawed and will cause an infinite redirect loop.
+        // Authentication checks are handled by individual controllers.
         // Check if the user is logged in
         if (!$this->session->get('isLoggedIn')) {
             // If not logged in, redirect to the login page
             return redirect()->to('/admin/login');
-        }
-        else{
-            return redirect()->to('/admin/login'); 
+        } else {
+            return redirect()->to('/admin/login');
         }
     }
 }

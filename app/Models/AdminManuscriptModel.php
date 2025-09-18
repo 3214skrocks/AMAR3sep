@@ -1,41 +1,34 @@
 <?php
+
 namespace App\Models;
 
 use CodeIgniter\Model;
 
+/**
+ * Class AdminManuscriptModel
+ *
+ * This model appears to be a non-functional placeholder or a remnant of
+ * previous development. It contains incorrect and broken code.
+ * It is likely unused and should be considered for removal.
+ *
+ * @deprecated This model is non-functional and should not be used.
+ */
 class AdminManuscriptModel extends Model
 {
+    /**
+     * The table associated with this model.
+     *
+     * @var string
+     */
+    protected $table = 'manuscripts_m';
 
+    /**
+     * Constructor.
+     * The original constructor contained a call to a broken method.
+     * It has been cleared to prevent errors.
+     */
     public function __construct()
     {
-        $this->insertrow();
+        parent::__construct();
     }
-
-    public function insertrow()
-    {
-        $model = new YourModel();
-
-        // Prepare the empty data
-        $data = [
-            'column1' => '', // Add all your columns here with empty values
-            'column2' => '',
-            // ...
-        ];
-
-        // Insert the empty row
-        $model->insert($data);
-    }
-
-    public function insert()
-	{
-		
-		$db = \Config\Database::connect();
-		$query = $db->query('INSERT INTO `manuscripts_m` ()');
-		$result = $query->getResult();
-		if(count($result)>0)
-		{
-			return $result;
-		}
-		
-	}
 }
