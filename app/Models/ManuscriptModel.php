@@ -21,6 +21,7 @@ class ManuscriptModel extends Model
         $amr_id = $session->get('id');
         $title = $request->getPost('title_phonetic');
         $author = $request->getPost('author_phonetic');
+        $cataloguer_id = $request->getPost('cataloguer_id');
         $file = $request->getFile('file');
 
         // Validate the input fields and file
@@ -34,7 +35,8 @@ class ManuscriptModel extends Model
                 'title_phonetic' => $title,
                 'author_phonetic' => $author,
                 'file_path' => $newFileName,
-                'status' => 'Pending' // Default status
+                'cataloguer_id' => $cataloguer_id,
+                'status' => 'Assigned to Cataloguer'
             ];
 
             // Perform the insertion
@@ -124,5 +126,22 @@ class ManuscriptModel extends Model
 
     public function publishedData($id){
         return $this->where(['status' => 'published', 'id' => $id])->first();
+    }
+
+    public function getAssignedManuscripts($cataloguerId)
+    {
+        return $this->where('cataloguer_id', $cataloguerId)
+                    ->where('status', 'Assigned to Cataloguer')
+                    ->findAll();
+    }
+
+    public function getManuscriptsForRegistrar()
+    {
+        return $this->whereIn('status', ['Approved', 'published'])->findAll();
+    }
+
+    public function getPublishedManuscripts()
+    {
+        return $this->where('status', 'published')->findAll();
     }
 }
