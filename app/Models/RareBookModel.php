@@ -4,23 +4,34 @@ namespace App\Models;
 
 use CodeIgniter\Model;
 
+/**
+ * Class RareBookModel
+ *
+ * This model handles all database operations related to rare books.
+ * It manages creating, updating, and fetching rare book data through various workflow stages.
+ */
 class RareBookModel extends Model
 {
-    protected $table = 'rare_books1';
+    protected $table = 'rare_books1'; // TODO: Consider a more descriptive table name
     protected $primaryKey = 'id';
     protected $allowedFields = [
-        'title_phonetic', 'author_phonetic', 'amar_id', 'file_path', 'status', 
-        'supervisor_id', 'approved_by', 'rejected_by', 
+        'title_phonetic', 'author_phonetic', 'amar_id', 'file_path', 'status',
+        'supervisor_id', 'approved_by', 'rejected_by',
         'cataloguer_id', 'cataloguer_approved_at', 'cataloguer_rejected_at',
-        'remark_by_supervisor','remark_by_cataloguer'
+        'remark_by_supervisor', 'remark_by_cataloguer'
     ];
 
-    //protected $validationRules = [
-      //  'title' => 'required|min_length[3]',
-       // 'author' => 'required|min_length[3]',
-       // 'file' => 'uploaded[file]|max_size[file,1024]|ext_in[file,pdf,doc,docx]' // Optional file validation
-   // ];
+    protected $validationRules = [
+        'title_phonetic'  => 'required|min_length[3]',
+        'author_phonetic' => 'required|min_length[3]',
+    ];
 
+    /**
+     * Inserts new rare book data from a request.
+     *
+     * @param \CodeIgniter\HTTP\IncomingRequest $request The request object containing post data and the uploaded file.
+     * @return bool True on success, false on failure.
+     */
     public function data_insert($request)
     {
         $session = session();
@@ -28,107 +39,170 @@ class RareBookModel extends Model
         $author = $request->getPost('author_phonetic');
         $file = $request->getFile('file');
 
-        // Validate the input fields
         if (empty($title) || empty($author)) {
             $session->setFlashdata('error', 'Title and Author are required');
             return false;
         }
 
-        // File handling
         $newFileName = null;
         if ($file && $file->isValid() && !$file->hasMoved()) {
-            // Generate a new file name and move the file
             $newFileName = $file->getRandomName();
             $file->move(ROOTPATH . 'public/assets/uploads', $newFileName);
         }
 
         $data = [
-            'title_phonetic' => $title,
+            'title_phonetic'  => $title,
             'author_phonetic' => $author,
-            'file_path' => $newFileName,
-            'status' => 'Pending'
+            'file_path'       => $newFileName,
+            'status'          => 'Pending'
         ];
 
-        // Perform the insertion
         if ($this->insert($data)) {
             $inserted_id = $this->insertID();
             $amar_id = 'AMAR/RB/' . $inserted_id;
-
-            // Update the amar_id field
             $this->update($inserted_id, ['amar_id' => $amar_id]);
 
             $session->setFlashdata('success', 'Rare book data inserted successfully');
             return true;
-        } else {
-            $session->setFlashdata('error', 'Failed to insert rare book data');
-            return false;
         }
+
+        $session->setFlashdata('error', 'Failed to insert rare book data');
+        return false;
     }
 
+    /**
+     * Fetches all records with a 'Pending' status.
+     *
+     * @return array An array of pending rare book records.
+     */
     public function fetch_data()
     {
         return $this->where('status', 'Pending')->findAll();
     }
 
+    /**
+     * Approves a rare book record.
+     *
+     * @param int $id           The ID of the rare book record.
+     * @param int $supervisorId The ID of the supervisor approving the record.
+     * @return bool True on success, false on failure.
+     */
     public function approve($id, $supervisorId)
     {
         return $this->update($id, [
-            'status' => 'Approved',
+            'status'      => 'Approved',
             'approved_by' => $supervisorId
         ]);
     }
 
+    /**
+     * Rejects a rare book record.
+     *
+     * @param int $id           The ID of the rare book record.
+     * @param int $supervisorId The ID of the supervisor rejecting the record.
+     * @return bool True on success, false on failure.
+     */
     public function reject($id, $supervisorId)
     {
         return $this->update($id, [
-            'status' => 'Rejected',
+            'status'      => 'Rejected',
             'rejected_by' => $supervisorId
         ]);
     }
 
+    /**
+     * Approves a rare book record at the cataloguer level.
+     *
+     * @param int $id           The ID of the rare book record.
+     * @param int $cataloguerId The ID of the cataloguer approving the record.
+     * @return bool True on success, false on failure.
+     */
     public function approveByCataloguer($id, $cataloguerId)
     {
         return $this->update($id, [
-            'status' => 'Approved by Cataloguer',
-            'cataloguer_id' => $cataloguerId,
+            'status'                 => 'Approved by Cataloguer',
+            'cataloguer_id'          => $cataloguerId,
             'cataloguer_approved_at' => date('Y-m-d H:i:s')
         ]);
     }
 
+    /**
+     * Rejects a rare book record at the cataloguer level.
+     *
+     * @param int $id           The ID of the rare book record.
+     * @param int $cataloguerId The ID of the cataloguer rejecting the record.
+     * @return bool True on success, false on failure.
+     */
     public function rejectByCataloguer($id, $cataloguerId)
     {
         return $this->update($id, [
-            'status' => 'Rejected by Cataloguer',
-            'cataloguer_id' => $cataloguerId,
+            'status'                 => 'Rejected by Cataloguer',
+            'cataloguer_id'          => $cataloguerId,
             'cataloguer_rejected_at' => date('Y-m-d H:i:s')
         ]);
     }
 
+    /**
+     * Fetches all records approved by any supervisor.
+     *
+     * @return array An array of approved records.
+     */
     public function fetchApprovedBySupervisor()
     {
         return $this->where('status', 'Approved')->findAll();
     }
 
+    /**
+     * Fetches all records approved by any cataloguer.
+     *
+     * @return array An array of cataloguer-approved records.
+     */
     public function fetchApprovedByCataloguer()
     {
         return $this->where('status', 'Approved by Cataloguer')->findAll();
     }
 
+    /**
+     * Fetches approved records for a specific AMR user.
+     *
+     * @param int $user_id The ID of the AMR user.
+     * @return array An array of approved records for the user.
+     */
     public function amrFetchApproved($user_id)
     {
-        return $this->where(['status' => 'Published','amr_id' => $user_id])->findAll();
+        return $this->where(['status' => 'Approved', 'amr_id' => $user_id])->findAll();
     }
 
+    /**
+     * Fetches rejected records for a specific AMR user.
+     *
+     * @param int $user_id The ID of the AMR user.
+     * @return array An array of rejected records for the user.
+     */
     public function amrFetchRejected($user_id)
     {
-        return $this->where(['status' => 'Rejected','amr_id' => $user_id])->findAll();
+        return $this->where(['status' => 'Rejected', 'amr_id' => $user_id])->findAll();
     }
 
+    /**
+     * Fetches records rejected by a cataloguer for a specific AMR user.
+     *
+     * @param int $user_id The ID of the AMR user.
+     * @return array An array of cataloguer-rejected records for the user.
+     */
     public function amrFetchRejectedByCataloguer($user_id)
     {
-        return $this->where(['status' => 'Rejected by Cataloguer','amr_id' => $user_id])->findAll();
+        return $this->where(['status' => 'Rejected by Cataloguer', 'amr_id' => $user_id])->findAll();
     }
-    public function publishedData($id){
+
+    /**
+     * Fetches a single published record by its ID.
+     *
+     * @param int $id The ID of the record.
+     * @return array|object|null The published record, or null if not found.
+     */
+    public function publishedData($id)
+    {
         return $this->where(['status' => 'published', 'id' => $id])->first();
     }
 }

@@ -4,45 +4,49 @@ namespace App\Models;
 
 use CodeIgniter\Model;
 
+/**
+ * Class SearchModel
+ *
+ * This model handles the public-facing search functionality.
+ * It retrieves data from the 'lht_details' table.
+ */
 class SearchModel extends Model
 {
+    /**
+     * The table associated with this model.
+     *
+     * @var string
+     */
+    protected $table = 'lht_details';
+
+    /**
+     * Fetches all records from the details table.
+     *
+     * @return array|false An array of results, or false if no results are found.
+     */
     public function getData()
-	{
-		/*
-			$subjects = [
-				['subject' => 'HTML', 'abbr' => 'Hyper Text Markup Language'],
-				['subject' => 'CSS', 'abbr' => 'ascading Style Sheet'],
-				['subject' => 'PHP', 'abbr' => 'Preprocessor Hyper Text'],
-			];
-			return $subjects;
-		*/
-		
-		$db = \Config\Database::connect();
-		$query = $db->query('SELECT * FROM lht_details');
-		$result = $query->getResult();
-		if(count($result)>0)
-		{
-			return $result;
-		}
-		else{
-			return false;
-		}
-	}
-	
-	public function getFullData($num)
-	{
-		
-		$db = \Config\Database::connect();
-		$query = $db->query("SELECT * FROM lht_details  where lht_id='$num';");
-		$result = $query->getResult();
-		if(count($result)>0)
-		{
-			return $result;
-		}
-		else{
-			return false;
-		}
-	}
-	
-	
+    {
+        $builder = $this->db->table($this->table);
+        $query = $builder->get();
+        $result = $query->getResult();
+
+        return count($result) > 0 ? $result : false;
+    }
+
+    /**
+     * Fetches a single record from the details table by its ID.
+     * This method uses the Query Builder to prevent SQL injection.
+     *
+     * @param int $num The ID of the record to fetch.
+     * @return array|false An array containing the single result, or false if not found.
+     */
+    public function getFullData($num)
+    {
+        $builder = $this->db->table($this->table);
+        $builder->where('lht_id', $num);
+        $query = $builder->get();
+        $result = $query->getResult();
+
+        return count($result) > 0 ? $result : false;
+    }
 }

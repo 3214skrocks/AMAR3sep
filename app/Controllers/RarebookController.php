@@ -1,45 +1,39 @@
 <?php
 
 namespace App\Controllers;
-// include models
+
 use App\Models\ViewRarebookModel;
 
+/**
+ * Class RarebookController
+ *
+ * This controller is responsible for handling the display of rare book data.
+ * It retrieves rare book information from the model and passes it to the views.
+ */
 class RarebookController extends BaseController
 {
+    /**
+     * Displays a list of all rare books.
+     *
+     * @return string The view that displays all rare books.
+     */
     public function index()
     {
-		/*
-		// Database Connection
-		$db = \Config\Database::connect();
-		//print_r($db);
-		
-		$query = $db->query('SELECT * FROM `manuscripts_m` limit 10');
-		$result = $query->getResult();
-		//echo "<pre>";
-		print_r($result);
-		*/
-		
-		$viewrarebook = new ViewRarebookModel();
-		$data['rarebook_data']= $viewrarebook->getAllRarebooksData();
-		//print_r($data['rarebook_data']);
-		return view('partials/rarebook_view',$data);
-		
-		// echo view('partials/manuscript_view');
-		
+        $viewrarebook = new ViewRarebookModel();
+        $data['rarebook_data'] = $viewrarebook->getAllRarebooksData();
+        return view('partials/rarebook_view', $data);
     }
-	
-	public function viewFullRarebookDetails($rb_id)
+
+    /**
+     * Displays the full details of a specific rare book.
+     *
+     * @param int $rb_id The ID of the rare book to display.
+     * @return string The view that displays the full details of a rare book.
+     */
+    public function viewFullRarebookDetails($rb_id)
     {
-		
-		//$data['lht_id']= $rb_id;
-		//exit();
-		$rarebookdetails = new ViewRarebookModel();
-		$data['rb_data']= $rarebookdetails->getRarebookDetails($rb_id);
-		//print_r($data['mss_data']);
-		return view('partials/rarebook_full_details',$data);
-		// echo view('partials/manuscript_view');
-		
+        $rarebookdetails = new ViewRarebookModel();
+        $data['rb_data'] = $rarebookdetails->getRarebookDetails($rb_id);
+        return view('partials/rarebook_full_details', $data);
     }
-	
-	
 }
