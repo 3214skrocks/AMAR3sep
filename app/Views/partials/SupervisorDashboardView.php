@@ -77,50 +77,41 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <?php
+                        <?php 
                         $serial = 1;
-                        $printDocumentRow = function ($doc, $type, $status) use (&$serial) {
-                            $title = $type === 'periodical' ? $doc['per_title'] : $doc['title_phonetic'];
-                            $author = $type === 'periodical' ? $doc['publisher'] : $doc['author_phonetic'];
-                            $type_for_url = str_replace(' ', '', strtolower($type));
 
-                            echo "<tr>
-                                <td>" . $serial++ . "</td>
-                                <td>" . ucfirst($type) . "</td>
-                                <td>{$title}</td>
-                                <td>{$author}</td>
-                                <td>{$doc['amar_id']}</td>
-                                <td>
-                                    <form action='" . site_url('supervisor/handleAction') . "' method='post'>
-                                        " . csrf_field() . "
-                                        <input type='hidden' name='id' value='{$doc['id']}'>
-                                        <input type='hidden' name='table_type' value='{$type}'>
-                                        <input type='text' name='remark' class='form-control' placeholder='Enter remark' value='" . htmlspecialchars($doc['remark_by_supervisor'] ?? '') . "'>
-                                </td>
-                                <td>
-                                        <button type='submit' name='action' value='approve' class='btn btn-success btn-sm'>Approve</button>
-                                        <button type='submit' name='action' value='reject' class='btn btn-danger btn-sm'>Reject</button>
-                                        <a href='" . site_url('supervisor/publish/' . $doc['id'] . '/' . $type_for_url) . "' class='btn btn-primary btn-sm'>Publish</a>
-                                        <a href='" . site_url('amr/viewpdf/' . $doc['file_path']) . "' class='btn btn-info btn-sm' target='_blank'>View PDF</a>
-                                    </form>
-                                </td>
-                            </tr>";
-                        };
+                        // Define the approve and reject URLs
+                        $approve_url = base_url('supervisor/approve');  // Replace with the actual URL for approve
+                        $reject_url = base_url('supervisor/reject');    // Replace with the actual URL for reject
 
-                        if (empty($data_manuscript) && empty($data_rarebook) && empty($data_catalogue) && empty($data_periodical)) {
-                            echo '<tr><td colspan="7">No documents found.</td></tr>';
-                        } else {
-                            if (!empty($data_manuscript)) {
-                                foreach ($data_manuscript as $doc) $printDocumentRow($doc, 'Manuscript', $doc['status']);
+                        // Render rows for each type of item
+                        if (isset($data_manuscript)) {
+                            foreach ($data_manuscript as $item) {
+                                renderTableRow($item, 'Manuscript', $approve_url, $reject_url, $serial++);
                             }
-                            if (!empty($data_rarebook)) {
-                                foreach ($data_rarebook as $doc) $printDocumentRow($doc, 'Rare Book', $doc['status']);
+                        }
+
+                        if (isset($data_rarebook)) {
+                            foreach ($data_rarebook as $item) {
+                                renderTableRow($item, 'Rare Book', $approve_url, $reject_url, $serial++);
                             }
-                            if (!empty($data_catalogue)) {
-                                foreach ($data_catalogue as $doc) $printDocumentRow($doc, 'Catalogue', $doc['status']);
+                        }
+
+                        if (isset($data_catalogue)) {
+                            foreach ($data_catalogue as $item) {
+                                renderTableRow($item, 'Catalogue', $approve_url, $reject_url, $serial++);
                             }
-                            if (!empty($data_periodical)) {
-                                foreach ($data_periodical as $doc) $printDocumentRow($doc, 'Periodical', $doc['status']);
+                        }
+
+                        if (isset($data_periodical)) {
+                            foreach ($data_periodical as $item) {
+                                renderTableRow($item, 'Periodical', $approve_url, $reject_url, $serial++);
+                            }
+                        }
+
+                        if (isset($data_cataloguer_approved)) {
+                            foreach ($data_cataloguer_approved as $item) {
+                                renderTableRow($item, 'Cataloguer Approved', $approve_url, $reject_url, $serial++);
                             }
                         }
                         ?>
@@ -133,11 +124,46 @@
 
 <?= $this->endSection(); ?>
 
-                    </tbody>
-                </table>
-            </div>
-        </div>
-    </div>
-</div>
+<!-- Updated renderTableRow Function -->
+<?php
+function renderTableRow($single_data, $table_type, $approve_url, $reject_url, $serial) {
+    // Check if the item is cataloguer-approved
+    $isCataloguerApproved = isset($single_data['cataloguer_approved']) && $single_data['cataloguer_approved'] == true;
+?>
+<tr>
+    <td><?= $serial; ?></td>
+    <td><?= htmlspecialchars($table_type); ?></td>
+    <td><?= ($table_type == 'Periodical' ? htmlspecialchars($single_data['per_title']): htmlspecialchars($single_data['title_phonetic'])); ?>
+    </td>
+    <td><?= ($table_type == 'Periodical' ? htmlspecialchars($single_data['publisher']) ?? 'N/A': htmlspecialchars($single_data['author_phonetic'] ?? 'N/A')); ?>
+    </td>
+    <td><?= htmlspecialchars($single_data['amar_id']); ?></td>
+    <td>
+        <form action="<?= $isCataloguerApproved ? base_url('supervisor/publish') : $approve_url; ?>" method="post">
+            <?= csrf_field(); ?>
+            <input type="hidden" name="id" value="<?= htmlspecialchars($single_data['id']); ?>">
+            <input type="hidden" name="table_type" value="<?= htmlspecialchars($table_type); ?>">
+            <input type="text" name="remark" class="form-control" placeholder="Enter remark"
+                value="<?= htmlspecialchars($single_data['remark'] ?? ''); ?>" required>
+    </td>
+    <td>
+        <!-- Display "Publish" if cataloguer approved, otherwise "Approve" -->
+        <?php if ($isCataloguerApproved): ?>
+        <button type="submit" name="action" value="publish" class="btn btn-primary btn-sm me-1">
+            Publish
+        </button>
+        <?php else: ?>
+        <button type="submit" name="action" value="approve" class="btn btn-success btn-sm me-1">
+            Approve
+        </button>
+        <?php endif; ?>
 
-<?= $this->endSection(); ?>
+        <button type="submit" name="action" value="reject" class="btn btn-danger btn-sm me-1">Reject</button>
+        <a href="<?= isset($single_data['file_path']) ? base_url('/view/pdf/' . $single_data['file_path']) : '#'; ?>"
+            class="btn btn-info btn-sm" target="_blank">View PDF</a>
+        </form>
+    </td>
+</tr>
+<?php
+}
+?>

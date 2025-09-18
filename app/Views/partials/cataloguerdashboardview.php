@@ -1,40 +1,17 @@
-<?= $this->extend('layouts/adminbase'); ?>
-<?= $this->section('content'); ?>
-
-<style>
-/* Sidebar Styling */
-.nav-link {
-    font-weight: bold;
-    transition: background-color 0.3s, color 0.3s;
-}
-
-.nav-link:hover {
-    background-color: #0056b3;
-    color: white;
-}
-
-.bg-dark.text-white {
-    background-color: #343a40 !important;
-    color: #fff !important;
-}
-
-/* Table Styling */
-.table-striped tbody tr:nth-of-type(odd) {
-    background-color: rgba(0, 0, 0, .05);
-}
-
-.btn-close {
-    float: right;
-    color: #fff;
-}
-</style>
+<?= $this->extend("layouts/adminbase"); ?>
+<?= $this->section("content"); ?>
 
 <div class="container-fluid">
     <div class="row">
         <!-- Sidebar Navigation -->
         <div class="col-md-2">
-            <nav class="nav flex-column bg-primary text-white p-3">
-                <a class="nav-link text-white" href="<?= base_url('cataloguer/dashboard'); ?>">Assigned Documents</a>
+            <nav class="nav flex-column bg-light p-3">
+                <a class="nav-link" href="<?= base_url('supervisor/dashboard/approved'); ?>">Approved Files</a>
+                <a class="nav-link" href="<?= base_url('supervisor/dashboard/pending'); ?>">Pending Files</a>
+                <a class="nav-link" href="<?= base_url('supervisor/dashboard/rejected'); ?>">Rejected Files</a>
+                <a class="nav-link active"
+                    href="<?= base_url('supervisor/dashboard/cataloguer_approved'); ?>">Cataloguer Approved</a>
+                <a class="nav-link" href="<?= base_url('supervisor/dashboard/published'); ?>">Publish</a>
             </nav>
         </div>
 
@@ -54,53 +31,112 @@
             <?php endif; ?>
 
             <!-- Dynamic Table Content -->
-            <div class="table-responsive mt-4">
-                <table class="table table-striped table-bordered">
-                    <thead class="table-dark">
+            <div class="table-responsive">
+                <table class="table table-striped">
+                    <thead>
                         <tr>
                             <th>#</th>
-                            <th>Type</th>
+                            <th>Table Name</th>
                             <th>Title</th>
-                            <th>Author/Publisher</th>
-                            <th>Action</th>
+                            <th>Author</th>
+                            <th>Amar ID</th>
+                            <th>Remark</th>
+                            <th>Operation</th>
                         </tr>
                     </thead>
                     <tbody>
-                        <?php
-                        $serial = 1;
-                        $printDocumentRow = function ($doc, $type) use (&$serial) {
-                            $title = $type === 'periodical' ? $doc['per_title'] : $doc['title_phonetic'];
-                            $author = $type === 'periodical' ? $doc['publisher'] : $doc['author_phonetic'];
-                            echo "<tr>
-                                <td>" . $serial++ . "</td>
-                                <td>" . ucfirst($type) . "</td>
-                                <td>{$title}</td>
-                                <td>{$author}</td>
-                                <td>
-                                    <a href='" . site_url('cataloguer/approve/' . $doc['id'] . '/' . $type) . "' class='btn btn-success'>Approve</a>
-                                    <a href='" . site_url('cataloguer/reject/' . $doc['id'] . '/' . $type) . "' class='btn btn-danger'>Reject</a>
-                                    <a href='" . site_url('amr/viewpdf/' . $doc['file_path']) . "' class='btn btn-info' target='_blank'>View PDF</a>
-                                </td>
-                            </tr>";
-                        };
+                        <?php $serial = 1; ?>
 
-                        if (empty($manuscripts) && empty($rare_books) && empty($catalogues) && empty($periodicals)) {
-                            echo '<tr><td colspan="5">No assigned documents found.</td></tr>';
-                        } else {
-                            if (!empty($manuscripts)) {
-                                foreach ($manuscripts as $doc) $printDocumentRow($doc, 'manuscript');
-                            }
-                            if (!empty($rare_books)) {
-                                foreach ($rare_books as $doc) $printDocumentRow($doc, 'rarebook');
-                            }
-                            if (!empty($catalogues)) {
-                                foreach ($catalogues as $doc) $printDocumentRow($doc, 'catalogue');
-                            }
-                            if (!empty($periodicals)) {
-                                foreach ($periodicals as $doc) $printDocumentRow($doc, 'periodical');
-                            }
-                        }
-                        ?>
+                        <!-- Function to Render Rows -->
+                        <?php
+                        // Render Manuscripts
+                        foreach ($data_manuscript as $single_data):
+                            ?>
+                        <tr>
+                            <td><?= $serial++; ?></td>
+                            <td>Manuscript</td>
+                            <td><?= htmlspecialchars($single_data['title_phonetic']); ?>
+                            </td>
+                            <td><?= htmlspecialchars($single_data['author_phonetic'] ?? 'N/A'); ?>
+                            </td>
+                            <td><?= htmlspecialchars($single_data['amar_id']); ?></td>
+                            <td><?= htmlspecialchars($single_data['remark'] ?? ''); ?></td>
+                            <td>
+                                <a href="<?= base_url('supervisor/publish/' . $single_data['id'] . '/manuscript'); ?>"
+                                    class="btn btn-success btn-sm">Publish</a>
+                                <a href="<?= base_url('supervisor/rejectManuscript/' . $single_data['id']); ?>"
+                                    class="btn btn-danger btn-sm">Reject</a>
+                                <a href="<?= isset($single_data['file_path']) ? base_url('/view/pdf/' . $single_data['file_path']) : '#'; ?>"
+                                    class="btn btn-info btn-sm" target="_blank">View PDF</a>
+                            </td>
+                        </tr>
+                        <?php endforeach; ?>
+
+                        <!-- Render Rare Books -->
+                        <?php foreach ($data_rarebook as $single_data): ?>
+                        <tr>
+                            <td><?= $serial++; ?></td>
+                            <td>Rare Book</td>
+                            <td><?= htmlspecialchars($single_data['title_phonetic']); ?>
+                            </td>
+                            <td><?= htmlspecialchars($single_data['author_phonetic'] ?? 'N/A'); ?>
+                            </td>
+                            <td><?= htmlspecialchars($single_data['amar_id']); ?></td>
+                            <td><?= htmlspecialchars($single_data['remark'] ?? ''); ?></td>
+                            <td>
+                                <a href="<?= base_url('supervisor/publish/' . $single_data['id'] . '/rarebook'); ?>"
+                                    class="btn btn-success btn-sm">Publish</a>
+                                <a href="<?= base_url('supervisor/rejectRareBook/' . $single_data['id']); ?>"
+                                    class="btn btn-danger btn-sm">Reject</a>
+                                <a href="<?= isset($single_data['file_path']) ? base_url('/view/pdf/' . $single_data['file_path']) : '#'; ?>"
+                                    class="btn btn-info btn-sm" target="_blank">View PDF</a>
+                            </td>
+                        </tr>
+                        <?php endforeach; ?>
+
+                        <!-- Render Catalogues -->
+                        <?php foreach ($data_catalogue as $single_data): ?>
+                        <tr>
+                            <td><?= $serial++; ?></td>
+                            <td>Catalogue</td>
+                            <td><?= htmlspecialchars($single_data['title_phonetic']); ?>
+                            </td>
+                            <td><?= htmlspecialchars($single_data['author_phonetic'] ?? 'N/A'); ?>
+                            </td>
+                            <td><?= htmlspecialchars($single_data['amar_id']); ?></td>
+                            <td><?= htmlspecialchars($single_data['remark'] ?? ''); ?></td>
+                            <td>
+                                <a href="<?= base_url('supervisor/publish/' . $single_data['id'] . '/catalogue'); ?>"
+                                    class="btn btn-success btn-sm">Publish</a>
+                                <a href="<?= base_url('supervisor/rejectCatalogue/' . $single_data['id']); ?>"
+                                    class="btn btn-danger btn-sm">Reject</a>
+                                <a href="<?= isset($single_data['file_path']) ? base_url('/view/pdf/' . $single_data['file_path']) : '#'; ?>"
+                                    class="btn btn-info btn-sm" target="_blank">View PDF</a>
+                            </td>
+                        </tr>
+                        <?php endforeach; ?>
+
+                        <!-- Render Periodicals -->
+                        <?php foreach ($data_periodical as $single_data): ?>
+                        <tr>
+                            <td><?= $serial++; ?></td>
+                            <td>Periodical</td>
+                            <td><?= htmlspecialchars($single_data['per_title']); ?>
+                            </td>
+                            <td><?= htmlspecialchars($single_data['publisher']) ?? 'N/A'; ?>
+                            </td>
+                            <td><?= htmlspecialchars($single_data['amar_id']); ?></td>
+                            <td><?= htmlspecialchars($single_data['remark'] ?? ''); ?></td>
+                            <td>
+                                <a href="<?= base_url('supervisor/publish/' . $single_data['id'] . '/periodical'); ?>"
+                                    class="btn btn-success btn-sm">Publish</a>
+                                <a href="<?= base_url('supervisor/rejectPeriodical/' . $single_data['id']); ?>"
+                                    class="btn btn-danger btn-sm">Reject</a>
+                                <a href="<?= isset($single_data['file_path']) ? base_url('/view/pdf/' . $single_data['file_path']) : '#'; ?>"
+                                    class="btn btn-info btn-sm" target="_blank">View PDF</a>
+                            </td>
+                        </tr>
+                        <?php endforeach; ?>
                     </tbody>
                 </table>
             </div>

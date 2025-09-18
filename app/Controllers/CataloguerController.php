@@ -10,7 +10,7 @@ use App\Models\PeriodicalModel;
 
 class CataloguerController extends Controller
 {
-    public function dashboard()
+    public function getalldata()
     {
         $session = session();
 
@@ -18,54 +18,74 @@ class CataloguerController extends Controller
             return redirect()->to('/admin/login');
         }
 
-        $cataloguerId = $session->get('id');
+        $supervisorId = $session->get('supervisorId'); // Ensure this is set during login
 
-        $manuscriptModel = new ManuscriptModel();
-        $rareBookModel = new RareBookModel();
-        $catalogueModel = new CatalogueModel();
-        $periodicalModel = new PeriodicalModel();
+        $data = [
+            'data_manuscript' => $this->get_manuscript_data($supervisorId),
+            'data_rarebook'   => $this->get_rarebook_data($supervisorId),
+            'data_catalogue'  => $this->get_catalogue_data($supervisorId),
+            'data_periodical' => $this->get_periodical_data($supervisorId),
+        ];
 
-        $data['manuscripts'] = $manuscriptModel->getAssignedManuscripts($cataloguerId);
-        $data['rare_books'] = $rareBookModel->getAssignedRareBooks($cataloguerId);
-        $data['catalogues'] = $catalogueModel->getAssignedCatalogues($cataloguerId);
-        $data['periodicals'] = $periodicalModel->getAssignedPeriodicals($cataloguerId);
-
-        return view('partials/cataloguerdashboardview', $data);
+        return view('/partials/CataloguerView', $data);
     }
 
+    private function get_manuscript_data($supervisorId)
+    {
+        $model = new ManuscriptModel();
+        return $model->fetchApprovedBySupervisor($supervisorId);
+    }
+
+    private function get_rarebook_data($supervisorId)
+    {
+        $model = new RareBookModel();
+        return $model->fetchApprovedBySupervisor($supervisorId);
+    }
+
+    private function get_periodical_data($supervisorId)
+    {
+        $model = new PeriodicalModel();
+        return $model->fetchApprovedBySupervisor($supervisorId);
+    }
+
+    private function get_catalogue_data($supervisorId)
+    {
+        $model = new CatalogueModel();
+        return $model->fetchApprovedBySupervisor($supervisorId);
+    }
 
     public function approve($id, $type)
     {
         $session = session();
-        $cataloguerId = $session->get('id'); // Get the cataloguer's ID from the session
+        $cataloguerId = $session->get('cataloguerId'); // Get the cataloguer's ID from the session
 
         try {
             $model = $this->getModelByType($type);
             if ($model->approveByCataloguer($id, $cataloguerId)) {
-                return redirect()->to('/cataloguer/dashboard')->with('success', 'File approved successfully.');
+                return redirect()->to('/cataloguer')->with('success', 'File approved successfully.');
             }
         } catch (\Exception $e) {
-            return redirect()->to('/cataloguer/dashboard')->with('error', $e->getMessage());
+            return redirect()->to('/cataloguer')->with('error', $e->getMessage());
         }
 
-        return redirect()->to('/cataloguer/dashboard')->with('error', 'Failed to approve the file.');
+        return redirect()->to('/cataloguer')->with('error', 'Failed to approve the file.');
     }
 
     public function reject($id, $type)
     {
         $session = session();
-        $cataloguerId = $session->get('id'); // Get the cataloguer's ID from the session
+        $cataloguerId = $session->get('cataloguerId'); // Get the cataloguer's ID from the session
 
         try {
             $model = $this->getModelByType($type);
             if ($model->rejectByCataloguer($id, $cataloguerId)) {
-                return redirect()->to('/cataloguer/dashboard')->with('success', 'File rejected successfully.');
+                return redirect()->to('/cataloguer')->with('success', 'File rejected successfully.');
             }
         } catch (\Exception $e) {
-            return redirect()->to('/cataloguer/dashboard')->with('error', $e->getMessage());
+            return redirect()->to('/cataloguer')->with('error', $e->getMessage());
         }
 
-        return redirect()->to('/cataloguer/dashboard')->with('error', 'Failed to reject the file.');
+        return redirect()->to('/cataloguer')->with('error', 'Failed to reject the file.');
     }
 
     public function view_pdf($id, $type)

@@ -7,7 +7,6 @@ use App\Models\ManuscriptModel;
 use App\Models\RareBookModel;
 use App\Models\CatalogueModel;
 use App\Models\PeriodicalModel;
-use App\Models\UserModel;
 
 class AMRController extends Controller
 {
@@ -31,9 +30,7 @@ class AMRController extends Controller
         if (!$this->isloggedin()) {
             return redirect()->to('/admin/login');
         } else {
-            $userModel = new UserModel();
-            $data['cataloguers'] = $userModel->getUsersByDepartment('cataloguer');
-            return view('partials/manuscript_form', $data);
+            return view('partials/manuscript_form');
         }
     }
 
@@ -42,9 +39,7 @@ class AMRController extends Controller
         if (!$this->isloggedin()) {
             return redirect()->to('/admin/login');
         } else {
-            $userModel = new UserModel();
-            $data['cataloguers'] = $userModel->getUsersByDepartment('cataloguer');
-            return view('partials/rare_books_form', $data);
+            return view('partials/rare_books_form');
         }
     }
 
@@ -54,9 +49,7 @@ class AMRController extends Controller
         if (!$this->isloggedin()) {
             return redirect()->to('/admin/login');
         } else {
-            $userModel = new UserModel();
-            $data['cataloguers'] = $userModel->getUsersByDepartment('cataloguer');
-            return view('partials/catalogues_form', $data);
+            return view('partials/catalogues_form');
         }
     }
 
@@ -65,9 +58,7 @@ class AMRController extends Controller
         if (!$this->isloggedin()) {
             return redirect()->to('/admin/login');
         } else {
-            $userModel = new UserModel();
-            $data['cataloguers'] = $userModel->getUsersByDepartment('cataloguer');
-            return view('partials/periodicals_form', $data);
+            return view('partials/periodicals_form');
         }
     }
 
@@ -76,7 +67,7 @@ class AMRController extends Controller
         $model = new ManuscriptModel();
         $request = service('request');
 
-        if ($request->getMethod() === 'post' && $this->validate(['title_phonetic' => 'required', 'author_phonetic' => 'required', 'cataloguer_id' => 'required'])) {
+        if ($request->getMethod() === 'post' && $this->validate(['title_phonetic' => 'required', 'author_phonetic' => 'required'])) {
             $success = $model->data_insert($request);
             if ($success) {
                 session()->setFlashdata('success', 'Manuscript data inserted successfully');
@@ -94,7 +85,7 @@ class AMRController extends Controller
         $model = new RareBookModel();
         $request = service('request');
 
-        if ($request->getMethod() === 'post' && $this->validate(['title_phonetic' => 'required', 'author_phonetic' => 'required', 'cataloguer_id' => 'required'])) {
+        if ($request->getMethod() === 'post' && $this->validate(['title_phonetic' => 'required', 'author_phonetic' => 'required'])) {
             $success = $model->data_insert($request);
             if ($success) {
                 session()->setFlashdata('success', 'Rarebook data inserted successfully');
@@ -112,7 +103,7 @@ class AMRController extends Controller
         $model = new CatalogueModel();
         $request = service('request');
 
-        if ($request->getMethod() === 'post' && $this->validate(['title_phonetic' => 'required', 'author_phonetic' => 'required', 'cataloguer_id' => 'required'])) {
+        if ($request->getMethod() === 'post' && $this->validate(['title_phonetic' => 'required', 'author_phonetic' => 'required'])) {
             $success = $model->data_insert($request);
             if ($success) {
                 session()->setFlashdata('success', 'Catalogues data inserted successfully');
@@ -130,7 +121,7 @@ class AMRController extends Controller
         $model = new PeriodicalModel();
         $request = service('request');
 
-        if ($request->getMethod() === 'post' && $this->validate(['per_title' => 'required', 'publisher' => 'required', 'cataloguer_id' => 'required'])) {
+        if ($request->getMethod() === 'post' && $this->validate(['per_title' => 'required', 'publisher' => 'required'])) {
             $success = $model->data_insert($request);
             if ($success) {
                 session()->setFlashdata('success', 'Periodicals data inserted successfully');

@@ -26,7 +26,6 @@ class CatalogueModel extends Model
         $session = session();
         $title = $request->getPost('title_phonetic');
         $author = $request->getPost('author_phonetic');
-        $cataloguer_id = $request->getPost('cataloguer_id');
         $file = $request->getFile('file');
 
         // Validate the input fields and file
@@ -39,8 +38,7 @@ class CatalogueModel extends Model
                 'title_phonetic' => $title,
                 'author_phonetic' => $author,
                 'file_path' => $newFileName,
-                'cataloguer_id' => $cataloguer_id,
-                'status' => 'Assigned to Cataloguer' // Default status
+                'status' => 'Pending' // Default status
             ];
 
             // Perform the insertion
@@ -129,22 +127,5 @@ class CatalogueModel extends Model
     }
     public function publishedData($id){
         return $this->where(['status' => 'published', 'id' => $id])->first();
-    }
-
-    public function getAssignedCatalogues($cataloguerId)
-    {
-        return $this->where('cataloguer_id', $cataloguerId)
-                    ->where('status', 'Assigned to Cataloguer')
-                    ->findAll();
-    }
-
-    public function getCataloguesForRegistrar()
-    {
-        return $this->whereIn('status', ['Approved', 'published'])->findAll();
-    }
-
-    public function getPublishedCatalogues()
-    {
-        return $this->where('status', 'published')->findAll();
     }
 }
