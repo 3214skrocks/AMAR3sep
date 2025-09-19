@@ -19,6 +19,12 @@ $routes->get('/admin/login', 'AdminController::login');
 $routes->get('/logout', 'AdminController::logout');
 $routes->post('/admin/authenticate', 'AdminController::authenticate');
 $routes->get('/admin/dashboard', 'AdminController::dashboard');
+$routes->get('/admin/users', 'AdminController::users');
+$routes->get('/admin/users/add', 'AdminController::addUser');
+$routes->post('/admin/users/store', 'AdminController::storeUser');
+$routes->get('/admin/users/edit/(:num)', 'AdminController::editUser/$1');
+$routes->post('/admin/users/update/(:num)', 'AdminController::updateUser/$1');
+$routes->get('/admin/users/delete/(:num)', 'AdminController::deleteUser/$1');
 $routes->get('/home', 'AdminController::home');
 
 
@@ -75,42 +81,13 @@ $routes->get('/view/pdf/(:any)','AMRController::viewpdf/$1');
 
 //=============================== SUPERVISOR ROUTES ===================================================
 $routes->get('/supervisor/dashboard', 'SupervisorController::getalldata');
-$routes->post('/supervisor/approveManuscript/(:num)', 'SupervisorController::approveManuscript/$1');
-$routes->post('/supervisor/rejectManuscript/(:num)', 'SupervisorController::rejectManuscript/$1');
-$routes->post('/supervisor/approveRareBook/(:num)', 'SupervisorController::approveRareBook/$1');
-$routes->post('/supervisor/rejectRareBook/(:num)', 'SupervisorController::rejectRareBook/$1');
-$routes->post('/supervisor/approvePeriodical/(:num)', 'SupervisorController::approvePeriodical/$1');
-$routes->post('/supervisor/rejectPeriodical/(:num)', 'SupervisorController::rejectPeriodical/$1');
-$routes->post('/supervisor/approveCatalogue/(:num)', 'SupervisorController::approveCatalogue/$1');
-$routes->post('/supervisor/rejectCatalogue/(:num)', 'SupervisorController::rejectCatalogue/$1');
-$routes->get('/supervisor/dashboard/cataloguer_approved', 'SupervisorController::getCataloguerApprovedData');
-$routes->get('/supervisor/cataloguer-approved', 'SupervisorController::getCataloguerApprovedData');
-$routes->get('/supervisor/approved', 'SupervisorController::approved');
-$routes->get('/supervisor/pending', 'SupervisorController::pending');
-$routes->get('/view/pdf/(:any)','AMRController::viewpdf/$1');
-$routes->get('/supervisor/dashboard', 'SupervisorController::getalldata');
-$routes->post('/supervisor/approveManuscript/(:num)', 'SupervisorController::approveManuscript/$1');
-$routes->post('/supervisor/rejectManuscript/(:num)', 'SupervisorController::rejectManuscript/$1');
-$routes->post('/supervisor/approveRareBook/(:num)', 'SupervisorController::approveRareBook/$1');
-$routes->post('/supervisor/rejectRareBook/(:num)', 'SupervisorController::rejectRareBook/$1');
-
-
-
-
-
-$routes->post('/supervisor/approvePeriodical/(:num)', 'SupervisorController::approvePeriodical/$1');
-$routes->post('/supervisor/rejectPeriodical/(:num)', 'SupervisorController::rejectPeriodical/$1');
-$routes->post('/supervisor/approveCatalogue/(:num)', 'SupervisorController::approveCatalogue/$1');
-$routes->post('/supervisor/rejectCatalogue/(:num)', 'SupervisorController::rejectCatalogue/$1');
 $routes->get('/supervisor/dashboard/cataloguer_approved', 'SupervisorController::getCataloguerApprovedData');
 $routes->get('/supervisor/dashboard/approved', 'SupervisorController::approved');
 $routes->get('/supervisor/dashboard/pending', 'SupervisorController::pending');
-$routes->get('/supervisor/cataloguer-approved', 'SupervisorController::getCataloguerApprovedData');
-$routes->get('supervisor/dashboard/rejected', 'SupervisorController::rejected');
-$routes->get('supervisor/dashboard/published', 'SupervisorController::published');
-$routes->get('supervisor/publish/(:num)/(:alpha)', 'SupervisorController::publish/$1/$2');
-// $routes->get('supervisor/handleAction', 'SupervisorController::handleAction');
-$routes->post('supervisor/approve', 'SupervisorController::handleAction');   
+$routes->get('/supervisor/dashboard/rejected', 'SupervisorController::rejected');
+$routes->get('/supervisor/dashboard/published', 'SupervisorController::published');
+$routes->get('/supervisor/publish/(:num)/(:alpha)', 'SupervisorController::publish/$1/$2');
+$routes->post('/supervisor/action', 'SupervisorController::handleAction');
 //==============================================CHATGPT ADDON =================================================
 // Generic Route for Approving Items
 // $routes->post('/supervisor/approve/(:num)/(:alpha)', 'SupervisorController::approve/$1/$2');
@@ -131,15 +108,9 @@ $routes->post('supervisor/approve', 'SupervisorController::handleAction');
 
 //=================================== CATALOGUER ROUTES ============================================
 $routes->get('/cataloguer/dashboard', 'CataloguerController::getalldata');
-$routes->get('/cataloguer/approve/(:num)/(:any)', 'CataloguerController::approve/$1/$2');
-$routes->get('/cataloguer/reject/(:num)/(:any)', 'CataloguerController::reject/$1/$2');  
+$routes->post('/cataloguer/approve/(:num)/(:any)', 'CataloguerController::approve/$1/$2');
+$routes->post('/cataloguer/reject/(:num)/(:any)', 'CataloguerController::reject/$1/$2');
 $routes->get('/cataloguer/view_pdf/(:num)/(:any)', 'CataloguerController::view_pdf/$1/$2');
-$routes->get('/cataloguer/approveManuscript/(:num)', 'cataloguerController::approveManuscript/$1');
-$routes->get('/cataloguer/rejectManuscript/(:num)', 'cataloguerController::rejectManuscript/$1');
-$routes->get('catalogue/approved', 'CataloguerController::fetchApprovedBySupervisor');
-$routes->get('/cataloguer', 'CataloguerController::getalldata');
-$routes->get('/cataloguer/approve/(:num)/(:segment)', 'CataloguerController::approve/$1/$2');
-$routes->get('/cataloguer/reject/(:num)/(:segment)', 'CataloguerController::reject/$1/$2');
 $routes->post('cataloguer/save_remark/(:num)/(:alpha)', 'CataloguerController::saveRemark/$1/$2');
 
 

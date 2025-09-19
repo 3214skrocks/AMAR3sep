@@ -9,7 +9,7 @@ class RareBookModel extends Model
     protected $table = 'rare_books1';
     protected $primaryKey = 'id';
     protected $allowedFields = [
-        'title_phonetic', 'author_phonetic', 'amar_id', 'file_path', 'status', 
+        'title_phonetic', 'author_phonetic', 'amar_id', 'file_path', 'status', 'amr_id',
         'supervisor_id', 'approved_by', 'rejected_by', 
         'cataloguer_id', 'cataloguer_approved_at', 'cataloguer_rejected_at',
         'remark_by_supervisor','remark_by_cataloguer'
@@ -24,8 +24,10 @@ class RareBookModel extends Model
     public function data_insert($request)
     {
         $session = session();
+        $amr_id = $session->get('id');
         $title = $request->getPost('title_phonetic');
         $author = $request->getPost('author_phonetic');
+        $cataloguer_id = $request->getPost('cataloguer_id');
         $file = $request->getFile('file');
 
         // Validate the input fields
@@ -43,10 +45,12 @@ class RareBookModel extends Model
         }
 
         $data = [
+            'amr_id' => $amr_id,
             'title_phonetic' => $title,
             'author_phonetic' => $author,
             'file_path' => $newFileName,
-            'status' => 'Pending'
+            'status' => 'Pending',
+            'cataloguer_id' => $cataloguer_id
         ];
 
         // Perform the insertion
@@ -86,21 +90,23 @@ class RareBookModel extends Model
         ]);
     }
 
-    public function approveByCataloguer($id, $cataloguerId)
+    public function approveByCataloguer($id, $cataloguerId, $remark)
     {
         return $this->update($id, [
             'status' => 'Approved by Cataloguer',
             'cataloguer_id' => $cataloguerId,
-            'cataloguer_approved_at' => date('Y-m-d H:i:s')
+            'cataloguer_approved_at' => date('Y-m-d H:i:s'),
+            'remark_by_cataloguer' => $remark
         ]);
     }
 
-    public function rejectByCataloguer($id, $cataloguerId)
+    public function rejectByCataloguer($id, $cataloguerId, $remark)
     {
         return $this->update($id, [
             'status' => 'Rejected by Cataloguer',
             'cataloguer_id' => $cataloguerId,
-            'cataloguer_rejected_at' => date('Y-m-d H:i:s')
+            'cataloguer_rejected_at' => date('Y-m-d H:i:s'),
+            'remark_by_cataloguer' => $remark
         ]);
     }
 

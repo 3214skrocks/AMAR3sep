@@ -9,7 +9,7 @@ class PeriodicalModel extends Model
     protected $table = 'periodical1'; // Replace with your actual table name
     protected $primaryKey = 'id';
     protected $allowedFields = [
-        'per_title', 'publisher', 'amar_id', 'file_path', 'status', 
+        'per_title', 'publisher', 'amar_id', 'file_path', 'status', 'amr_id',
         'supervisor_id', 'approved_by', 'rejected_by', 
         'cataloguer_id', 'cataloguer_approved_at', 'cataloguer_rejected_at',
         'remark_by_supervisor','remark_by_cataloguer'
@@ -23,8 +23,10 @@ class PeriodicalModel extends Model
     public function data_insert($request)
     {
         $session = session();
+        $amr_id = $session->get('id');
         $title = $request->getPost('per_title');
         $author = $request->getPost('publisher');
+        $cataloguer_id = $request->getPost('cataloguer_id');
         $file = $request->getFile('file'); // Retrieve the uploaded file
 
         // Basic validation
@@ -44,10 +46,12 @@ class PeriodicalModel extends Model
         $file->move(ROOTPATH . 'public/assets/uploads', $newFileName);
 
         $data = [
+            'amr_id' => $amr_id,
             'per_title' => $title,
             'publisher' => $author,
             'file_path' => $newFileName, // Save the new file name
-            'status' => 'Pending'
+            'status' => 'Pending',
+            'cataloguer_id' => $cataloguer_id
         ];
 
         // Perform the insertion
@@ -87,21 +91,23 @@ class PeriodicalModel extends Model
         ]);
     }
 
-    public function approveByCataloguer($id, $cataloguerId)
+    public function approveByCataloguer($id, $cataloguerId, $remark)
     {
         return $this->update($id, [
             'status' => 'Approved by Cataloguer',
             'cataloguer_id' => $cataloguerId,
-            'cataloguer_approved_at' => date('Y-m-d H:i:s')
+            'cataloguer_approved_at' => date('Y-m-d H:i:s'),
+            'remark_by_cataloguer' => $remark
         ]);
     }
 
-    public function rejectByCataloguer($id, $cataloguerId)
+    public function rejectByCataloguer($id, $cataloguerId, $remark)
     {
         return $this->update($id, [
             'status' => 'Rejected by Cataloguer',
             'cataloguer_id' => $cataloguerId,
-            'cataloguer_rejected_at' => date('Y-m-d H:i:s')
+            'cataloguer_rejected_at' => date('Y-m-d H:i:s'),
+            'remark_by_cataloguer' => $remark
         ]);
     }
 
