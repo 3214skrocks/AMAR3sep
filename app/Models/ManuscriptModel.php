@@ -21,6 +21,7 @@ class ManuscriptModel extends Model
         $amr_id = $session->get('id');
         $title = $request->getPost('title_phonetic');
         $author = $request->getPost('author_phonetic');
+        $cataloguer_id = $request->getPost('cataloguer_id');
         $file = $request->getFile('file');
 
         // Validate the input fields and file
@@ -34,7 +35,8 @@ class ManuscriptModel extends Model
                 'title_phonetic' => $title,
                 'author_phonetic' => $author,
                 'file_path' => $newFileName,
-                'status' => 'Pending' // Default status
+                'status' => 'Pending', // Default status
+                'cataloguer_id' => $cataloguer_id
             ];
 
             // Perform the insertion
@@ -77,21 +79,23 @@ class ManuscriptModel extends Model
         ]);
     }
 
-    public function approveByCataloguer($id, $cataloguerId)
+    public function approveByCataloguer($id, $cataloguerId, $remark)
     {
         return $this->update($id, [
             'status' => 'Approved by Cataloguer',
             'cataloguer_id' => $cataloguerId,
-            'cataloguer_approved_at' => date('Y-m-d H:i:s')
+            'cataloguer_approved_at' => date('Y-m-d H:i:s'),
+            'remark_by_cataloguer' => $remark
         ]);
     }
 
-    public function rejectByCataloguer($id, $cataloguerId)
+    public function rejectByCataloguer($id, $cataloguerId, $remark)
     {
         return $this->update($id, [
             'status' => 'Rejected by Cataloguer',
             'cataloguer_id' => $cataloguerId,
-            'cataloguer_rejected_at' => date('Y-m-d H:i:s')
+            'cataloguer_rejected_at' => date('Y-m-d H:i:s'),
+            'remark_by_cataloguer' => $remark
         ]);
     }
 

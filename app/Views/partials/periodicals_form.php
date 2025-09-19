@@ -19,11 +19,19 @@
         <!-- Add form fields for Manuscript -->
         <div class="form-group">
             <label for="title">Title:</label>
-            <input type="text" class="form-control" id="title" name="title">
+            <input type="text" class="form-control" id="title" name="per_title">
         </div>
         <div class="form-group">
-            <label for="author">Author:</label>
-            <input type="text" class="form-control" id="author" name="author">
+            <label for="author">Publisher:</label>
+            <input type="text" class="form-control" id="author" name="publisher">
+        </div>
+        <div class="form-group">
+            <label for="cataloguer">Assign to Cataloguer:</label>
+            <select class="form-control" id="cataloguer" name="cataloguer_id">
+                <?php foreach ($cataloguers as $cataloguer): ?>
+                    <option value="<?= $cataloguer['id'] ?>"><?= $cataloguer['Username'] ?></option>
+                <?php endforeach; ?>
+            </select>
         </div>
         <div class="form-group">
             <label for="file">Upload File:</label>

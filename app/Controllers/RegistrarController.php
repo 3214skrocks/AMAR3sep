@@ -18,24 +18,22 @@ class RegistrarController extends Controller
             return redirect()->to('/admin/login');
         }
 
-        $m_model = new ManuscriptModel();
-        $r_model = new RareBookModel();
-        $c_model = new CatalogueModel();
-        $p_model = new PeriodicalModel();
+        $m_model = new \App\Models\ViewManuscriptModel();
+        $r_model = new \App\Models\ViewRarebookModel();
+        $c_model = new \App\Models\ViewCatalogueModel();
+        $p_model = new \App\Models\ViewPeriodicalModel();
 
-        $data['data_manuscript'] = $m_model->fetchApprovedByCataloguer();
-        $data['data_rarebook'] = $r_model->fetchApprovedByCataloguer();
-        $data['data_catalogue'] = $c_model->fetchApprovedByCataloguer();
-        $data['data_periodical'] = $p_model->fetchApprovedByCataloguer();
-//         echo '<pre>';
-// print_r($data);
+        $data['data_manuscript'] = $m_model->findAll();
+        $data['data_rarebook'] = $r_model->findAll();
+        $data['data_catalogue'] = $c_model->findAll();
+        $data['data_periodical'] = $p_model->findAll();
+
         return view('partials/RegistrarView', $data);
     }
 
     public function view_pdf($id, $type)
     {
-        $model = new RegistrarModel();
-        $model->setTableByType($type);
+        $model = $this->getModelByType($type);
         $record = $model->find($id);
 
         if ($record && isset($record['file_path'])) {
@@ -55,8 +53,7 @@ class RegistrarController extends Controller
 
     public function download($id, $type)
     {
-        $model = new RegistrarModel();
-        $model->setTableByType($type);
+        $model = $this->getModelByType($type);
         $record = $model->find($id);
 
         if ($record && isset($record['file_path'])) {
@@ -69,6 +66,22 @@ class RegistrarController extends Controller
             }
         } else {
             return redirect()->to('/registrar/dashboard')->with('error', 'Invalid record.');
+        }
+    }
+
+    private function getModelByType($type)
+    {
+        switch (strtolower($type)) {
+            case 'manuscript':
+                return new \App\Models\ViewManuscriptModel();
+            case 'rarebook':
+                return new \App\Models\ViewRarebookModel();
+            case 'catalogue':
+                return new \App\Models\ViewCatalogueModel();
+            case 'periodical':
+                return new \App\Models\ViewPeriodicalModel();
+            default:
+                return null;
         }
     }
 }

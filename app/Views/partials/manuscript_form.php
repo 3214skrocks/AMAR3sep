@@ -25,6 +25,14 @@
             <input type="text" class="form-control" id="author" name="author_phonetic">
         </div>
         <div class="form-group">
+            <label for="cataloguer">Assign to Cataloguer:</label>
+            <select class="form-control" id="cataloguer" name="cataloguer_id">
+                <?php foreach ($cataloguers as $cataloguer): ?>
+                    <option value="<?= $cataloguer['id'] ?>"><?= $cataloguer['Username'] ?></option>
+                <?php endforeach; ?>
+            </select>
+        </div>
+        <div class="form-group">
             <label for="file">Upload File:</label>
             <input type="file" class="form-control" id="file" name="file">
         </div>

@@ -7,6 +7,7 @@ use App\Models\ManuscriptModel;
 use App\Models\RareBookModel;
 use App\Models\CatalogueModel;
 use App\Models\PeriodicalModel;
+use App\Models\UserModel;
 
 class AMRController extends Controller
 {
@@ -30,7 +31,9 @@ class AMRController extends Controller
         if (!$this->isloggedin()) {
             return redirect()->to('/admin/login');
         } else {
-            return view('partials/manuscript_form');
+            $userModel = new UserModel();
+            $data['cataloguers'] = $userModel->getCataloguers();
+            return view('partials/manuscript_form', $data);
         }
     }
 
@@ -39,7 +42,9 @@ class AMRController extends Controller
         if (!$this->isloggedin()) {
             return redirect()->to('/admin/login');
         } else {
-            return view('partials/rare_books_form');
+            $userModel = new UserModel();
+            $data['cataloguers'] = $userModel->getCataloguers();
+            return view('partials/rare_books_form', $data);
         }
     }
 
@@ -49,7 +54,9 @@ class AMRController extends Controller
         if (!$this->isloggedin()) {
             return redirect()->to('/admin/login');
         } else {
-            return view('partials/catalogues_form');
+            $userModel = new UserModel();
+            $data['cataloguers'] = $userModel->getCataloguers();
+            return view('partials/catalogues_form', $data);
         }
     }
 
@@ -58,7 +65,9 @@ class AMRController extends Controller
         if (!$this->isloggedin()) {
             return redirect()->to('/admin/login');
         } else {
-            return view('partials/periodicals_form');
+            $userModel = new UserModel();
+            $data['cataloguers'] = $userModel->getCataloguers();
+            return view('partials/periodicals_form', $data);
         }
     }
 
