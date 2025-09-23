@@ -26,6 +26,10 @@ $routes->get('/admin/users/edit/(:num)', 'AdminController::editUser/$1');
 $routes->post('/admin/users/update/(:num)', 'AdminController::updateUser/$1');
 $routes->get('/admin/users/delete/(:num)', 'AdminController::deleteUser/$1');
 $routes->get('/home', 'AdminController::home');
+$routes->get('/admin/workflow_dashboard', 'AdminController::workflow_dashboard');
+$routes->post('/admin/reassign_document', 'AdminController::reassign_document');
+$routes->post('/admin/approve_document', 'AdminController::approve_document');
+$routes->post('/admin/reject_document', 'AdminController::reject_document');
 
 
 
@@ -77,6 +81,15 @@ $routes->get('/amr/success', function() {
     
 });
 $routes->get('/view/pdf/(:any)','AMRController::viewpdf/$1');
+
+$routes->get('amr/edit_manuscript/(:num)', 'AMRController::edit_manuscript/$1');
+$routes->post('amr/update_manuscript/(:num)', 'AMRController::update_manuscript/$1');
+$routes->get('amr/edit_rarebook/(:num)', 'AMRController::edit_rarebook/$1');
+$routes->post('amr/update_rarebook/(:num)', 'AMRController::update_rarebook/$1');
+$routes->get('amr/edit_catalogue/(:num)', 'AMRController::edit_catalogue/$1');
+$routes->post('amr/update_catalogue/(:num)', 'AMRController::update_catalogue/$1');
+$routes->get('amr/edit_periodical/(:num)', 'AMRController::edit_periodical/$1');
+$routes->post('amr/update_periodical/(:num)', 'AMRController::update_periodical/$1');
 
 
 //=============================== SUPERVISOR ROUTES ===================================================

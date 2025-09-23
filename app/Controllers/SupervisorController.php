@@ -225,15 +225,25 @@ class SupervisorController extends Controller
 
     private function approveItem($model, $id, $remark)
     {
-        // Logic to approve the item (e.g., update the database record)
-        $model->update($id, ['status' => 'approved', 'remark_by_supervisor' => $remark]);
+        $supervisorId = $this->session->get('id');
+        $data = [
+            'status' => 'Approved',
+            'remark_by_supervisor' => $remark,
+            'approved_by' => $supervisorId,
+        ];
+        $model->update($id, $data);
         session()->setFlashdata('success', 'Item has been approved.');
     }
 
     private function rejectItem($model, $id, $remark)
     {
-        // Logic to reject the item (e.g., update the database record)
-        $model->update($id, ['status' => 'rejected', 'remark_by_supervisor' => $remark]);
+        $supervisorId = $this->session->get('id');
+        $data = [
+            'status' => 'Rejected',
+            'remark_by_supervisor' => $remark,
+            'rejected_by' => $supervisorId,
+        ];
+        $model->update($id, $data);
         session()->setFlashdata('success', 'Item has been rejected.');
     }
 

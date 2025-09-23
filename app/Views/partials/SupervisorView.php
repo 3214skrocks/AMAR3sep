@@ -70,13 +70,14 @@
                             </td>
                             <td><?= htmlspecialchars($single_data['amar_id']); ?></td>
                             <td>
-                                <form action="" method="post">
+                                <p><strong>Cataloguer's Remark:</strong> <?= htmlspecialchars($single_data['remark_by_cataloguer'] ?? 'N/A'); ?></p>
+                                <form action="<?= site_url('supervisor/handleAction') ?>" method="post">
                                     <?= csrf_field(); ?>
                                     <input type="hidden" name="id" value="<?= htmlspecialchars($single_data['id']); ?>">
                                     <input type="hidden" name="table_type"
                                         value="<?= htmlspecialchars($table_type); ?>">
-                                    <input type="text" name="remark" class="form-control" placeholder="Enter remark"
-                                        value="<?= htmlspecialchars($single_data['remark'] ?? ''); ?>" required>
+                                    <input type="text" name="remark" class="form-control" placeholder="Enter your remark"
+                                        value="" required>
                             </td>
                             <td>
                                 <button type="submit" name="action" value="approve"

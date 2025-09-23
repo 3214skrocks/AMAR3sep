@@ -200,6 +200,72 @@ class AMRController extends Controller
     
         return view('partials/amrdataview', ['data' => $data]);
     }
+
+    public function edit_manuscript($id) { return $this->_edit_document($id, 'ManuscriptModel', 'edit_manuscript_form', 'manuscript'); }
+    public function update_manuscript($id) { return $this->_update_document($id, 'ManuscriptModel', 'edit_manuscript'); }
+    public function edit_rarebook($id) { return $this->_edit_document($id, 'RareBookModel', 'edit_rarebook_form', 'rarebook'); }
+    public function update_rarebook($id) { return $this->_update_document($id, 'RareBookModel', 'edit_rarebook'); }
+    public function edit_catalogue($id) { return $this->_edit_document($id, 'CatalogueModel', 'edit_catalogue_form', 'catalogue'); }
+    public function update_catalogue($id) { return $this->_update_document($id, 'CatalogueModel', 'edit_catalogue'); }
+    public function edit_periodical($id) { return $this->_edit_document($id, 'PeriodicalModel', 'edit_periodical_form', 'periodical'); }
+    public function update_periodical($id) { return $this->_update_document($id, 'PeriodicalModel', 'edit_periodical'); }
+
+    private function _edit_document($id, $modelName, $viewName, $dataKey)
+    {
+        if (!$this->isloggedin()) {
+            return redirect()->to('/admin/login');
+        }
+
+        $model = new ("\\App\\Models\\" . $modelName)();
+        $userModel = new UserModel();
+
+        $data[$dataKey] = $model->find($id);
+        $data['cataloguers'] = $userModel->getCataloguers();
+
+        return view('partials/' . $viewName, $data);
+    }
+
+    private function _update_document($id, $modelName, $redirectRoute)
+    {
+        if (!$this->isloggedin()) {
+            return redirect()->to('/admin/login');
+        }
+
+        $model = new ("\\App\\Models\\" . $modelName)();
+        $request = service('request');
+
+        $data = [
+            'cataloguer_id' => $request->getPost('cataloguer_id'),
+            'status' => 'Pending',
+            'remark_by_cataloguer' => null,
+            'remark_by_supervisor' => null,
+            'rejected_by' => null,
+            'cataloguer_rejected_at' => null
+        ];
+
+        if ($modelName == 'PeriodicalModel') {
+            $data['per_title'] = $request->getPost('per_title');
+            $data['publisher'] = $request->getPost('publisher');
+        } else {
+            $data['title_phonetic'] = $request->getPost('title_phonetic');
+            $data['author_phonetic'] = $request->getPost('author_phonetic');
+        }
+
+        $file = $request->getFile('file');
+        if ($file && $file->isValid() && !$file->hasMoved()) {
+            $newFileName = $file->getRandomName();
+            $file->move(ROOTPATH . 'public/assets/uploads', $newFileName);
+            $data['file_path'] = $newFileName;
+        }
+
+        if ($model->update($id, $data)) {
+            session()->setFlashdata('success', 'Data updated successfully');
+            return redirect()->to('/amr/menu');
+        } else {
+            session()->setFlashdata('error', 'Failed to update data');
+            return redirect()->to('/amr/' . $redirectRoute . '/' . $id);
+        }
+    }
     
 
 }

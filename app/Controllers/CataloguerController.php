@@ -27,7 +27,7 @@ class CataloguerController extends Controller
             'data_periodical' => $this->get_periodical_data($cataloguerId),
         ];
 
-        return view('partials/cataloguerdashboardview', $data);
+        return view('cataloguer/dashboard', $data);
     }
 
     private function get_manuscript_data($cataloguerId)

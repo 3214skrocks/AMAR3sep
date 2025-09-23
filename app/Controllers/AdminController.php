@@ -122,6 +122,81 @@ class AdminController extends Controller
         return redirect()->to('/admin/users');
     }
 
+    public function workflow_dashboard()
+    {
+        $manuscriptModel = new \App\Models\ManuscriptModel();
+        $rareBookModel = new \App\Models\RareBookModel();
+        $catalogueModel = new \App\Models\CatalogueModel();
+        $periodicalModel = new \App\Models\PeriodicalModel();
+
+        $data['manuscripts'] = $manuscriptModel->findAll();
+        $data['rarebooks'] = $rareBookModel->findAll();
+        $data['catalogues'] = $catalogueModel->findAll();
+        $data['periodicals'] = $periodicalModel->findAll();
+
+        return view('admin/workflow_dashboard', $data);
+    }
+
+    public function reassign_document()
+    {
+        $model = $this->_getModelByName($this->request->getPost('model'));
+        $id = $this->request->getPost('id');
+        $cataloguer_id = $this->request->getPost('cataloguer_id');
+
+        if ($model) {
+            $model->update($id, ['cataloguer_id' => $cataloguer_id]);
+        }
+
+        return redirect()->to('/admin/workflow_dashboard');
+    }
+
+    public function approve_document()
+    {
+        $model = $this->_getModelByName($this->request->getPost('model'));
+        $id = $this->request->getPost('id');
+        $adminId = session()->get('id');
+
+        if ($model) {
+            $data = [
+                'status' => 'Approved',
+                'approved_by' => $adminId,
+                'remark_by_supervisor' => 'Approved by Admin'
+            ];
+            $model->update($id, $data);
+        }
+
+        return redirect()->to('/admin/workflow_dashboard');
+    }
+
+    public function reject_document()
+    {
+        $model = $this->_getModelByName($this->request->getPost('model'));
+        $id = $this->request->getPost('id');
+        $adminId = session()->get('id');
+
+        if ($model) {
+            $data = [
+                'status' => 'Rejected',
+                'rejected_by' => $adminId,
+                'remark_by_supervisor' => 'Rejected by Admin'
+            ];
+            $model->update($id, $data);
+        }
+
+        return redirect()->to('/admin/workflow_dashboard');
+    }
+
+    private function _getModelByName($name)
+    {
+        return match ($name) {
+            'Manuscript' => new \App\Models\ManuscriptModel(),
+            'Rare Book' => new \App\Models\RareBookModel(),
+            'Catalogue' => new \App\Models\CatalogueModel(),
+            'Periodical' => new \App\Models\PeriodicalModel(),
+            default => null,
+        };
+    }
+
 
     public function logout(){
         $session = session();

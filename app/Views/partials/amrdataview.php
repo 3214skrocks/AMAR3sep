@@ -14,6 +14,7 @@
                 <th>Title</th>
                 <th>Author</th>
                 <th>Status</th>
+                <th>Remarks</th>
                 <th>Action</th>
             </tr>
         </thead>
@@ -23,7 +24,18 @@
                 <td><?= $item['title_phonetic']; ?></td>
                 <td><?= $item['author_phonetic']; ?></td>
                 <td><?= $item['status']; ?></td>
-                <td><a href="<?= site_url('/amr/viewpdf/'.$item['file_path']); ?>" class="btn btn-info">View PDF</a>
+                <td>
+                    <?php if ($item['status'] == 'Rejected by Cataloguer'): ?>
+                        <?= $item['remark_by_cataloguer']; ?>
+                    <?php elseif ($item['status'] == 'Rejected'): ?>
+                        <?= $item['remark_by_supervisor']; ?>
+                    <?php endif; ?>
+                </td>
+                <td>
+                    <a href="<?= site_url('/amr/viewpdf/'.$item['file_path']); ?>" class="btn btn-info">View PDF</a>
+                    <?php if ($item['status'] == 'Rejected by Cataloguer' || $item['status'] == 'Rejected'): ?>
+                        <a href="<?= site_url('/amr/edit_manuscript/'.$item['id']); ?>" class="btn btn-primary">Edit</a>
+                    <?php endif; ?>
                 </td>
             </tr>
             <?php endforeach; ?>
@@ -39,6 +51,7 @@
                 <th>Title</th>
                 <th>Author</th>
                 <th>Status</th>
+                <th>Remarks</th>
                 <th>Action</th>
             </tr>
         </thead>
@@ -48,7 +61,18 @@
                 <td><?= $item['title_phonetic']; ?></td>
                 <td><?= $item['author_phonetic']; ?></td>
                 <td><?= $item['status']; ?></td>
-                <td><a href="<?= site_url('/amr/viewpdf/'.$item['file_path']); ?>" class="btn btn-info">View PDF</a>
+                <td>
+                    <?php if ($item['status'] == 'Rejected by Cataloguer'): ?>
+                        <?= $item['remark_by_cataloguer']; ?>
+                    <?php elseif ($item['status'] == 'Rejected'): ?>
+                        <?= $item['remark_by_supervisor']; ?>
+                    <?php endif; ?>
+                </td>
+                <td>
+                    <a href="<?= site_url('/amr/viewpdf/'.$item['file_path']); ?>" class="btn btn-info">View PDF</a>
+                    <?php if ($item['status'] == 'Rejected by Cataloguer' || $item['status'] == 'Rejected'): ?>
+                        <a href="<?= site_url('/amr/edit_rarebook/'.$item['id']); ?>" class="btn btn-primary">Edit</a>
+                    <?php endif; ?>
                 </td>
             </tr>
             <?php endforeach; ?>
@@ -64,6 +88,7 @@
                 <th>Title</th>
                 <th>Author</th>
                 <th>Status</th>
+                <th>Remarks</th>
                 <th>Action</th>
             </tr>
         </thead>
@@ -73,7 +98,18 @@
                 <td><?= $item['title_phonetic']; ?></td>
                 <td><?= $item['author_phonetic']; ?></td>
                 <td><?= $item['status']; ?></td>
-                <td><a href="<?= site_url('/amr/viewpdf/'.$item['file_path']); ?>" class="btn btn-info">View PDF</a>
+                <td>
+                    <?php if ($item['status'] == 'Rejected by Cataloguer'): ?>
+                        <?= $item['remark_by_cataloguer']; ?>
+                    <?php elseif ($item['status'] == 'Rejected'): ?>
+                        <?= $item['remark_by_supervisor']; ?>
+                    <?php endif; ?>
+                </td>
+                <td>
+                    <a href="<?= site_url('/amr/viewpdf/'.$item['file_path']); ?>" class="btn btn-info">View PDF</a>
+                    <?php if ($item['status'] == 'Rejected by Cataloguer' || $item['status'] == 'Rejected'): ?>
+                        <a href="<?= site_url('/amr/edit_periodical/'.$item['id']); ?>" class="btn btn-primary">Edit</a>
+                    <?php endif; ?>
                 </td>
             </tr>
             <?php endforeach; ?>
@@ -89,6 +125,7 @@
                 <th>Title</th>
                 <th>Author</th>
                 <th>Status</th>
+                <th>Remarks</th>
                 <th>Action</th>
             </tr>
         </thead>
@@ -98,7 +135,18 @@
                 <td><?= $item['per_title']; ?></td>
                 <td><?= $item['publisher']; ?></td>
                 <td><?= $item['status']; ?></td>
-                <td><a href="<?= site_url('/amr/viewpdf/'.$item['file_path']); ?>" class="btn btn-info">View PDF</a>
+                <td>
+                    <?php if ($item['status'] == 'Rejected by Cataloguer'): ?>
+                        <?= $item['remark_by_cataloguer']; ?>
+                    <?php elseif ($item['status'] == 'Rejected'): ?>
+                        <?= $item['remark_by_supervisor']; ?>
+                    <?php endif; ?>
+                </td>
+                <td>
+                    <a href="<?= site_url('/amr/viewpdf/'.$item['file_path']); ?>" class="btn btn-info">View PDF</a>
+                    <?php if ($item['status'] == 'Rejected by Cataloguer' || $item['status'] == 'Rejected'): ?>
+                        <a href="<?= site_url('/amr/edit_catalogue/'.$item['id']); ?>" class="btn btn-primary">Edit</a>
+                    <?php endif; ?>
                 </td>
             </tr>
             <?php endforeach; ?>
